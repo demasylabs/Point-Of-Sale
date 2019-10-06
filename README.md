@@ -1,2 +1,2 @@
-# Point Of Sale | By Demasy
-Oracle database sample schema for training purpose ONLY
+# Point Of Sale
+Oracle database sample schema created for training purpose by Ahmed El-Demasy
