@@ -1,2 +1,2 @@
 # Point Of Sale | By Demasy
-Oracle Database Sample Schema for training purpose ONLY
+Oracle database sample schema for training purpose ONLY
