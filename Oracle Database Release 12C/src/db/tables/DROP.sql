@@ -1,0 +1,17 @@
+DROP TABLE "POS_CASHIERS" cascade constraints;
+DROP TABLE "POS_CUSTOMERS" cascade constraints;
+DROP TABLE "POS_INVOICES" cascade constraints;
+DROP TABLE "POS_ORDERS" cascade constraints;
+DROP TABLE "POS_ORDER_LINES" cascade constraints;
+DROP TABLE "POS_PARTIES" cascade constraints;
+DROP TABLE "POS_PAYMENTS" cascade constraints;
+DROP TABLE "POS_PAYMENT_METHODS" cascade constraints;
+DROP TABLE "POS_PRODUCTS" cascade constraints;
+DROP TABLE "POS_PRODUCTS_PROMOTIONS" cascade constraints;
+DROP TABLE "POS_PRODUCTS_PROMO_DETAILS" cascade constraints;
+DROP TABLE "POS_PRODUCT_CATEGORIES" cascade constraints;
+DROP TABLE "POS_PRODUCT_SUB_CATEGORIES" cascade constraints;
+DROP TABLE "POS_PRODUCT_TRANSACTIONS" cascade constraints;
+DROP TABLE "POS_STORES" cascade constraints;
+DROP TABLE "POS_STORE_BRANCHS" cascade constraints;
+DROP TABLE "POS_WAREHOUSES" cascade constraints;
