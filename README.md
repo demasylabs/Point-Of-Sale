@@ -1,4 +1,4 @@
-# Point Of Sale
+# Demasy Labs | Point Of Sale (POS) Sample Schema
 Oracle database sample schema created for training purpose by Ahmed El-Demasy
 
 #### Figure 1 Point Of Sale (POS) Sample Schema
