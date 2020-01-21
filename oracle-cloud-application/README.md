@@ -1,5 +1,5 @@
 # Demasy Labs | Point Of Sale (POS) Sample Schema (SaaS Version)
-Oracle database sample schema created by Ahmed El-Demasy < ahmed.eldemasy@rokettohub.com >.
+Oracle database sample schema created by Ahmed El-Demasy <ahmed.eldemasy@rokettohub.com>.
 > Please note that this schema is for training purposes only, as such it is unsupported and should not to be used in production environment.
 
 
