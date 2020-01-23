@@ -1,0 +1,1 @@
+ALTER TABLE pos_parties ADD CONSTRAINT pps_partiy_id_pk PRIMARY KEY ( partiy_id );

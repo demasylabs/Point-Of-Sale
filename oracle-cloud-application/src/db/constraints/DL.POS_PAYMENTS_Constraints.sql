@@ -1,0 +1,1 @@
+ALTER TABLE pos_payments ADD CONSTRAINT pp_payment_id_pk PRIMARY KEY ( payment_id );

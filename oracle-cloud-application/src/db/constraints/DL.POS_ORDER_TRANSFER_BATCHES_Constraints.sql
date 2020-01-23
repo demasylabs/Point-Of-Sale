@@ -1,0 +1,1 @@
+ALTER TABLE pos_order_transfer_batches ADD CONSTRAINT potb_batch_id_pk PRIMARY KEY ( batch_id );

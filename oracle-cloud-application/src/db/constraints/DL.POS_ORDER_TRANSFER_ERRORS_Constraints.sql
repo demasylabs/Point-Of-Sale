@@ -1,0 +1,1 @@
+ALTER TABLE pos_order_transfer_errors ADD CONSTRAINT pote_transfer_error_id_pk PRIMARY KEY ( error_id );
