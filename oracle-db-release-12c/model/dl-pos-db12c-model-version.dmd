@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="dl-pos-db12c-model-version" id="C37B5784-F798-F1DF-A61A-14FB9C28E676" version="3.5">
+<createdBy>demasy</createdBy>
+<createdTime>2018-05-05 16:49:37 UTC</createdTime>
+<comment><![CDATA[Designed By: Ahmed El-Demasy]]></comment>
+<notes><![CDATA[Designed By: Ahmed El-Demasy]]></notes>
+<ownerDesignName>GlobalTradeServices</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C37B5784-F798-F1DF-A61A-14FB9C28E676</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="DA4BEF2A-9805-88B6-C2AB-BB6D64E6C1EF">
+<designStoragePath>/Users/Shared/Demasy/Professional/2-Projects/UmbrellaIntegration/GitLab/LC/letter-of-credit/Techncial/Database/0-Data Model</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

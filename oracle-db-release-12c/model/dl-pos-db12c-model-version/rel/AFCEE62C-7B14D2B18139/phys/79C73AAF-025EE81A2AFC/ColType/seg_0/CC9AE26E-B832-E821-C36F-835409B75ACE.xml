@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<CollectionTypeProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.CollectionTypeProxyOraclev10g" name="XXUI_LC_API_ERRORS_TYPE_X" directorySegmentName="seg_0" id="CC9AE26E-B832-E821-C36F-835409B75ACE">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</CollectionTypeProxyOraclev10g>

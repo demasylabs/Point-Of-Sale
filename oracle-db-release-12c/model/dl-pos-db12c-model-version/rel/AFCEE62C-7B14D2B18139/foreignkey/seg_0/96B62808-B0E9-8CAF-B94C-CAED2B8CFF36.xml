@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="96B62808-B0E9-8CAF-B94C-CAED2B8CFF36" containerWithKeyObject="550DFF61-0531-4FC8-3162-F3D9F6A2D373" localFKIndex="FD5B66ED-613A-184D-5F15-E7119834DD9B" name="PPT_WAREHOUSE_ID_FK">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-23 21:30:28 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+<referredTableLongName>DL.POS_WAREHOUSES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6CF54968-7838-11AA-F5E1-E5303A33169B</referredTableID>
+<keyObject>DB5346C5-2CA0-17AA-7118-3B604676B52C</keyObject>
+<referredKeyID>DB5346C5-2CA0-17AA-7118-3B604676B52C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>WAREHOUSE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

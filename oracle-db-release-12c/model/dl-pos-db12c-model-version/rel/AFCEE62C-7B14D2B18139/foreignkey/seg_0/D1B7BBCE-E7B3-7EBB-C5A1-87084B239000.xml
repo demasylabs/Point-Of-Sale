@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D1B7BBCE-E7B3-7EBB-C5A1-87084B239000" containerWithKeyObject="27B87DE6-CFA4-FE28-0FFC-E1319410A304" localFKIndex="0742D0AB-38CA-BC89-5990-F363D73CD8B0" name="POL_ORDER_ID_FK">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-23 17:20:31 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+<referredTableLongName>DL.POS_ORDERS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>19436624-A410-E6E9-6330-D2201EE23CE8</referredTableID>
+<keyObject>05173624-B6F4-0DBF-5140-FC2AE1EED468</keyObject>
+<referredKeyID>05173624-B6F4-0DBF-5140-FC2AE1EED468</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ORDER_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
