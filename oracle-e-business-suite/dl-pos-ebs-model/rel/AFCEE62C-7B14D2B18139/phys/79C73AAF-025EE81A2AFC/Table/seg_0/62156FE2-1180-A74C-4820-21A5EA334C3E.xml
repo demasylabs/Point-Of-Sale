@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="POS_INVOICES" directorySegmentName="seg_0" id="62156FE2-1180-A74C-4820-21A5EA334C3E">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>DL_POS_EBS</ownerDesignName>
+<schemaObject>D44398E1-223A-DCAA-3322-FBC3806BE4AA</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="INVOICE_ID" id="04FC9A49-E439-57AF-CD95-7F4AE7FD0DF4">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>DL_POS_EBS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED_BY" id="1CAC320C-B0A1-E635-452B-CB3DB3AAC63D">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 09:35:45 UTC</createdTime>
+<ownerDesignName>DL_POS_EBS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATION_DATE" id="3F2EF340-8684-4A26-D59B-CA4C18D1DA98">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 09:35:45 UTC</createdTime>
+<ownerDesignName>DL_POS_EBS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORDER_ID" id="5293E471-3489-1C65-0411-50BEA70F4E6C">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>DL_POS_EBS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AMOUNT" id="5B6EA08D-353B-DFFD-804C-95E9C6AC2E04">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>DL_POS_EBS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CURRANCY_CODE" id="5C6C53F2-D3A9-E554-2B93-FC42420A6FCD">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>DL_POS_EBS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="END_DATE" id="5E0F8937-8358-9EE5-3A0A-B39F636AFA04">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 09:35:45 UTC</createdTime>
+<ownerDesignName>DL_POS_EBS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_UPDATED_BY" id="6ADDEC28-80A9-C0DC-1DF7-0084A57D3583">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 09:35:45 UTC</createdTime>
+<ownerDesignName>DL_POS_EBS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROMOTION_ID" id="74A21C96-B2CF-ED8C-84EF-48B0BE0AF54D">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 07:32:05 UTC</createdTime>
+<ownerDesignName>DL_POS_EBS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_UPDATE_DATE" id="796CC8FF-054D-D22C-B2B4-BFC9189A81A4">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 09:35:45 UTC</createdTime>
+<ownerDesignName>DL_POS_EBS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ENABLED_FLAG" id="9F656D3E-0906-7D65-C43F-0B4A7A7CC366">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-07 06:40:45 UTC</createdTime>
+<ownerDesignName>DL_POS_EBS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPTION" id="A5CC1452-E16F-07C9-617D-A0E7523E3EE8">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>DL_POS_EBS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OBJECT_VERSION_ID" id="EA6688FA-25AF-1EC4-EF43-8891716CA2A7">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 09:35:45 UTC</createdTime>
+<ownerDesignName>DL_POS_EBS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INVOICE_NUMBER" id="F260FA5B-3AEE-7707-A9C1-F07EC9DDE924">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>DL_POS_EBS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="START_DATE" id="FE5BC5F1-F56C-8748-C3B3-7ED4A5750AA2">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 09:35:45 UTC</createdTime>
+<ownerDesignName>DL_POS_EBS</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PI_PROMOTION_ID_FK" id="5A177414-C8DF-AC5F-915D-31A92789C4F3">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 07:32:05 UTC</createdTime>
+<ownerDesignName>DL_POS_EBS</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PI_ORDER_ID_FK" id="A555FC94-48E1-075B-B62A-58AF788B82F5">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>DL_POS_EBS</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PI_INVOICE_ID_PK" id="62EE5CDE-FFA5-E748-DC5D-733B0A155068">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>DL_POS_EBS</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="PI_NUMBER_UN" id="EEE7BE10-D42C-3E41-F03B-693E293E30CE">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 09:37:13 UTC</createdTime>
+<ownerDesignName>DL_POS_EBS</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

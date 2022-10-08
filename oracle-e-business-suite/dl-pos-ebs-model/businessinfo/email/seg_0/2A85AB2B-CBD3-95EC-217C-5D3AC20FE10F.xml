@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BIEmail class="oracle.dbtools.crest.model.businessinfo.BIEmail" name="Ahmed El-Demasy" directorySegmentName="seg_0" id="2A85AB2B-CBD3-95EC-217C-5D3AC20FE10F">
+<createdBy>demasy</createdBy>
+<createdTime>2018-09-18 21:26:55 UTC</createdTime>
+<ownerDesignName>GlobalTradeServices</ownerDesignName>
+<emailAddress>ahmed.eldemasy@umbrellaintegration.com</emailAddress>
+<type>Business</type>
+</BIEmail>
