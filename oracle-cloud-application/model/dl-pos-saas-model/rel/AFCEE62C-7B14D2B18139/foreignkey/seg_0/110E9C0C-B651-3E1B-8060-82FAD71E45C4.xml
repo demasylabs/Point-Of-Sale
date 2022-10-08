@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="110E9C0C-B651-3E1B-8060-82FAD71E45C4" containerWithKeyObject="89F3471F-92D8-3DB3-BBB3-FB813A90D61B" localFKIndex="9229B693-20BB-99B4-1946-B3689A13C910" name="POTA_BATCH_ID_FK">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:31:30 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<referredTableLongName>DL.POS_ORDER_TRANSFER_BATCH</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>488E9AE0-6675-DC9F-ED65-F7278674340C</referredTableID>
+<keyObject>2F7967E0-F15F-3B27-EF6E-17927F19D812</keyObject>
+<referredKeyID>2F7967E0-F15F-3B27-EF6E-17927F19D812</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>BATCH_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

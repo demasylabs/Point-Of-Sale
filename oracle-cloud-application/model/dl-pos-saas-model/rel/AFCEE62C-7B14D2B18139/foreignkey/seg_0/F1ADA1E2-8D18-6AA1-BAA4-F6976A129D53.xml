@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F1ADA1E2-8D18-6AA1-BAA4-F6976A129D53" containerWithKeyObject="19436624-A410-E6E9-6330-D2201EE23CE8" localFKIndex="AC4F7546-140C-DAAF-0096-93B1EA381807" name="PO_CASHIER_ID_FK">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-05 01:06:58 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<referredTableLongName>DL.POS_CASHIERS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>16248F8E-5077-D3A3-ACBB-466477758291</referredTableID>
+<keyObject>E27928E4-9F12-0D95-E495-34C44E681B17</keyObject>
+<referredKeyID>E27928E4-9F12-0D95-E495-34C44E681B17</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CASHIER_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

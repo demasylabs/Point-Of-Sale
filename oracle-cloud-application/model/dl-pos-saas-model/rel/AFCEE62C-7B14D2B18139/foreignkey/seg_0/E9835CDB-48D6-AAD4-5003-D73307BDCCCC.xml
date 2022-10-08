@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E9835CDB-48D6-AAD4-5003-D73307BDCCCC" containerWithKeyObject="89F3471F-92D8-3DB3-BBB3-FB813A90D61B" localFKIndex="8E8E70C2-E79E-3F20-F7BE-EF62A4A762B3" name="POTA_ORDER_LINE_ID_FK">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-22 23:23:59 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<referredTableLongName>DL.POS_ORDER_LINES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>27B87DE6-CFA4-FE28-0FFC-E1319410A304</referredTableID>
+<keyObject>88881D7B-C96E-E363-B6DE-6EEBEB3D9624</keyObject>
+<referredKeyID>88881D7B-C96E-E363-B6DE-6EEBEB3D9624</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ORDER_LINE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

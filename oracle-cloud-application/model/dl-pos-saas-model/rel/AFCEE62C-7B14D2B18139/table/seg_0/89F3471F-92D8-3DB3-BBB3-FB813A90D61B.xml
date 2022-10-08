@@ -1,0 +1,252 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="89F3471F-92D8-3DB3-BBB3-FB813A90D61B" schemaObject="D44398E1-223A-DCAA-3322-FBC3806BE4AA" name="POS_ORDER_TRANSFERS_ALL">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:29:38 UTC</createdTime>
+<comment><![CDATA[Demasy Labs | Point of Sale solution | SaaS Version]]></comment>
+<commentInRDBMS><![CDATA[Demasy Labs | Point of Sale solution | SaaS Version]]></commentInRDBMS>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<abbreviation>POTA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<isEngineerToRelation>true</isEngineerToRelation>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TRX_ID" id="284C7D22-FDC6-9F1D-CECF-DAB5D2ACFCEB">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:31:05 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>POS_TRX_ID_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>POS_TRX_ID_SEQ_TRG</autoIncrementTriggerName>
+<notNullConstraintName>POTA_TRX_ID_NNC</notNullConstraintName>
+</Column>
+<Column name="BATCH_ID" id="9BA0CDDE-06F2-AA97-462E-621154C7CEFC">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:31:30 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>POTA_BATCH_ID_NNC</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="110E9C0C-B651-3E1B-8060-82FAD71E45C4" referredColumn="A66E6C95-9FD2-E030-2D88-FAD2A5ADEC2A"/>
+</associations>
+</Column>
+<Column name="ORDER_LINE_ID" id="EE895913-0AE5-D1A3-DBDE-105262D5F933">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-22 23:23:59 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E9835CDB-48D6-AAD4-5003-D73307BDCCCC" referredColumn="E2257F9B-B436-492B-4235-4C8A366E21DB"/>
+</associations>
+</Column>
+<Column name="TRX_DATE" id="49291B29-3470-8636-D9B3-F11EC2BDA894">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:34:38 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="67FAFC13-4CD9-03CC-5BF5-B436CB7A2E5C">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:34:13 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POSTED_DATE" id="7BB56206-89FF-669F-0C8E-18249568E20A">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:34:25 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LINKED_INVOICE_ID" id="88482919-E531-BF50-E8C9-6D02291C960D">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:35:55 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>POTA_TRX_ID_NNC</notNullConstraintName>
+</Column>
+<Column name="WEB_SERVICE_RESPONSE" id="7CBCEF66-9700-E085-BDD3-6BEE44EA5D85">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-22 06:54:21 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION" id="EE395597-5D38-3652-50D6-8F5806D6BD50">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 15:09:20 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="START_DATE" id="5A2E96CF-5BB0-178B-0388-45C851364010">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:39:53 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>POTA_START_DATE_NNC</notNullConstraintName>
+</Column>
+<Column name="END_DATE" id="DF15382D-141C-818E-28DC-677DD428D54D">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:39:53 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENABLED_FLAG" id="1A485727-3A21-ACBF-D1E5-8CFD921DCC91">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:39:53 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>POTA_ENABLED_FLAG_NNC</notNullConstraintName>
+</Column>
+<Column name="CREATED_BY" id="A246B92C-97B3-AA8A-87D5-61E672460710">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:39:53 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>POTA_CREATED_BY_NNC</notNullConstraintName>
+</Column>
+<Column name="CREATION_DATE" id="88CDC0ED-F66A-8155-2B20-BF9CE775A351">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:39:53 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>POTA_CREATION_DATE_NNC</notNullConstraintName>
+</Column>
+<Column name="LAST_UPDATED_BY" id="8C27D1A0-D8E0-4F9B-C185-06BB8B395814">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:39:53 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>POTA_LAST_UPDATED_BY_NNC</notNullConstraintName>
+</Column>
+<Column name="LAST_UPDATE_DATE" id="7106C41C-F928-C80B-06E0-4EE45C52C18F">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:39:53 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>POTA_LAST_UPDATE_DATE_NNC</notNullConstraintName>
+</Column>
+<Column name="OBJECT_VERSION_ID" id="0D57E4FB-98B9-84C5-BF36-467754F6855F">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:39:53 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>POTA_OBJECT_VERSION_ID_NNC</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="870B6BC9-F56D-3DCD-9596-7E88FF43C709" name="POTA_TRX_ID_PK">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:31:05 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="284C7D22-FDC6-9F1D-CECF-DAB5D2ACFCEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9229B693-20BB-99B4-1946-B3689A13C910" name="POTA_BATCH_ID_FK">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:31:30 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9BA0CDDE-06F2-AA97-462E-621154C7CEFC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E8E70C2-E79E-3F20-F7BE-EF62A4A762B3" name="POTA_ORDER_LINE_ID_FK">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-22 23:23:59 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE895913-0AE5-D1A3-DBDE-105262D5F933"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

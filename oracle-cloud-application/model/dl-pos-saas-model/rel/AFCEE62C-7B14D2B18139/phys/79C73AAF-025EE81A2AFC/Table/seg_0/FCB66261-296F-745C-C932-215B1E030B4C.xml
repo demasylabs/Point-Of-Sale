@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="POS_STORES" directorySegmentName="seg_0" id="FCB66261-296F-745C-C932-215B1E030B4C">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<schemaObject>D44398E1-223A-DCAA-3322-FBC3806BE4AA</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<user>1BB9B1FB-F0E0-1B8E-B153-63E1BEEA1BEC</user>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DESCRIPTION" id="16A2AF8E-E1D4-6DFF-0557-0E2285F86263">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ENABLED_FLAG" id="35E4F30B-F3AF-DDC9-C181-6F3178C9EFBD">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COUNTRY_CODE" id="43FEC838-7DA3-5A80-51EB-073263512B26">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED_BY" id="4A2666E2-A6E0-3D05-0D18-F32617B39150">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:24:13 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATION_DATE" id="7C358946-E3A6-5A30-B055-13B86DF177B4">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:24:13 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_UPDATED_BY" id="A53924B6-92B8-E9AE-4E3D-ED4D746A9BA3">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:24:13 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="END_DATE" id="ADDEB20C-FCEE-EB64-263F-6C19299F146C">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:24:13 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SHORT_NAME" id="C0466609-3D15-B880-EC82-56460C57CABC">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="START_DATE" id="CA98F36A-51E0-2C5F-7C5F-2EC79F9BAEB9">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:24:13 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OBJECT_VERSION_ID" id="CCD0B119-A17A-FE78-3802-D66718E0AF3E">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:24:13 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_UPDATE_DATE" id="EBFE3AAD-82A8-C262-9620-EAD95FBB710F">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:24:13 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STORE_ID" id="F058E5F1-7CF7-9DB5-E180-7AD704C42613">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="F98AE1CB-8541-DDCA-AD67-4E99616D87EC">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PS_STORE_ID_PK" id="43DB2FB4-0EBD-AA48-B271-1CAE1463B62D">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="PS_SHORT_NAME_UN" id="1EBB1A2A-B129-931A-5A5E-A36FE69BFAD0">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:39:49 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="PS_NAME_UN" id="DDB92FE8-1E9B-7A31-15A9-85C103D89D42">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:39:56 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>
