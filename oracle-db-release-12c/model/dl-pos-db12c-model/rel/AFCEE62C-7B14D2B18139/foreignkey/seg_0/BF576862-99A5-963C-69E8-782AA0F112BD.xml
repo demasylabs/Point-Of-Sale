@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BF576862-99A5-963C-69E8-782AA0F112BD" containerWithKeyObject="0067A453-A6EC-554F-F4DC-BAE6AE0CB666" localFKIndex="8AC355DE-2AA5-8178-BF78-70964740F581" name="PPSC_CATEGORY_ID_FK">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-05 00:53:09 UTC</createdTime>
+<ownerDesignName>DL_POS_DB</ownerDesignName>
+<referredTableLongName>DL.POS_PRODUCT_CATEGORIES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>933E503F-4F86-78B7-D5DE-0EDD4CC3F435</referredTableID>
+<keyObject>FA90E6EB-C956-8A22-11B4-FA1ECEB3578D</keyObject>
+<referredKeyID>FA90E6EB-C956-8A22-11B4-FA1ECEB3578D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CATEGORY_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

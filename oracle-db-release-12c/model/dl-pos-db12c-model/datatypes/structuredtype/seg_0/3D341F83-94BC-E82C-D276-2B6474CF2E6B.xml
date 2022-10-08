@@ -1,0 +1,1886 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StructuredType class="oracle.dbtools.crest.model.design.datatypes.StructuredType" name="XXUI_LC_HEADER_REC_TYPE" directorySegmentName="seg_0" id="3D341F83-94BC-E82C-D276-2B6474CF2E6B">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<ownerDesignName>DL_POS_DB</ownerDesignName>
+<importedID>AF9D53B6-1BC9-FE95-30DC-8CEEE046F617</importedID>
+<predefined>false</predefined>
+<final>true</final>
+<instantiable>true</instantiable>
+<attributes itemClass="oracle.dbtools.crest.model.design.datatypes.TypeElement">
+<Attribute name="LC_HEADER_ID" id="3AF55A66-3F27-BFA8-DE5E-DE4DC07C1E98">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>1CAFA375-F9AC-4E52-0FA3-1536096FC1FD</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>1CAFA375-F9AC-4E52-0FA3-1536096FC1FD</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="ORG_ID" id="4012FF10-A82A-F971-DD89-D4C831820924">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>D4440E48-A59A-F8A4-8D66-79C82E32B8C0</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>D4440E48-A59A-F8A4-8D66-79C82E32B8C0</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="SOURCE" id="8B9D6357-E836-12BE-118B-0BB444A3F509">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>4888250A-B5B6-1AEB-66E8-74FA0B19BD4B</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>4888250A-B5B6-1AEB-66E8-74FA0B19BD4B</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>1</size>
+<type>LOGDT025</type>
+</Attribute>
+<Attribute name="VERSION_ID" id="D55C1D06-7C9A-DDE3-515F-E097F8AE7D4A">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>E6C6E47F-D000-42E4-2C46-E3295C646CC8</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>E6C6E47F-D000-42E4-2C46-E3295C646CC8</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="VERSION_REASON" id="F958F96B-8A83-1726-C054-7C60579F0D9D">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>7B003EBB-3E7A-7B86-E2C0-C17189BED7E1</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>7B003EBB-3E7A-7B86-E2C0-C17189BED7E1</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>30</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="DOCUMENT_TYPE" id="075F75F1-EF11-0C72-AC6C-0AE602E6ABAF">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>C6AA1F73-660B-2C4B-1B88-CE9D2DB40E5B</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>C6AA1F73-660B-2C4B-1B88-CE9D2DB40E5B</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>30</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="DOCUMENT_ID" id="D75A1EF8-392C-3D46-0CE0-12D757E385EE">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>A0CEE7E6-B0C5-5E28-5F92-73BBC147D469</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>A0CEE7E6-B0C5-5E28-5F92-73BBC147D469</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="STYLE_ID" id="959C646B-9CFC-A4FF-4AF2-D846CD1305E4">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>F9171545-9A42-79C6-E86E-F7C84D9B78DA</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>F9171545-9A42-79C6-E86E-F7C84D9B78DA</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="PARENT_HEADER_ID" id="92A1147F-096D-B96B-385A-EB704036842F">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>7461CB74-BC26-74BB-3633-49B5DC014CB8</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>7461CB74-BC26-74BB-3633-49B5DC014CB8</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="COLLATERAL_HEADER_ID" id="9E5C616E-D16A-89E2-0749-2085473005D5">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>DF5C1410-06FB-56A7-EF0D-CECD0197CF54</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>DF5C1410-06FB-56A7-EF0D-CECD0197CF54</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="LC_DOCUMENT_NUMBER" id="539D0196-6DCB-031F-63FC-0821B1FEDE79">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>F0ED69F4-87DF-4D6E-E91B-865ECB2B2967</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>F0ED69F4-87DF-4D6E-E91B-865ECB2B2967</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>300</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="LC_BANK_NUMBER" id="3106D02C-1DD4-B15E-0F1A-A103F6095002">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>37A606EA-051E-B641-8DBB-F86792C14366</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>37A606EA-051E-B641-8DBB-F86792C14366</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>200</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="CATEGORY_ID" id="DAB3427E-BE6B-7CA4-434B-2C59F9FADA8A">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>8CF0A536-AB4B-F44D-C2B9-523AB806836B</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>8CF0A536-AB4B-F44D-C2B9-523AB806836B</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="SUB_CATEGORY_ID" id="33F4EF66-EDF1-EC84-A907-BBAC43395A1B">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>C73F02D4-2BCF-7052-6BBF-C035D24984E1</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>C73F02D4-2BCF-7052-6BBF-C035D24984E1</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="CONFIRMED" id="30BCC0BD-B2D3-24CB-F543-6C3DD58C941C">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>03417F0D-1AE2-4344-607E-76E4414D7459</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>03417F0D-1AE2-4344-607E-76E4414D7459</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>1</size>
+<type>LOGDT025</type>
+</Attribute>
+<Attribute name="REVOCABLE" id="F4B4623B-676D-A001-BC49-BFB9DCF63968">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>48033557-B1F4-D829-01D1-6FB7D2E5AE41</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>48033557-B1F4-D829-01D1-6FB7D2E5AE41</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>1</size>
+<type>LOGDT025</type>
+</Attribute>
+<Attribute name="TRANSFERABLE" id="0F657AB8-6E89-D293-4337-8EC53D0ACF96">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>218DFE65-89C4-8D39-0E69-A11067981D9D</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>218DFE65-89C4-8D39-0E69-A11067981D9D</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>1</size>
+<type>LOGDT025</type>
+</Attribute>
+<Attribute name="BACK_TO_BACK" id="24CB3840-150A-2B69-1FF7-7D3827C1D0CD">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>54B7789D-1E5D-FC36-802B-D42F56930D65</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>54B7789D-1E5D-FC36-802B-D42F56930D65</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>1</size>
+<type>LOGDT025</type>
+</Attribute>
+<Attribute name="APPLICANT_ORGINZATION_ID" id="6F9CB204-7558-E0E4-4B8F-99914032A8F5">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>5CD299C4-EABA-2C27-1A82-BCDBEFD9FD89</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>5CD299C4-EABA-2C27-1A82-BCDBEFD9FD89</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="BUYER_ID" id="7973E612-720F-E0A4-B261-3CA3C9E26027">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>9B910BC1-6C72-0CC5-C76E-64FE0B4040FA</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>9B910BC1-6C72-0CC5-C76E-64FE0B4040FA</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="APPLICANT_BANK_ID" id="AACFC9D6-5D0C-4BAA-3AA6-574FA5EB68D7">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>59CDF5E5-0753-2F90-6D3B-E613F259EC02</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>59CDF5E5-0753-2F90-6D3B-E613F259EC02</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="APPLICANT_BANK_BRANCH_ID" id="43199FE7-C9B1-27CE-62AB-DFE217D545E1">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>05D6B49C-28E9-FA3F-C056-5DD657EC09D8</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>05D6B49C-28E9-FA3F-C056-5DD657EC09D8</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="BENEFICIARY_ID" id="355085EB-097C-7F87-04EB-90CCE6DD7442">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>9E4568AE-9B59-B3FC-FB2C-6BEB2DF88462</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>9E4568AE-9B59-B3FC-FB2C-6BEB2DF88462</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="BENEFICIARY_COUNTRY" id="CB388290-87BE-1AFF-C5A1-6D7B341D106C">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>8EE0E77B-F41A-26E2-5323-E6993B7F956E</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>8EE0E77B-F41A-26E2-5323-E6993B7F956E</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>30</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="BENEFICIARY_SITE_ID" id="1A6B3C01-EE72-FFD1-C3A7-2565E6023714">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>23C32939-02E5-DCAD-92BD-6277610119AA</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>23C32939-02E5-DCAD-92BD-6277610119AA</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="BENEFICIARY_CONTACT_ID" id="D8D5EE2C-46B3-C844-00C7-9DA30F1F71C6">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>7507ED27-93FF-2170-18C2-6F457222C0DA</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>7507ED27-93FF-2170-18C2-6F457222C0DA</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="BENEFICIARY_BANK_ID" id="7AA69568-0320-4ED2-422C-30FD020C98B2">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>2BD4E0A2-72DF-D363-19EA-5DD9674AE838</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>2BD4E0A2-72DF-D363-19EA-5DD9674AE838</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="BENEFICIARY_BANK_BRANCH_ID" id="29060FC3-6F5E-DBC3-73F0-4AA07CACB6CA">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>BFDD719B-F944-09E4-CB15-E30B681AFEAA</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>BFDD719B-F944-09E4-CB15-E30B681AFEAA</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="BENEFICIARY_BANK_CONTACT_ID" id="9CEA8C0E-B617-E6DF-5297-D65DBEA59A06">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>BA4B69D4-07F6-2C07-1DCF-A4CD91605741</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>BA4B69D4-07F6-2C07-1DCF-A4CD91605741</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="SHORT_DESCRIPTION" id="CEBC1336-93FD-9DF4-E082-372948F3FC86">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>C079887A-8CD5-3ED5-E6EB-09A2E162F92B</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>C079887A-8CD5-3ED5-E6EB-09A2E162F92B</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>4000</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="LONG_DESCRIPTION" id="924F44FC-6805-5670-923F-0267F85E0535">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>B32A7B75-C95C-8DC0-25DA-B56B1499D77F</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>B32A7B75-C95C-8DC0-25DA-B56B1499D77F</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>4000</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="NOTE_TO_BENEFICIARY" id="46C90247-CFFB-E77C-0E58-4BA68C6153B8">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>6E472D3D-83E4-2E0F-FC41-6697BE6B1046</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>6E472D3D-83E4-2E0F-FC41-6697BE6B1046</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>4000</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="LC_YEAR" id="DCBCE886-D0D5-A9A8-C502-01D907575936">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>A1ADB128-5FD0-23C7-1433-D8BE9AF0009B</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>A1ADB128-5FD0-23C7-1433-D8BE9AF0009B</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="OPENING_DATE" id="C9E2FE95-1CBA-396D-F98E-2ED577199784">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>084E9597-0F86-6D2D-6107-6F22C4AFBF25</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>084E9597-0F86-6D2D-6107-6F22C4AFBF25</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT007</type>
+</Attribute>
+<Attribute name="EXPIRY_DATE" id="1DDE3693-DBB3-F2B6-9B54-FBD571E74AE4">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>EA16656E-99E9-2821-8454-1ADA1B8A222F</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>EA16656E-99E9-2821-8454-1ADA1B8A222F</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT007</type>
+</Attribute>
+<Attribute name="EXPIRY_PLACE" id="7991269A-F047-9BD8-AFD1-88AE8796FEB5">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>F382D044-32F8-9775-F6DA-78449C59E905</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>F382D044-32F8-9775-F6DA-78449C59E905</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>30</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="CONFIRMATION_DATE" id="40D6289B-4B49-7416-E070-16AF8E0BFCAB">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>A0E4A2C1-CB2D-EDD3-D605-4CE0C7B2FD35</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>A0E4A2C1-CB2D-EDD3-D605-4CE0C7B2FD35</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT007</type>
+</Attribute>
+<Attribute name="STATUS" id="9152C1A8-586D-98A8-82B6-C0C856CBDA99">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>6368620D-BB38-F5B3-648B-0DB5FA234DE1</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>6368620D-BB38-F5B3-648B-0DB5FA234DE1</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>30</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="STATUS_DATE" id="D18D48F6-48CE-F1B6-59BE-AE3200A583F7">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>62948014-B3C0-63EA-EC14-3CEF37F21F2B</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>62948014-B3C0-63EA-EC14-3CEF37F21F2B</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT007</type>
+</Attribute>
+<Attribute name="AMOUNT" id="BD27DA24-471E-3280-6A81-13AD8CE64D1D">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>373B30F4-CE62-5DA6-78A8-D076CAB66263</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>373B30F4-CE62-5DA6-78A8-D076CAB66263</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="MAXIMUM_AMOUNT" id="1F906EC3-EDD3-971F-DD5A-DF92AF8366D3">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>D5D0ED83-2225-12AE-233C-36EB16FFB14C</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>D5D0ED83-2225-12AE-233C-36EB16FFB14C</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="CURRENCY" id="8AFEBBF2-2B39-E1C3-2264-1AD5023C75BE">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>F8C2F583-7858-38D1-F189-35BF5F301CAC</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>F8C2F583-7858-38D1-F189-35BF5F301CAC</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>10</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="CONVERSION_TYPE" id="7CD3230D-C941-D8C9-E95C-DB34B7F8CBE4">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>84296C23-2B9C-0414-A41E-355DDE13F5B7</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>84296C23-2B9C-0414-A41E-355DDE13F5B7</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>1</size>
+<type>LOGDT025</type>
+</Attribute>
+<Attribute name="CONVERSION_DATE" id="D7062D5F-1113-6888-95D3-49AC2CC99A27">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>26681A92-3F4B-7982-A5BB-693B45F3834A</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>26681A92-3F4B-7982-A5BB-693B45F3834A</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT007</type>
+</Attribute>
+<Attribute name="CONVERSION_RATE" id="E199C5F4-3E53-D310-E97D-54350BB3C945">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>B1E026DD-C0EF-738D-471C-974D90161AF6</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>B1E026DD-C0EF-738D-471C-974D90161AF6</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="APPROVED_DATE" id="5A982B84-66E9-34E7-088E-137159D7666E">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>00FE8911-5D8B-3B81-37EC-B2853B94915D</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>00FE8911-5D8B-3B81-37EC-B2853B94915D</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT007</type>
+</Attribute>
+<Attribute name="APPROVED_BY" id="309841D6-5E7C-10BE-2653-0548982A0A61">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>8ED4FCC5-9484-F75B-386F-291E6B1F2168</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>8ED4FCC5-9484-F75B-386F-291E6B1F2168</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="APPROVED_AMOUNT" id="DBDE9B3A-A467-75D1-F25D-016462AFA98F">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>AEF8F379-91FC-0806-4308-7D861914A7EA</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>AEF8F379-91FC-0806-4308-7D861914A7EA</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="CLOSED_STATUS" id="3B9D1710-685E-2D24-2B19-F8761DD3E769">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>03A75907-D01D-4A6C-16F5-6F8E194105C9</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>03A75907-D01D-4A6C-16F5-6F8E194105C9</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>1</size>
+<type>LOGDT025</type>
+</Attribute>
+<Attribute name="CLOSED_TYPE" id="B75615B2-95B7-6AA5-CEA7-E10356F6AE2D">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>F771A8EA-0C41-49A0-E01F-461ADD31173A</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>F771A8EA-0C41-49A0-E01F-461ADD31173A</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>1</size>
+<type>LOGDT025</type>
+</Attribute>
+<Attribute name="AUTO_CLOSURE_FLAG" id="C0028DC3-0B6B-5341-1ED8-013CFAB8218B">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>7E9F3035-9597-45DC-2B7B-43D08EEFF9B6</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>7E9F3035-9597-45DC-2B7B-43D08EEFF9B6</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>1</size>
+<type>LOGDT025</type>
+</Attribute>
+<Attribute name="CLOSED_DATE" id="341E0EFE-F449-D38E-B727-1CEB882793F1">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>7D086607-74AA-4945-82F2-36D2E6963AA0</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>7D086607-74AA-4945-82F2-36D2E6963AA0</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT007</type>
+</Attribute>
+<Attribute name="CLOSED_REASON" id="59B072E4-E523-8153-9EDB-946F313369D9">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>7E90A4AB-4ECD-845E-6041-063283D21C86</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>7E90A4AB-4ECD-845E-6041-063283D21C86</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>5</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="CLOSED_REMARKS" id="20DAFCCC-D8FC-907B-B5F9-0F21E21B13D9">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>1A511E2F-71C9-2B6B-D458-4309181842AA</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>1A511E2F-71C9-2B6B-D458-4309181842AA</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>4000</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="COVERAGE_TYPE" id="ADE873FC-E7A4-EB0A-CDB7-749D9A87074E">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>C529A80A-8D40-6663-CCAF-A7B458F13E4C</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>C529A80A-8D40-6663-CCAF-A7B458F13E4C</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>1</size>
+<type>LOGDT025</type>
+</Attribute>
+<Attribute name="COVERAGE_BY" id="864515F9-82F4-071C-40DF-2923E881197E">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>95FBDF6A-C402-D13A-8E37-146DD5E9D248</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>95FBDF6A-C402-D13A-8E37-146DD5E9D248</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>1</size>
+<type>LOGDT025</type>
+</Attribute>
+<Attribute name="COVERAGE_AMOUNT" id="1B641EEC-C859-CC86-2828-A4D5F1758BF2">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>B06B4E23-DE37-7A42-9ACF-0DC52D486EBC</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>B06B4E23-DE37-7A42-9ACF-0DC52D486EBC</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="COVERAGE_PERCENT" id="002A8945-C5EE-9583-0979-76E410724496">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>403AE7A3-1908-FAFC-9636-DB7A7D9E27B8</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>403AE7A3-1908-FAFC-9636-DB7A7D9E27B8</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="CONFIRMATION_BY" id="ED3DB799-E870-0629-4F5D-A1C70CAB3D1B">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>76D91591-CF3E-42D8-7CA0-B07267CF8686</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>76D91591-CF3E-42D8-7CA0-B07267CF8686</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>1</size>
+<type>LOGDT025</type>
+</Attribute>
+<Attribute name="REQUIRED_CONFIRMATION" id="1BD11796-F40A-347D-6E94-D0EC1E53C168">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>1CDAF057-0595-1D3B-3A3D-083AF0E88FBA</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>1CDAF057-0595-1D3B-3A3D-083AF0E88FBA</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>1</size>
+<type>LOGDT025</type>
+</Attribute>
+<Attribute name="CONFIRMATION_CHARGES_BY" id="6A0DF6CF-AE1C-69B3-65CA-7906878D2800">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>091963A4-1A2A-4B30-0A22-0F8DB1E512F6</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>091963A4-1A2A-4B30-0A22-0F8DB1E512F6</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>1</size>
+<type>LOGDT025</type>
+</Attribute>
+<Attribute name="CONFIRM_CHARGE_AMOUNT" id="A000199A-2BC3-3859-25AF-BD02FFE0652A">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>D4047ADB-F198-DBD1-91FF-8C1D2CB8F8D4</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>D4047ADB-F198-DBD1-91FF-8C1D2CB8F8D4</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="CONFIRM_CHARGE_PERCENT" id="C8B0C6A7-3ECF-3CF2-845B-150BCC38BB97">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>CFB253E7-FF6E-4997-0E16-3485A3D26E92</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>CFB253E7-FF6E-4997-0E16-3485A3D26E92</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="DISCREPANCIES_FLAG" id="9B0FCBB7-9E81-2200-5D49-F680E803DBE9">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>261EA82B-34E6-EB9E-9034-71FF220FA664</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>261EA82B-34E6-EB9E-9034-71FF220FA664</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>1</size>
+<type>LOGDT025</type>
+</Attribute>
+<Attribute name="TOLERANCE_AMOUNT" id="E2279DF8-506C-4CFA-BA8F-45439532646C">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>380E9EDF-AA1A-9C6F-FAB4-77CEA3D76CCB</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>380E9EDF-AA1A-9C6F-FAB4-77CEA3D76CCB</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>1</size>
+<type>LOGDT025</type>
+</Attribute>
+<Attribute name="TOLERANCE_AMOUNT_PLUS" id="17D80C18-DAA6-3D5B-1B58-2EF07D59891B">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>C5F817E0-7901-EA26-9D27-7B8163550016</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>C5F817E0-7901-EA26-9D27-7B8163550016</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="TOLERANCE_AMOUNT_MINUS" id="EB9CB387-2BBE-DBA1-045F-06945BA1FB29">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>28930504-7C53-07A7-1342-D68AD64C1CDF</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>28930504-7C53-07A7-1342-D68AD64C1CDF</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="TOLERANCE_QUANTITY" id="CBFD899F-6457-156D-AA04-6D136ED4C80B">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>B49D44BB-609D-7BD8-B228-8207A64109DF</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>B49D44BB-609D-7BD8-B228-8207A64109DF</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>1</size>
+<type>LOGDT025</type>
+</Attribute>
+<Attribute name="TOLERANCE_QTY_PLUS" id="058B2651-A8A1-84DD-585B-FD80847DAFB9">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>770CF3CE-92E3-B4AF-F739-2704000F82FB</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>770CF3CE-92E3-B4AF-F739-2704000F82FB</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="TOLERANCE_QTY_MINUS" id="2FDB0BA3-2589-C887-9AC9-42F24BE76B1B">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>4CF5F6FB-131D-9F1D-7361-3F5C84866B9D</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>4CF5F6FB-131D-9F1D-7361-3F5C84866B9D</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="MARGIN_AMOUNT" id="EB5D90BD-D942-FA28-21F1-0C52D545AEC2">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>07C9CD8C-2007-4060-F4DC-4EBF94AF4049</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>07C9CD8C-2007-4060-F4DC-4EBF94AF4049</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="MARGIN_PERCENT" id="66C61CB4-C732-FA48-2193-56299DC5B270">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>68276346-AFC5-3C99-569D-052090FB3545</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>68276346-AFC5-3C99-569D-052090FB3545</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="ADVISE_BY" id="76772797-30CA-46DB-5AB1-061BF4B2E685">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>F547242D-84AD-FFD3-F1D9-D2C2B964F4B0</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>F547242D-84AD-FFD3-F1D9-D2C2B964F4B0</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>30</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="PRIORITY_FLAG" id="1CC357BE-2EA0-67A7-4AEE-C8988433F0F9">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>38280FBA-3390-2184-88E8-C45AE5F5FF77</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>38280FBA-3390-2184-88E8-C45AE5F5FF77</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>1</size>
+<type>LOGDT025</type>
+</Attribute>
+<Attribute name="NEGOTIATION_DAYS" id="642794E7-4019-4D0A-5A58-4CB401764A8E">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>F3E4193C-23DC-BEE7-368B-11A710D3ACDD</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>F3E4193C-23DC-BEE7-368B-11A710D3ACDD</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="LAST_NEGOTIATION_DATE" id="7E4368ED-730A-451C-DBE4-C42F3D6F5A86">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>E2698472-EB43-458B-C1C0-259472F8E4BE</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>E2698472-EB43-458B-C1C0-259472F8E4BE</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT007</type>
+</Attribute>
+<Attribute name="PRESENTATION_PERIOD_DATE" id="C8841EA9-FA15-21FB-6429-27E3266730A3">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>5A55AAB8-F605-10EF-B268-2A20F134534E</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>5A55AAB8-F605-10EF-B268-2A20F134534E</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT007</type>
+</Attribute>
+<Attribute name="PRESENTATION_PERIOD" id="6E5697C9-59CE-ACC3-D8F4-8DA22A2D0578">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>9EFE9811-292A-C161-BFD0-D831AA8D186F</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>9EFE9811-292A-C161-BFD0-D831AA8D186F</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="PRESENTATION_TERM" id="E0154EE9-7F37-FA8C-1B8B-F9AAC235B606">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>AA3537D9-84A0-6976-8E9B-67C8C8C58D43</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>AA3537D9-84A0-6976-8E9B-67C8C8C58D43</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>30</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="PAYMENT_TYPE" id="4E547F38-F937-81FE-6C14-B28D69D52505">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>F219D5EE-FB5A-2BE3-C844-B1087C2E99C3</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>F219D5EE-FB5A-2BE3-C844-B1087C2E99C3</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>30</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="PAYMENT_TERM" id="64E63D25-95EC-06C8-BB3A-0AE17976D2D0">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>F4066B51-CF76-1755-E681-FA08F44778FB</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>F4066B51-CF76-1755-E681-FA08F44778FB</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>30</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="NUMBER_OF_PAYMENTS" id="A4B997C6-F2DC-6329-BF47-9417E5E254AD">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>4994A04C-0491-15EA-0A25-4D5024C0C35A</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>4994A04C-0491-15EA-0A25-4D5024C0C35A</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="PURCHASE_TERMS" id="1E87DCEA-F904-8955-EFB8-CFCA085E1F3F">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>D86BE4B6-4E3A-B9A3-A967-F81A1FF4FE8F</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>D86BE4B6-4E3A-B9A3-A967-F81A1FF4FE8F</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>30</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="SHIPMENT_TERM" id="C30031A0-C261-8014-6B4F-FE0ED6D5D55B">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>DC3BCFFB-22F1-9682-65A0-668BC8F8D828</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>DC3BCFFB-22F1-9682-65A0-668BC8F8D828</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>30</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="SHIP_FROM_COUNTRY" id="09B0EEFD-6CCB-BC28-DBB7-3533B0BCFA9D">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>2319FDD0-C0F6-D2AB-A50E-5E7DA1F81BB3</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>2319FDD0-C0F6-D2AB-A50E-5E7DA1F81BB3</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>30</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="SHIP_TO_COUNTRY" id="A549F417-8049-953D-458A-5C35F0CB1672">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>6793E74C-2991-C3B7-DCD5-F71F773DC41B</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>6793E74C-2991-C3B7-DCD5-F71F773DC41B</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>30</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="SHIP_PORT_TYPE" id="2A6FFCBD-ECD8-9C23-F232-BACA2CE88302">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>8F8A6248-0C5D-8D15-2DE5-AF41F4CCE905</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>8F8A6248-0C5D-8D15-2DE5-AF41F4CCE905</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>30</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="SHIP_LOADING_PORT" id="926A39A8-C5E1-2827-1A6D-EAC9A2025F38">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>BC0CBAF7-0431-85B1-82F5-FB7D812EFE48</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>BC0CBAF7-0431-85B1-82F5-FB7D812EFE48</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>30</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="SHIP_DISCHARGE_PORT" id="CF5134A4-212E-B8DB-4623-2BB6ED2DD611">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>E6657466-04B3-2682-6C5E-5AE4E2901A55</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>E6657466-04B3-2682-6C5E-5AE4E2901A55</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>30</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="SHIP_DEPARTURE_AIRPORT" id="0E608960-78C3-AC27-E4E0-1980F2895458">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>8E1CAB01-5263-45F8-55DA-7D5744FB9212</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>8E1CAB01-5263-45F8-55DA-7D5744FB9212</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>30</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="SHIP_DESTINATION_AIRPORT" id="7E3797D7-2EC5-FB31-402E-4D4640AA1737">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>58488814-B37D-7256-3501-57150EDEA57A</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>58488814-B37D-7256-3501-57150EDEA57A</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>30</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="SHIP_AIR_SHIPMENT_FLAG" id="66979AB9-76B6-6FCD-4F04-D53AE051BB40">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>0188AC8D-51F5-9554-93A8-831A47FEADC1</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>0188AC8D-51F5-9554-93A8-831A47FEADC1</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>30</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="DELIVERY_PLACE" id="722A2063-1EE3-4AA6-BBB8-46E0F17AEBEC">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>9564FFA7-735A-D3CA-526F-C85778F3DA83</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>9564FFA7-735A-D3CA-526F-C85778F3DA83</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>30</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="PARTIAL_SHIPMENT" id="998DA71F-6F47-D40F-7E40-437B4B3D29BD">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>0B71B457-98A7-B2BC-A8AA-839814F84593</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>0B71B457-98A7-B2BC-A8AA-839814F84593</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>30</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="NUMBER_OF_SHIPMENTS" id="3CAB99C4-DBA1-0E33-DC25-AE76C41DA435">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>6B2E6557-7813-41D4-44E0-FAC0B1A4F22C</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>6B2E6557-7813-41D4-44E0-FAC0B1A4F22C</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="TRANS_SHIPMENT" id="34E157CE-C5C0-8006-B900-5CC01919D4F1">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>38FF1543-0508-F806-1A09-A37458127E71</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>38FF1543-0508-F806-1A09-A37458127E71</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>30</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="EARLIEST_SHIPMENT_DATE" id="60F29D43-B9CF-F27F-8B06-7EC68E60953C">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>B470D332-085C-8CFA-E075-0E3EE6BA763D</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>B470D332-085C-8CFA-E075-0E3EE6BA763D</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT007</type>
+</Attribute>
+<Attribute name="LATEST_SHIPMENT_DATE" id="BC9E33D9-6C97-2770-644B-4FC8E650AEF7">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>E6415E5E-EB68-9D17-4F48-FF7530D509A5</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>E6415E5E-EB68-9D17-4F48-FF7530D509A5</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT007</type>
+</Attribute>
+<Attribute name="CONTAINER_SHIPMENT" id="B988E10D-F4FB-9AB8-2372-38CF5F4C21BF">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>198990A6-ABB1-A53A-C02D-5D5FCE4395B2</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>198990A6-ABB1-A53A-C02D-5D5FCE4395B2</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>30</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="SHIPMENT_DESCRIPTION" id="6DAE0E4B-13F3-F208-A8D6-9DB449180B3D">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>7B4F4274-BCC9-5C4C-F2BC-F0B6390C6446</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>7B4F4274-BCC9-5C4C-F2BC-F0B6390C6446</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>4000</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="AME_TRANSACTION" id="7BF8FBAD-0E82-3D74-63A8-CD37203B74F7">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>04330821-F3A9-AF39-7946-B78F2BC5AC46</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>04330821-F3A9-AF39-7946-B78F2BC5AC46</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>240</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="AME_APPLICATION_ID" id="1255CBF7-C15F-7BA1-7999-F069230B3298">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>CC5EFCD8-0C07-BCD5-5F2A-E4D0C83493D1</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>CC5EFCD8-0C07-BCD5-5F2A-E4D0C83493D1</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="AME_TRANSACTION_ID" id="9940B231-3E68-D83D-B440-C74E4C7F9CBC">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>98464EE9-C34A-34B0-F0D7-492CFC64DBDA</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>98464EE9-C34A-34B0-F0D7-492CFC64DBDA</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="ITEMTYPE" id="928FDF83-5DA5-AADE-F2B8-1964D041E76D">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>4C4D6CA6-CCAD-5AA9-57E0-CAFFE8190C92</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>4C4D6CA6-CCAD-5AA9-57E0-CAFFE8190C92</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>240</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="ITEMKEY" id="66B09513-FFFC-42DE-DB9E-068A3575FB08">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>DA826964-5017-0372-874B-87BE86B9AE38</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>DA826964-5017-0372-874B-87BE86B9AE38</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>8</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="OBJECT_VERSION_NUMBER" id="1031AE8E-9B8C-A5DD-3CD8-F2238BA8E17E">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>54BCF8D2-DFB8-7F4E-69B9-B3FBAB350C51</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>54BCF8D2-DFB8-7F4E-69B9-B3FBAB350C51</importedID>
+<mandatory>false</mandatory>
+<precision>15</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="REQUEST_ID" id="704470A4-2500-0657-7010-095C28EA5662">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>F142C490-43D5-AD21-E6B6-FA72ED15B7C4</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>F142C490-43D5-AD21-E6B6-FA72ED15B7C4</importedID>
+<mandatory>false</mandatory>
+<precision>15</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="PROGRAM_APPLICATION_ID" id="777E3489-1272-6BC4-7349-B37FAA0862F6">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>B31C1034-110B-8B4C-7C08-67A8A31123BB</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>B31C1034-110B-8B4C-7C08-67A8A31123BB</importedID>
+<mandatory>false</mandatory>
+<precision>15</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="PROGRAM_ID" id="6EC7E450-CCFA-C41A-E7BE-1328BD8820DD">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>FA2D2489-A250-E041-5740-462C90B03185</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>FA2D2489-A250-E041-5740-462C90B03185</importedID>
+<mandatory>false</mandatory>
+<precision>15</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="PROGRAM_UPDATE_DATE" id="B389DD74-D7EF-E567-0243-286905839B40">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>7F5A9D93-E0B3-73B7-7708-41DDD015BD44</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>7F5A9D93-E0B3-73B7-7708-41DDD015BD44</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT007</type>
+</Attribute>
+<Attribute name="ATTRIBUTE_CATEGORY" id="A555BF81-C892-3246-9977-79293A2A1BCF">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>8C417155-1203-6C31-CDCE-1A59257FA236</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>8C417155-1203-6C31-CDCE-1A59257FA236</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>30</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="ATTRIBUTE1" id="C7309C8B-9F33-0021-E6D1-EDB72B5DDC99">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>6CFF6157-3F63-7C9F-55CB-908BDA9F7934</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>6CFF6157-3F63-7C9F-55CB-908BDA9F7934</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>150</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="ATTRIBUTE2" id="BF9F88EC-12B6-BB01-7178-FC66E82995DB">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>45BBEB1E-4A9A-BBB0-0EBE-5662D152EAD6</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>45BBEB1E-4A9A-BBB0-0EBE-5662D152EAD6</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>150</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="ATTRIBUTE3" id="591B8C58-A0C7-C2CC-3580-98F7E1814E0A">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>FA95085C-7D46-B924-E419-64881A17EE92</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>FA95085C-7D46-B924-E419-64881A17EE92</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>150</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="ATTRIBUTE4" id="CC0E1BC0-DB47-B563-6C29-F5AC32751688">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>B1CB0BB3-E108-D4E2-4BED-76E3C71D8809</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>B1CB0BB3-E108-D4E2-4BED-76E3C71D8809</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>150</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="ATTRIBUTE5" id="769FD985-A504-1D80-F97C-FFB674069678">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>57517982-3B70-332C-9DA0-626EBEAA92CC</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>57517982-3B70-332C-9DA0-626EBEAA92CC</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>150</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="ATTRIBUTE6" id="58085EFE-A1F6-E00B-D8D8-9668348B1268">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>2CE9A7BB-955E-F266-2BA8-5DE39DA769FE</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>2CE9A7BB-955E-F266-2BA8-5DE39DA769FE</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>150</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="ATTRIBUTE7" id="0E369772-4319-7437-AF0F-234FCFFFBE99">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>6F1B6DDC-A207-3ADB-09D9-30E00530B3AC</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>6F1B6DDC-A207-3ADB-09D9-30E00530B3AC</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>150</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="ATTRIBUTE8" id="7E6EC629-3888-CD2A-9276-0242144921AF">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>C5AC4F10-EF9C-E4CB-7241-7A8F5BB3144B</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>C5AC4F10-EF9C-E4CB-7241-7A8F5BB3144B</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>150</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="ATTRIBUTE9" id="0B837975-834A-8BD1-5880-6BAB7A3AA346">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>615D5664-7896-5443-626C-AC4AB39A4BA8</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>615D5664-7896-5443-626C-AC4AB39A4BA8</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>150</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="ATTRIBUTE10" id="136EDEAE-13C8-81F6-2D2C-53E03434EC93">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>9CC95CA9-8A17-808F-14CD-3071AB87E9A8</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>9CC95CA9-8A17-808F-14CD-3071AB87E9A8</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>150</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="ATTRIBUTE11" id="50C8A967-34E1-383A-BB8C-E8BF5BD9893C">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>538A22DD-38FC-6728-450C-83D66EEA6929</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>538A22DD-38FC-6728-450C-83D66EEA6929</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>150</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="ATTRIBUTE12" id="F5E24490-1CBB-4AC9-2086-EAF64B898998">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>CF662B20-F1B9-729B-CD67-63B1A314CD45</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>CF662B20-F1B9-729B-CD67-63B1A314CD45</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>150</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="ATTRIBUTE13" id="F14573D1-5A68-0399-BD5F-3ECEC3BA2BE2">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>992340BA-8B20-F997-FDEF-58D48587769B</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>992340BA-8B20-F997-FDEF-58D48587769B</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>150</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="ATTRIBUTE14" id="8085163F-2BB2-38E2-CEEB-DEA9D74A0370">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>A98D1F86-E3C2-EB49-152E-418957BB5807</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>A98D1F86-E3C2-EB49-152E-418957BB5807</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>150</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="ATTRIBUTE15" id="3F7A8B4E-4874-76DE-2D71-ECE6404CC41F">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>25A1E174-8195-3BEE-D0C0-35F607A9497C</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>25A1E174-8195-3BEE-D0C0-35F607A9497C</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>150</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="ATTRIBUTE16" id="033FD85C-7B5B-C9F8-14A9-132DB51EF9FB">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>A7D981DA-42BB-D617-78D3-E6E65758BAC1</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>A7D981DA-42BB-D617-78D3-E6E65758BAC1</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>150</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="ATTRIBUTE17" id="02B169F6-8F5B-7B9F-EE38-0E6F16FAF10D">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>8F81D7FF-357D-6EE6-FDF6-F596BD9D4362</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>8F81D7FF-357D-6EE6-FDF6-F596BD9D4362</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>150</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="ATTRIBUTE18" id="91435151-96F1-4F4B-5F79-6C9E9600C282">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>AAB2A48E-B3E4-402B-429A-A5548F2B79BF</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>AAB2A48E-B3E4-402B-429A-A5548F2B79BF</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>150</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="ATTRIBUTE19" id="C3AF9069-0067-CF25-CEA2-CA4EC365B6E8">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>3BD877AB-6279-AEBF-C656-065DEF5C473C</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>3BD877AB-6279-AEBF-C656-065DEF5C473C</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>150</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="ATTRIBUTE20" id="70A32D2D-4065-AE69-ADAF-B6A04AD21AC1">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>B05C36BC-5F11-69F9-E467-792FD4FD44E9</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>B05C36BC-5F11-69F9-E467-792FD4FD44E9</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>150</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="ATTRIBUTE21" id="91546D25-970B-F279-0AB1-620F9E4F4E09">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>B6F04F29-7171-436B-7009-71A30347CAB0</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>B6F04F29-7171-436B-7009-71A30347CAB0</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>150</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="ATTRIBUTE22" id="5AD079DA-DEA3-5454-C070-176178548071">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>C3D67B3A-7A99-4721-1E69-75A925074367</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>C3D67B3A-7A99-4721-1E69-75A925074367</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>150</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="ATTRIBUTE23" id="9DFA5AD8-548B-D41B-4593-2BFC21281816">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>AE625DEE-A88A-99AD-92B3-FDBF686EADE4</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>AE625DEE-A88A-99AD-92B3-FDBF686EADE4</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>150</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="ATTRIBUTE24" id="DA3690F0-DC1F-218C-C155-5D5E04358C33">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>7A0E65CE-BB45-19E1-F231-C522294717DE</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>7A0E65CE-BB45-19E1-F231-C522294717DE</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>150</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="ATTRIBUTE25" id="EFA16581-534D-8F12-B23E-D7200916A9A1">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>20BCE028-D8D5-3D53-0454-96F1ED8BF6EA</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>20BCE028-D8D5-3D53-0454-96F1ED8BF6EA</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>150</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="ATTRIBUTE26" id="48765E40-FE86-224C-EEC4-3D3F510A3EDC">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>BE20E5A5-EC54-C890-39D0-EA53E8121EAE</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>BE20E5A5-EC54-C890-39D0-EA53E8121EAE</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>150</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="ATTRIBUTE27" id="51ABF076-6CA2-E9AB-3B4A-FEAEDF7ECF25">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>7F6D7283-8055-560A-72F7-BF276F59F182</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>7F6D7283-8055-560A-72F7-BF276F59F182</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>150</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="ATTRIBUTE28" id="F8A67576-980B-6379-64AE-CDB937A1C5FB">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>A87B4F6F-A0B4-4C8D-4DA7-40F9672EBAEB</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>A87B4F6F-A0B4-4C8D-4DA7-40F9672EBAEB</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>150</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="ATTRIBUTE29" id="BC1BE1E9-9594-359E-E3D7-07D90FA3E222">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>0674FE40-DE9C-D5B4-C055-D10DFD237201</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>0674FE40-DE9C-D5B4-C055-D10DFD237201</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>150</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="ATTRIBUTE30" id="82D23372-B1D2-C328-DF48-CF4CAE450F44">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>253C5998-F6F2-F4F5-736E-DD9CA34F08C4</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>253C5998-F6F2-F4F5-736E-DD9CA34F08C4</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>150</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="CREATION_DATE" id="BFD5FCCB-1E20-6997-AEC1-94B073EC2A50">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>213376CF-C016-1496-EF77-506734E558E1</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>213376CF-C016-1496-EF77-506734E558E1</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT007</type>
+</Attribute>
+<Attribute name="CREATED_BY" id="30EB7D4F-7841-5AD3-08C4-AA007875355F">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>1339566C-FFF0-57AF-B988-D9F2A8E6F635</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>1339566C-FFF0-57AF-B988-D9F2A8E6F635</importedID>
+<mandatory>false</mandatory>
+<precision>15</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="LAST_UPDATE_LOGIN" id="7FFFD5FA-BEFD-42EB-1071-FDBF88D22A7D">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>A5F6F68E-90F7-BCC4-A0E3-BA67E5735986</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>A5F6F68E-90F7-BCC4-A0E3-BA67E5735986</importedID>
+<mandatory>false</mandatory>
+<precision>15</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="LAST_UPDATE_DATE" id="D111007C-02D2-9146-4FC3-C3ABB23DFAE3">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>54FF2DE3-9BB2-7E61-E2DB-99F462130993</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>54FF2DE3-9BB2-7E61-E2DB-99F462130993</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT007</type>
+</Attribute>
+<Attribute name="LAST_UPDATED_BY" id="2A667224-A280-28E9-FC3C-A1B90B89753C">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>DE2419F0-C326-BDB7-AE17-71AAD704A0E9</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>DE2419F0-C326-BDB7-AE17-71AAD704A0E9</importedID>
+<mandatory>false</mandatory>
+<precision>15</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+</attributes>
+<methods itemClass="oracle.dbtools.crest.model.design.datatypes.Method">
+<Method name="GET_ORG" id="FF141D20-CEF5-A00D-9D97-6E11EC3B8836">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>72CCA734-E216-2227-1360-AD1A71DC9C3F</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>72CCA734-E216-2227-1360-AD1A71DC9C3F</importedID>
+<body><![CDATA[        L_ORG_ID NUMBER;
+    BEGIN
+        SELECT
+            XLHA.ORG_ID
+        INTO L_ORG_ID
+        FROM
+            XXUI.XXUI_LC_HEADERS_ALL XLHA
+        WHERE
+            1 = 1
+            AND XLHA.LC_HEADER_ID = P_LC_HEADER_ID;
+
+        RETURN(L_ORG_ID);
+    END GET_ORG;
+]]></body>
+<number>0</number>
+<returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="GET_ORG" id="F14792DC-84EC-A3E8-FF07-F9D73ABF606C">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<typeID>LOGDT019</typeID>
+</returnValue>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="P_LC_HEADER_ID" id="C0E7BC03-0A8C-9D1E-C397-C434D3066EDB">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<typeID>LOGDT019</typeID>
+</Parameter>
+</parameters>
+</Method>
+</methods>
+</StructuredType>
