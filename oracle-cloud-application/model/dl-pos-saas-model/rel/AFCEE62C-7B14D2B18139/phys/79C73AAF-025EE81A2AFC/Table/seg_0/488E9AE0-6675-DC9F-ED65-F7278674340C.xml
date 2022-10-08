@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="POS_ORDER_TRANSFER_BATCHES" directorySegmentName="seg_0" id="488E9AE0-6675-DC9F-ED65-F7278674340C">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:24:32 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<nameChanged>true</nameChanged>
+<schemaObject>D44398E1-223A-DCAA-3322-FBC3806BE4AA</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<user>1BB9B1FB-F0E0-1B8E-B153-63E1BEEA1BEC</user>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="LAST_UPDATED_BY" id="326F2118-9DD8-13C2-A4C3-F88E5C35E999">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:40:11 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATION_DATE" id="47D915DF-FB7B-8E9C-464E-05F9D4FE7AC2">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:40:11 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OBJECT_VERSION_ID" id="51F9973D-F77B-1808-AE81-413BA17D08A8">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:40:11 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPTION" id="555D7294-7DAE-8FD9-5D8E-F4C9A9966451">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 15:09:04 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="POSTED_BY" id="87B61F42-E8D6-4D5D-01C5-097287DE0D67">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:27:34 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="START_DATE" id="89BAAE2D-3211-6B3D-F601-36BD8EB2BDF5">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:40:11 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="END_DATE" id="96D2E116-AAD7-16F4-F337-FCD573E25469">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:40:11 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BATCH_NUMBER" id="9CB7C1B6-A465-918F-0E26-22A213A35DE0">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 15:07:26 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="POSTED_DATE" id="A161EA06-94E5-47FF-0BC0-177D1CF63D64">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:27:34 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BATCH_ID" id="A66E6C95-9FD2-E030-2D88-FAD2A5ADEC2A">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:26:03 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED_BY" id="B8BB1BDE-24B7-B687-4D0D-6C5DBEEF736C">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:40:11 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_UPDATE_DATE" id="DD6456C9-9636-BAFD-4DAA-419B62DEB7D2">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:40:11 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BATCH_DATE" id="EE72DB70-A588-8F70-11B2-D38ABCD6E9A1">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:26:50 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ENABLED_FLAG" id="F8F00063-F945-19DA-3F58-5211034FFF69">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:40:11 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="POTB_BATCH_ID_PK" id="2F7967E0-F15F-3B27-EF6E-17927F19D812">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:31:11 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

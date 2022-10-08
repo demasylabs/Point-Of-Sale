@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<CollectionType class="oracle.dbtools.crest.model.design.datatypes.CollectionType" name="XXUI_LC_API_ERRORS_TYPE_T" directorySegmentName="seg_0" id="A967856C-60DB-4F6B-F129-63AB103C1203">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>49D210AE-57FE-83D5-3BC9-C8149AD483FA</generatorID>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<importedID>49D210AE-57FE-83D5-3BC9-C8149AD483FA</importedID>
+<predefined>false</predefined>
+<dataTypeDescr class="oracle.dbtools.crest.model.design.datatypes.CollectionType$DataTypeWrapper">
+<size>1000</size>
+<type>DOM3000004</type>
+<isreference>false</isreference>
+</dataTypeDescr>
+<maxElement>1</maxElement>
+<type>COLLECTION</type>
+</CollectionType>

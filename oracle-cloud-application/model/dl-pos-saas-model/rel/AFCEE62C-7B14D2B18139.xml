@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Demasy Labs | Point Of Sale" id="AFCEE62C-B7E6-2BD1-93CF-7B14D2B18139" mainViewID="54ADB820-F363-3D13-32F9-E3E772784252">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-23 15:04:51 UTC</createdTime>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>79C73AAF-E1A7-E669-7DF0-025EE81A2AFC</selectedRDBMSSite>
+<redirectConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>VMDB19-DL@ORCL</connName>
+<connUser>DL</connUser>
+<connType>1</connType>
+<syncSelected>-1</syncSelected>
+</redirectConnectionStamp>
+<useConnectionUser>true</useConnectionUser>
+</relationalModel>

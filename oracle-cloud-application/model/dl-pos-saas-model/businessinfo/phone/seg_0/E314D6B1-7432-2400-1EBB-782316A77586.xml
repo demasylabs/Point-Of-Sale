@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BIPhone class="oracle.dbtools.crest.model.businessinfo.BIPhone" name="Ahmed El-Demasy" directorySegmentName="seg_0" id="E314D6B1-7432-2400-1EBB-782316A77586">
+<createdBy>demasy</createdBy>
+<createdTime>2018-09-18 21:30:40 UTC</createdTime>
+<ownerDesignName>GlobalTradeServices</ownerDesignName>
+<phoneNumber>+966507630060</phoneNumber>
+<phoneType>Mobile</phoneType>
+</BIPhone>

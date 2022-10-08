@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="09A21FE4-67FF-B8DE-E05C-B6B4D58F00EE" containerWithKeyObject="7475D119-CE28-C5AF-997C-1960603BF5FD" localFKIndex="7B09E1D7-205C-4302-0EFC-D254B3970BAF" name="POTE_TRX_ID_FK">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:44:50 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<referredTableLongName>DL.POS_ORDER_TRANSFERS_ALL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>89F3471F-92D8-3DB3-BBB3-FB813A90D61B</referredTableID>
+<keyObject>870B6BC9-F56D-3DCD-9596-7E88FF43C709</keyObject>
+<referredKeyID>870B6BC9-F56D-3DCD-9596-7E88FF43C709</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TRX_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,206 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7475D119-CE28-C5AF-997C-1960603BF5FD" schemaObject="D44398E1-223A-DCAA-3322-FBC3806BE4AA" name="POS_ORDER_TRANSFER_ERRORS">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:40:46 UTC</createdTime>
+<comment><![CDATA[Demasy Labs | Point of Sale solution | SaaS Version]]></comment>
+<commentInRDBMS><![CDATA[Demasy Labs | Point of Sale solution | SaaS Version]]></commentInRDBMS>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<abbreviation>POTE</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<isEngineerToRelation>true</isEngineerToRelation>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ERROR_ID" id="C582F272-2F8D-2402-6396-7DBC55D3C033">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:42:30 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>POS_ERROR_ID_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>POS_ERROR_ID_SEQ_TRG</autoIncrementTriggerName>
+<notNullConstraintName>POTE_TRANSFER_ERROR_ID_NNC</notNullConstraintName>
+</Column>
+<Column name="TRX_ID" id="EF25DF04-1024-F221-3C34-85B5DB17A82D">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:44:50 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>POTE_TRX_ID_NNC</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="09A21FE4-67FF-B8DE-E05C-B6B4D58F00EE" referredColumn="284C7D22-FDC6-9F1D-CECF-DAB5D2ACFCEB"/>
+</associations>
+</Column>
+<Column name="ERROR_TYPE" id="60731451-3958-D629-D010-FB9175D1D104">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:42:30 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ERROR_CODE" id="0513EEE1-3A02-B13F-1663-A88F4F969DA0">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:42:30 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ERROR_MESSAGE" id="C53CADBC-FB0F-B701-2406-7972F47A7F69">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:43:02 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000 BYTE</dataTypeSize>
+<ownDataTypeParameters>2000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ERROR_DATA" id="3EAFC4E8-794F-46DE-9FB5-E5083B4A368F">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:43:39 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="START_DATE" id="F4DB453E-C56A-4DA4-FA8B-0F4B0AA6099E">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:47:53 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>POTE_START_DATE_NNC</notNullConstraintName>
+</Column>
+<Column name="END_DATE" id="665462DF-A0AF-38BD-9D72-0EF374A76771">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:47:53 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION" id="A722BA41-30F6-8C88-CD66-9D3F21BF6782">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 15:09:47 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" id="B1EDC042-DA38-B1EB-396A-7132208386B5">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:46:23 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>POTE_CREATED_BY_NNC</notNullConstraintName>
+</Column>
+<Column name="CREATION_DATE" id="35650E6B-6795-1915-7709-00B02A97938A">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:46:23 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>POTE_CREATION_DATE_NNC</notNullConstraintName>
+</Column>
+<Column name="LAST_UPDATED_BY" id="FA756F04-FCD3-0FFC-884C-320E3A9570D6">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:46:23 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>POTE_LAST_UPDATED_BY_NNC</notNullConstraintName>
+</Column>
+<Column name="LAST_UPDATE_DATE" id="D34BE7FE-46AD-0874-1104-C89A53F14242">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:46:23 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>POTE_LAST_UPDATE_DATE_NNC</notNullConstraintName>
+</Column>
+<Column name="OBJECT_VERSION_ID" id="DC3E17C0-4DE1-0CC0-F613-76AD883E269A">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:46:23 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>POTE_OBJECT_VERSION_ID_NNC</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7CA8439D-6D80-46E5-0883-BB898A2024E1" name="POTE_TRANSFER_ERROR_ID_PK">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:42:30 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C582F272-2F8D-2402-6396-7DBC55D3C033"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B09E1D7-205C-4302-0EFC-D254B3970BAF" name="POTE_TRX_ID_FK">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:44:50 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF25DF04-1024-F221-3C34-85B5DB17A82D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

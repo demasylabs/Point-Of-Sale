@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="POS_ORDER_TRANSFER_ERRORS" directorySegmentName="seg_0" id="7475D119-CE28-C5AF-997C-1960603BF5FD">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:40:46 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<schemaObject>D44398E1-223A-DCAA-3322-FBC3806BE4AA</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<user>1BB9B1FB-F0E0-1B8E-B153-63E1BEEA1BEC</user>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ERROR_CODE" id="0513EEE1-3A02-B13F-1663-A88F4F969DA0">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:42:30 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATION_DATE" id="35650E6B-6795-1915-7709-00B02A97938A">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:46:23 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ERROR_DATA" id="3EAFC4E8-794F-46DE-9FB5-E5083B4A368F">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:43:39 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ERROR_TYPE" id="60731451-3958-D629-D010-FB9175D1D104">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:42:30 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="END_DATE" id="665462DF-A0AF-38BD-9D72-0EF374A76771">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:47:53 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPTION" id="A722BA41-30F6-8C88-CD66-9D3F21BF6782">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 15:09:47 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED_BY" id="B1EDC042-DA38-B1EB-396A-7132208386B5">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:46:23 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ERROR_MESSAGE" id="C53CADBC-FB0F-B701-2406-7972F47A7F69">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:43:02 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ERROR_ID" id="C582F272-2F8D-2402-6396-7DBC55D3C033">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:42:30 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_UPDATE_DATE" id="D34BE7FE-46AD-0874-1104-C89A53F14242">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:46:23 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OBJECT_VERSION_ID" id="DC3E17C0-4DE1-0CC0-F613-76AD883E269A">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:46:23 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TRX_ID" id="EF25DF04-1024-F221-3C34-85B5DB17A82D">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:44:50 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="START_DATE" id="F4DB453E-C56A-4DA4-FA8B-0F4B0AA6099E">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:47:53 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_UPDATED_BY" id="FA756F04-FCD3-0FFC-884C-320E3A9570D6">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:46:23 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="POTE_TRX_ID_FK" id="7B09E1D7-205C-4302-0EFC-D254B3970BAF">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:44:50 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="POTE_TRANSFER_ERROR_ID_PK" id="7CA8439D-6D80-46E5-0883-BB898A2024E1">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-20 14:42:30 UTC</createdTime>
+<ownerDesignName>DL_POS_SaaS</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>
