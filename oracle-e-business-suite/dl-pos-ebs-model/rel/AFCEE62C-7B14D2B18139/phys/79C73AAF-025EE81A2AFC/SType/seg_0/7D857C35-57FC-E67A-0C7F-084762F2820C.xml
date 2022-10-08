@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StructuredTypeProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.StructuredTypeProxyOraclev10g" name="XXUI_LC_API_ERROR_TYPE" directorySegmentName="seg_0" id="7D857C35-57FC-E67A-0C7F-084762F2820C">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL_POS_EBS</ownerDesignName>
+<attributes itemClass="oracle.dbtools.crest.model.design.storage.oracle.v9i.TypeElementProxyOraclev9i">
+<Attribute name="ERROR_TYPE" id="37138D53-D639-76C5-D3C2-42D768DC414E">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL_POS_EBS</ownerDesignName>
+</Attribute>
+<Attribute name="ERROR_MESSAGE" id="43183B7D-BBC9-B1A5-1EB6-A4A9B6256F03">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL_POS_EBS</ownerDesignName>
+</Attribute>
+<Attribute name="SEQ" id="A5ADB233-3351-6470-1298-FE4219C0BC31">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL_POS_EBS</ownerDesignName>
+</Attribute>
+<Attribute name="ERROR_CODE" id="D2B6D41F-8BA5-B533-8548-7F9286283463">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL_POS_EBS</ownerDesignName>
+</Attribute>
+</attributes>
+<methods itemClass="oracle.dbtools.crest.model.design.storage.oracle.v9i.MethodProxyOraclev9i">
+<Method name="XXUI_LC_API_ERROR_TYPE" id="7C791790-2DA6-77F2-964E-6F7E12114D73">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL_POS_EBS</ownerDesignName>
+<bodyChanged>false</bodyChanged>
+<plSQLBody>    BEGIN
+        SELF.SEQ := P_SEQ;
+        SELF.ERROR_TYPE := P_ERROR_TYPE;
+        SELF.ERROR_CODE := P_ERROR_CODE;
+        SELF.ERROR_MESSAGE := P_ERROR_MESSAGE;
+        RETURN;
+    END XXUI_LC_API_ERROR_TYPE;
+</plSQLBody>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.storage.oracle.v10g.MethodParamProxyOraclev10g" name="P_ERROR_CODE" id="35CEA5B6-69E5-4E68-5C2A-D770370DF07D">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL_POS_EBS</ownerDesignName>
+<directionType>IN</directionType>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.storage.oracle.v10g.MethodParamProxyOraclev10g" name="P_SEQ" id="4D265E47-A4ED-B795-6331-0192575622CA">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL_POS_EBS</ownerDesignName>
+<directionType>IN</directionType>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.storage.oracle.v10g.MethodParamProxyOraclev10g" name="P_ERROR_MESSAGE" id="BDB0716C-62FD-9E80-D73F-D756A11C31F7">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL_POS_EBS</ownerDesignName>
+<directionType>IN</directionType>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.storage.oracle.v10g.MethodParamProxyOraclev10g" name="P_ERROR_TYPE" id="D70C9660-7F4C-DBA0-B87A-CEE05821CBF1">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL_POS_EBS</ownerDesignName>
+<directionType>IN</directionType>
+</Parameter>
+</parameters>
+</Method>
+</methods>
+</StructuredTypeProxyOraclev10g>

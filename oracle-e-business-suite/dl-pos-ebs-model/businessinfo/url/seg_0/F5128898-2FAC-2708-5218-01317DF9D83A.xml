@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BIResourceLocator class="oracle.dbtools.crest.model.businessinfo.BIResourceLocator" name="Umbrella Integration" directorySegmentName="seg_0" id="F5128898-2FAC-2708-5218-01317DF9D83A">
+<createdBy>demasy</createdBy>
+<createdTime>2018-09-18 21:31:14 UTC</createdTime>
+<ownerDesignName>GlobalTradeServices</ownerDesignName>
+<url>www.umbrellaintegration.com</url>
+</BIResourceLocator>
