@@ -1,0 +1,234 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="16248F8E-5077-D3A3-ACBB-466477758291" schemaObject="D44398E1-223A-DCAA-3322-FBC3806BE4AA" name="POS_CASHIERS">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-23 19:38:27 UTC</createdTime>
+<ownerDesignName>DL_POS_DB</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<abbreviation>PCA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CASHIER_ID" id="F51A4562-F7EF-DB31-6663-370E5BD68419">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-23 19:39:16 UTC</createdTime>
+<ownerDesignName>DL_POS_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARTIY_ID" id="5C8ADAEB-E516-8607-32F7-40517FB450EB">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-23 19:39:16 UTC</createdTime>
+<ownerDesignName>DL_POS_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA28300F-9CF9-E67C-BAA3-5083C727091E" referredColumn="E0035C15-8A10-5423-F6C8-2CEDF4D86585"/>
+</associations>
+</Column>
+<Column name="CASHIER_NUMBER" id="24C92BC6-0CE3-2777-3B9D-3FA4A4BA59BD">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-24 00:21:02 UTC</createdTime>
+<ownerDesignName>DL_POS_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CASHIER_TYPE" id="168E42A3-6230-5EB3-ABAD-65395D05191D">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-24 00:20:33 UTC</createdTime>
+<ownerDesignName>DL_POS_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION" id="B2AE3BC9-EA8C-225D-396B-46B20CD598B3">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-24 00:15:01 UTC</createdTime>
+<ownerDesignName>DL_POS_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 CHAR</dataTypeSize>
+<ownDataTypeParameters>4000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOGIN_USER" id="8A41CB93-3BC7-FC5C-59FF-F3AC49333D66">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-24 00:15:01 UTC</createdTime>
+<ownerDesignName>DL_POS_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOGIN_PASSWORD" id="C509A220-30A3-1C37-26B4-56EBA453A1FC">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-24 00:15:01 UTC</createdTime>
+<ownerDesignName>DL_POS_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENABLED_FLAG" id="466E327C-85EB-5966-CB96-8FEA2671440D">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-24 00:15:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[identifier id]]></commentInRDBMS>
+<ownerDesignName>DL_POS_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HOLD_FLAG" id="A33EAC37-B208-91DD-53CC-EDFBC78318DF">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-24 00:15:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[identifier id]]></commentInRDBMS>
+<ownerDesignName>DL_POS_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="START_DATE" id="597DA522-EBEF-81B5-B475-04FEC3FF58F5">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 08:13:58 UTC</createdTime>
+<ownerDesignName>DL_POS_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_DATE" id="FB7DA944-F44D-BFB9-2FEF-6265C7CA5AF3">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 08:13:58 UTC</createdTime>
+<ownerDesignName>DL_POS_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" id="824C98A8-9896-13A2-FF77-60848814F574">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 08:13:58 UTC</createdTime>
+<ownerDesignName>DL_POS_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATION_DATE" id="A59E368E-CF07-F39B-A756-F1AE2A254488">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 08:13:58 UTC</createdTime>
+<ownerDesignName>DL_POS_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_UPDATED_BY" id="958116FF-8436-2539-F79E-A881A6966985">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 08:13:58 UTC</createdTime>
+<ownerDesignName>DL_POS_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_UPDATE_DATE" id="3421E076-174F-CFD7-9A39-2F2ED26B7AD0">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 08:13:58 UTC</createdTime>
+<ownerDesignName>DL_POS_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBJECT_VERSION_ID" id="E1482F8D-AA06-BD21-005C-42FF45E35595">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 08:13:58 UTC</createdTime>
+<ownerDesignName>DL_POS_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>UPI_INVENTORY_ID_NNC</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E27928E4-9F12-0D95-E495-34C44E681B17" name="PCA_CASHIER_ID_PK">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-23 19:39:16 UTC</createdTime>
+<ownerDesignName>DL_POS_DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F51A4562-F7EF-DB31-6663-370E5BD68419"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04FBCCCE-8CB9-BA07-338B-3FDE1423FD6F" name="PCA_CASHIER_NUMBER_UN">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 08:11:55 UTC</createdTime>
+<ownerDesignName>DL_POS_DB</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24C92BC6-0CE3-2777-3B9D-3FA4A4BA59BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4A9F97A-0B85-0D2A-D467-74512AC2E411" name="PCA_LOGIN_USER_UN">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 09:46:37 UTC</createdTime>
+<ownerDesignName>DL_POS_DB</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A41CB93-3BC7-FC5C-59FF-F3AC49333D66"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="89FCD33A-5AD0-9E30-73E0-20FDB557FB93" name="PCA_PARTIY_ID_FK">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-05 01:06:25 UTC</createdTime>
+<ownerDesignName>DL_POS_DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C8ADAEB-E516-8607-32F7-40517FB450EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
