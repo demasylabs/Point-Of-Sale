@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C9AD3BA9-4B90-CC44-22F8-52FCD1EA00EA" schemaObject="D44398E1-223A-DCAA-3322-FBC3806BE4AA" name="POS_PRODUCTS_PROMOTIONS">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-23 16:56:44 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<abbreviation>PPP</abbreviation>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROMOTION_ID" id="C1B7C012-A31D-0643-CE6C-03D0C846D6D6">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-23 17:01:27 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROMO_CODE" id="81293ED7-FB3B-A545-55A2-DE653ECFE34E">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-05 01:19:46 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="631E4818-2F04-2A40-D705-93897D864BC4">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-23 17:05:30 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION" id="098AB67F-4E3D-F3B7-0FF9-C066D6D7E9EE">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-23 20:37:29 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 CHAR</dataTypeSize>
+<ownDataTypeParameters>4000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENABLED_FLAG" id="7E537928-8899-92A1-7866-6589E44A00FD">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 09:54:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="START_DATE" id="83F92E33-3088-F2E7-66ED-E8935412D3F2">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 08:14:49 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_DATE" id="9EDBF18A-BC86-ACCD-70CF-39568668DEA6">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 08:14:49 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" id="8EB5C220-CC0A-9621-6AAD-D473D1D8BFDD">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 08:14:49 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATION_DATE" id="EF6CDB09-0DEA-669D-2CFB-B5F1C53D3C78">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 08:14:49 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_UPDATED_BY" id="4338DF57-EAEF-AF8D-6430-5AEC82604895">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 08:14:49 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_UPDATE_DATE" id="B97B0A7B-D954-2F3B-A64B-B7FABA8A2DA6">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 08:14:49 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBJECT_VERSION_ID" id="55BD538A-3349-0942-AF85-BDAA971C6F5F">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 08:14:49 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>UPI_INVENTORY_ID_NNC</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FBC4360B-1E41-B507-D759-9C99599AC0F6" name="PPP_PROMOTION_ID_PK">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-23 17:01:27 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1B7C012-A31D-0643-CE6C-03D0C846D6D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

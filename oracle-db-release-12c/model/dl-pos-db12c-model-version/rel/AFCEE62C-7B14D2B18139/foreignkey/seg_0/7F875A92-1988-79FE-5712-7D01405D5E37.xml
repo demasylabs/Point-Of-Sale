@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7F875A92-1988-79FE-5712-7D01405D5E37" containerWithKeyObject="6CF54968-7838-11AA-F5E1-E5303A33169B" localFKIndex="589E54F1-A9C4-D0EF-309F-03222930AC75" name="PW_BRANCH_ID_FK">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-23 21:44:02 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+<referredTableLongName>DL.POS_STORE_BRANCHS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9833A538-F2B9-F290-0DFC-17210B928FFB</referredTableID>
+<keyObject>DAA1E1F1-35F5-40B5-C002-8BEC473FC3A6</keyObject>
+<referredKeyID>DAA1E1F1-35F5-40B5-C002-8BEC473FC3A6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>BRANCH_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

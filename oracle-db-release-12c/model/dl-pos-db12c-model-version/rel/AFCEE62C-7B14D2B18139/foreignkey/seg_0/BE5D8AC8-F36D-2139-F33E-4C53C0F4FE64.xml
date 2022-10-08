@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BE5D8AC8-F36D-2139-F33E-4C53C0F4FE64" containerWithKeyObject="D8C64C03-BB47-BB95-2E6C-E6ED2A0D3D25" localFKIndex="8722EAA7-E332-4B31-21A9-F999D405A6D2" name="DPPPD_PROMOTION_ID_FK">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-23 17:08:54 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+<referredTableLongName>DL.POS_PRODUCTS_PROMOTIONS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C9AD3BA9-4B90-CC44-22F8-52FCD1EA00EA</referredTableID>
+<keyObject>FBC4360B-1E41-B507-D759-9C99599AC0F6</keyObject>
+<referredKeyID>FBC4360B-1E41-B507-D759-9C99599AC0F6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PROMOTION_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

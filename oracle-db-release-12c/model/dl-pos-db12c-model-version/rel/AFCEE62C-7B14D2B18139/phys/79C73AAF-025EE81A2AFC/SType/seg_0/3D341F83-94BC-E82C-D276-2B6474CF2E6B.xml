@@ -1,0 +1,768 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StructuredTypeProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.StructuredTypeProxyOraclev10g" name="XXUI_LC_HEADER_REC_TYPE" directorySegmentName="seg_0" id="3D341F83-94BC-E82C-D276-2B6474CF2E6B">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+<attributes itemClass="oracle.dbtools.crest.model.design.storage.oracle.v9i.TypeElementProxyOraclev9i">
+<Attribute name="COVERAGE_PERCENT" id="002A8945-C5EE-9583-0979-76E410724496">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE17" id="02B169F6-8F5B-7B9F-EE38-0E6F16FAF10D">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE16" id="033FD85C-7B5B-C9F8-14A9-132DB51EF9FB">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="TOLERANCE_QTY_PLUS" id="058B2651-A8A1-84DD-585B-FD80847DAFB9">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="DOCUMENT_TYPE" id="075F75F1-EF11-0C72-AC6C-0AE602E6ABAF">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="SHIP_FROM_COUNTRY" id="09B0EEFD-6CCB-BC28-DBB7-3533B0BCFA9D">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE9" id="0B837975-834A-8BD1-5880-6BAB7A3AA346">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE7" id="0E369772-4319-7437-AF0F-234FCFFFBE99">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="SHIP_DEPARTURE_AIRPORT" id="0E608960-78C3-AC27-E4E0-1980F2895458">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="TRANSFERABLE" id="0F657AB8-6E89-D293-4337-8EC53D0ACF96">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="OBJECT_VERSION_NUMBER" id="1031AE8E-9B8C-A5DD-3CD8-F2238BA8E17E">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="AME_APPLICATION_ID" id="1255CBF7-C15F-7BA1-7999-F069230B3298">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE10" id="136EDEAE-13C8-81F6-2D2C-53E03434EC93">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="TOLERANCE_AMOUNT_PLUS" id="17D80C18-DAA6-3D5B-1B58-2EF07D59891B">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="BENEFICIARY_SITE_ID" id="1A6B3C01-EE72-FFD1-C3A7-2565E6023714">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="COVERAGE_AMOUNT" id="1B641EEC-C859-CC86-2828-A4D5F1758BF2">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="REQUIRED_CONFIRMATION" id="1BD11796-F40A-347D-6E94-D0EC1E53C168">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="PRIORITY_FLAG" id="1CC357BE-2EA0-67A7-4AEE-C8988433F0F9">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="EXPIRY_DATE" id="1DDE3693-DBB3-F2B6-9B54-FBD571E74AE4">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="PURCHASE_TERMS" id="1E87DCEA-F904-8955-EFB8-CFCA085E1F3F">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="MAXIMUM_AMOUNT" id="1F906EC3-EDD3-971F-DD5A-DF92AF8366D3">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="CLOSED_REMARKS" id="20DAFCCC-D8FC-907B-B5F9-0F21E21B13D9">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="BACK_TO_BACK" id="24CB3840-150A-2B69-1FF7-7D3827C1D0CD">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="BENEFICIARY_BANK_BRANCH_ID" id="29060FC3-6F5E-DBC3-73F0-4AA07CACB6CA">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="LAST_UPDATED_BY" id="2A667224-A280-28E9-FC3C-A1B90B89753C">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="SHIP_PORT_TYPE" id="2A6FFCBD-ECD8-9C23-F232-BACA2CE88302">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="TOLERANCE_QTY_MINUS" id="2FDB0BA3-2589-C887-9AC9-42F24BE76B1B">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="APPROVED_BY" id="309841D6-5E7C-10BE-2653-0548982A0A61">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="CONFIRMED" id="30BCC0BD-B2D3-24CB-F543-6C3DD58C941C">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="CREATED_BY" id="30EB7D4F-7841-5AD3-08C4-AA007875355F">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="LC_BANK_NUMBER" id="3106D02C-1DD4-B15E-0F1A-A103F6095002">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="SUB_CATEGORY_ID" id="33F4EF66-EDF1-EC84-A907-BBAC43395A1B">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="CLOSED_DATE" id="341E0EFE-F449-D38E-B727-1CEB882793F1">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="TRANS_SHIPMENT" id="34E157CE-C5C0-8006-B900-5CC01919D4F1">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="BENEFICIARY_ID" id="355085EB-097C-7F87-04EB-90CCE6DD7442">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="LC_HEADER_ID" id="3AF55A66-3F27-BFA8-DE5E-DE4DC07C1E98">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="CLOSED_STATUS" id="3B9D1710-685E-2D24-2B19-F8761DD3E769">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="NUMBER_OF_SHIPMENTS" id="3CAB99C4-DBA1-0E33-DC25-AE76C41DA435">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE15" id="3F7A8B4E-4874-76DE-2D71-ECE6404CC41F">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="ORG_ID" id="4012FF10-A82A-F971-DD89-D4C831820924">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="CONFIRMATION_DATE" id="40D6289B-4B49-7416-E070-16AF8E0BFCAB">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="APPLICANT_BANK_BRANCH_ID" id="43199FE7-C9B1-27CE-62AB-DFE217D545E1">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="NOTE_TO_BENEFICIARY" id="46C90247-CFFB-E77C-0E58-4BA68C6153B8">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE26" id="48765E40-FE86-224C-EEC4-3D3F510A3EDC">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="PAYMENT_TYPE" id="4E547F38-F937-81FE-6C14-B28D69D52505">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE11" id="50C8A967-34E1-383A-BB8C-E8BF5BD9893C">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE27" id="51ABF076-6CA2-E9AB-3B4A-FEAEDF7ECF25">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="LC_DOCUMENT_NUMBER" id="539D0196-6DCB-031F-63FC-0821B1FEDE79">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE6" id="58085EFE-A1F6-E00B-D8D8-9668348B1268">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE3" id="591B8C58-A0C7-C2CC-3580-98F7E1814E0A">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="CLOSED_REASON" id="59B072E4-E523-8153-9EDB-946F313369D9">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="APPROVED_DATE" id="5A982B84-66E9-34E7-088E-137159D7666E">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE22" id="5AD079DA-DEA3-5454-C070-176178548071">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="EARLIEST_SHIPMENT_DATE" id="60F29D43-B9CF-F27F-8B06-7EC68E60953C">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="NEGOTIATION_DAYS" id="642794E7-4019-4D0A-5A58-4CB401764A8E">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="PAYMENT_TERM" id="64E63D25-95EC-06C8-BB3A-0AE17976D2D0">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="SHIP_AIR_SHIPMENT_FLAG" id="66979AB9-76B6-6FCD-4F04-D53AE051BB40">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="ITEMKEY" id="66B09513-FFFC-42DE-DB9E-068A3575FB08">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="MARGIN_PERCENT" id="66C61CB4-C732-FA48-2193-56299DC5B270">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="CONFIRMATION_CHARGES_BY" id="6A0DF6CF-AE1C-69B3-65CA-7906878D2800">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="SHIPMENT_DESCRIPTION" id="6DAE0E4B-13F3-F208-A8D6-9DB449180B3D">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="PRESENTATION_PERIOD" id="6E5697C9-59CE-ACC3-D8F4-8DA22A2D0578">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="PROGRAM_ID" id="6EC7E450-CCFA-C41A-E7BE-1328BD8820DD">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="APPLICANT_ORGINZATION_ID" id="6F9CB204-7558-E0E4-4B8F-99914032A8F5">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="REQUEST_ID" id="704470A4-2500-0657-7010-095C28EA5662">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE20" id="70A32D2D-4065-AE69-ADAF-B6A04AD21AC1">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="DELIVERY_PLACE" id="722A2063-1EE3-4AA6-BBB8-46E0F17AEBEC">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="ADVISE_BY" id="76772797-30CA-46DB-5AB1-061BF4B2E685">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE5" id="769FD985-A504-1D80-F97C-FFB674069678">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="PROGRAM_APPLICATION_ID" id="777E3489-1272-6BC4-7349-B37FAA0862F6">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="BUYER_ID" id="7973E612-720F-E0A4-B261-3CA3C9E26027">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="EXPIRY_PLACE" id="7991269A-F047-9BD8-AFD1-88AE8796FEB5">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="BENEFICIARY_BANK_ID" id="7AA69568-0320-4ED2-422C-30FD020C98B2">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="AME_TRANSACTION" id="7BF8FBAD-0E82-3D74-63A8-CD37203B74F7">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="CONVERSION_TYPE" id="7CD3230D-C941-D8C9-E95C-DB34B7F8CBE4">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="SHIP_DESTINATION_AIRPORT" id="7E3797D7-2EC5-FB31-402E-4D4640AA1737">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="LAST_NEGOTIATION_DATE" id="7E4368ED-730A-451C-DBE4-C42F3D6F5A86">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE8" id="7E6EC629-3888-CD2A-9276-0242144921AF">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="LAST_UPDATE_LOGIN" id="7FFFD5FA-BEFD-42EB-1071-FDBF88D22A7D">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE14" id="8085163F-2BB2-38E2-CEEB-DEA9D74A0370">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE30" id="82D23372-B1D2-C328-DF48-CF4CAE450F44">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="COVERAGE_BY" id="864515F9-82F4-071C-40DF-2923E881197E">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="CURRENCY" id="8AFEBBF2-2B39-E1C3-2264-1AD5023C75BE">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="SOURCE" id="8B9D6357-E836-12BE-118B-0BB444A3F509">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE18" id="91435151-96F1-4F4B-5F79-6C9E9600C282">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="STATUS" id="9152C1A8-586D-98A8-82B6-C0C856CBDA99">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE21" id="91546D25-970B-F279-0AB1-620F9E4F4E09">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="LONG_DESCRIPTION" id="924F44FC-6805-5670-923F-0267F85E0535">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="SHIP_LOADING_PORT" id="926A39A8-C5E1-2827-1A6D-EAC9A2025F38">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="ITEMTYPE" id="928FDF83-5DA5-AADE-F2B8-1964D041E76D">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="PARENT_HEADER_ID" id="92A1147F-096D-B96B-385A-EB704036842F">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="STYLE_ID" id="959C646B-9CFC-A4FF-4AF2-D846CD1305E4">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="AME_TRANSACTION_ID" id="9940B231-3E68-D83D-B440-C74E4C7F9CBC">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="PARTIAL_SHIPMENT" id="998DA71F-6F47-D40F-7E40-437B4B3D29BD">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="DISCREPANCIES_FLAG" id="9B0FCBB7-9E81-2200-5D49-F680E803DBE9">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="BENEFICIARY_BANK_CONTACT_ID" id="9CEA8C0E-B617-E6DF-5297-D65DBEA59A06">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE23" id="9DFA5AD8-548B-D41B-4593-2BFC21281816">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="COLLATERAL_HEADER_ID" id="9E5C616E-D16A-89E2-0749-2085473005D5">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="CONFIRM_CHARGE_AMOUNT" id="A000199A-2BC3-3859-25AF-BD02FFE0652A">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="NUMBER_OF_PAYMENTS" id="A4B997C6-F2DC-6329-BF47-9417E5E254AD">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="SHIP_TO_COUNTRY" id="A549F417-8049-953D-458A-5C35F0CB1672">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE_CATEGORY" id="A555BF81-C892-3246-9977-79293A2A1BCF">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="APPLICANT_BANK_ID" id="AACFC9D6-5D0C-4BAA-3AA6-574FA5EB68D7">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="COVERAGE_TYPE" id="ADE873FC-E7A4-EB0A-CDB7-749D9A87074E">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="PROGRAM_UPDATE_DATE" id="B389DD74-D7EF-E567-0243-286905839B40">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="CLOSED_TYPE" id="B75615B2-95B7-6AA5-CEA7-E10356F6AE2D">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="CONTAINER_SHIPMENT" id="B988E10D-F4FB-9AB8-2372-38CF5F4C21BF">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE29" id="BC1BE1E9-9594-359E-E3D7-07D90FA3E222">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="LATEST_SHIPMENT_DATE" id="BC9E33D9-6C97-2770-644B-4FC8E650AEF7">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="AMOUNT" id="BD27DA24-471E-3280-6A81-13AD8CE64D1D">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE2" id="BF9F88EC-12B6-BB01-7178-FC66E82995DB">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="CREATION_DATE" id="BFD5FCCB-1E20-6997-AEC1-94B073EC2A50">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="AUTO_CLOSURE_FLAG" id="C0028DC3-0B6B-5341-1ED8-013CFAB8218B">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="SHIPMENT_TERM" id="C30031A0-C261-8014-6B4F-FE0ED6D5D55B">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE19" id="C3AF9069-0067-CF25-CEA2-CA4EC365B6E8">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE1" id="C7309C8B-9F33-0021-E6D1-EDB72B5DDC99">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="PRESENTATION_PERIOD_DATE" id="C8841EA9-FA15-21FB-6429-27E3266730A3">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="CONFIRM_CHARGE_PERCENT" id="C8B0C6A7-3ECF-3CF2-845B-150BCC38BB97">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="OPENING_DATE" id="C9E2FE95-1CBA-396D-F98E-2ED577199784">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="BENEFICIARY_COUNTRY" id="CB388290-87BE-1AFF-C5A1-6D7B341D106C">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="TOLERANCE_QUANTITY" id="CBFD899F-6457-156D-AA04-6D136ED4C80B">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE4" id="CC0E1BC0-DB47-B563-6C29-F5AC32751688">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="SHORT_DESCRIPTION" id="CEBC1336-93FD-9DF4-E082-372948F3FC86">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="SHIP_DISCHARGE_PORT" id="CF5134A4-212E-B8DB-4623-2BB6ED2DD611">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="LAST_UPDATE_DATE" id="D111007C-02D2-9146-4FC3-C3ABB23DFAE3">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="STATUS_DATE" id="D18D48F6-48CE-F1B6-59BE-AE3200A583F7">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="VERSION_ID" id="D55C1D06-7C9A-DDE3-515F-E097F8AE7D4A">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="CONVERSION_DATE" id="D7062D5F-1113-6888-95D3-49AC2CC99A27">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="DOCUMENT_ID" id="D75A1EF8-392C-3D46-0CE0-12D757E385EE">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="BENEFICIARY_CONTACT_ID" id="D8D5EE2C-46B3-C844-00C7-9DA30F1F71C6">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE24" id="DA3690F0-DC1F-218C-C155-5D5E04358C33">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="CATEGORY_ID" id="DAB3427E-BE6B-7CA4-434B-2C59F9FADA8A">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="APPROVED_AMOUNT" id="DBDE9B3A-A467-75D1-F25D-016462AFA98F">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="LC_YEAR" id="DCBCE886-D0D5-A9A8-C502-01D907575936">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="PRESENTATION_TERM" id="E0154EE9-7F37-FA8C-1B8B-F9AAC235B606">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="CONVERSION_RATE" id="E199C5F4-3E53-D310-E97D-54350BB3C945">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="TOLERANCE_AMOUNT" id="E2279DF8-506C-4CFA-BA8F-45439532646C">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="MARGIN_AMOUNT" id="EB5D90BD-D942-FA28-21F1-0C52D545AEC2">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="TOLERANCE_AMOUNT_MINUS" id="EB9CB387-2BBE-DBA1-045F-06945BA1FB29">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="CONFIRMATION_BY" id="ED3DB799-E870-0629-4F5D-A1C70CAB3D1B">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE25" id="EFA16581-534D-8F12-B23E-D7200916A9A1">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE13" id="F14573D1-5A68-0399-BD5F-3ECEC3BA2BE2">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="REVOCABLE" id="F4B4623B-676D-A001-BC49-BFB9DCF63968">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE12" id="F5E24490-1CBB-4AC9-2086-EAF64B898998">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE28" id="F8A67576-980B-6379-64AE-CDB937A1C5FB">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+<Attribute name="VERSION_REASON" id="F958F96B-8A83-1726-C054-7C60579F0D9D">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+</Attribute>
+</attributes>
+<methods itemClass="oracle.dbtools.crest.model.design.storage.oracle.v9i.MethodProxyOraclev9i">
+<Method name="GET_ORG" id="FF141D20-CEF5-A00D-9D97-6E11EC3B8836">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+<bodyChanged>false</bodyChanged>
+<plSQLBody>        L_ORG_ID NUMBER;
+    BEGIN
+        SELECT
+            XLHA.ORG_ID
+        INTO L_ORG_ID
+        FROM
+            XXUI.XXUI_LC_HEADERS_ALL XLHA
+        WHERE
+            1 = 1
+            AND XLHA.LC_HEADER_ID = P_LC_HEADER_ID;
+
+        RETURN(L_ORG_ID);
+    END GET_ORG;
+</plSQLBody>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.storage.oracle.v10g.MethodParamProxyOraclev10g" name="P_LC_HEADER_ID" id="C0E7BC03-0A8C-9D1E-C397-C434D3066EDB">
+<createdBy>demasy</createdBy>
+<createdTime>2020-01-17 21:09:15 UTC</createdTime>
+<ownerDesignName>DL-POS-DB-Version</ownerDesignName>
+<directionType>IN</directionType>
+</Parameter>
+</parameters>
+</Method>
+</methods>
+</StructuredTypeProxyOraclev10g>
