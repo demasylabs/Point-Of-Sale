@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BILocation class="oracle.dbtools.crest.model.businessinfo.BILocation" name="Saudi Arabia" directorySegmentName="seg_0" id="47C5EBD0-86FF-F0B5-B11B-C625C03A167E">
+<createdBy>demasy</createdBy>
+<createdTime>2018-09-18 21:30:09 UTC</createdTime>
+<ownerDesignName>GlobalTradeServices</ownerDesignName>
+<city>Riyadh</city>
+<country>Saudi Arabia</country>
+<postCode>11416</postCode>
+</BILocation>

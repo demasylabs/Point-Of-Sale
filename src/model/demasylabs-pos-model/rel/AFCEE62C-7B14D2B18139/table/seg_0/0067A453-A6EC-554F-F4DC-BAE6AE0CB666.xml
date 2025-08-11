@@ -1,0 +1,192 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0067A453-A6EC-554F-F4DC-BAE6AE0CB666" schemaObject="D44398E1-223A-DCAA-3322-FBC3806BE4AA" name="POS_PRODUCT_SUB_CATEGORIES">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-05 00:52:14 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<abbreviation>PPSC</abbreviation>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SUB_CATEGORY_ID" id="1AF98BFB-0F99-31D6-9811-63EA3B33A543">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-05 00:52:14 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEGORY_ID" id="4E9F99ED-4313-3544-D56C-7AE4B7D63136">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-05 00:53:09 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF576862-99A5-963C-69E8-782AA0F112BD" referredColumn="8A7D65C3-57B5-FA94-5E58-FAFA76705A8B"/>
+</associations>
+</Column>
+<Column name="SHORT_NAME" id="824A89EA-5B54-9276-8D1C-7E39411EF66C">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-05 02:24:33 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="C2C1D2EB-4E3F-0438-2A30-60C594FB5DF3">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-05 02:24:33 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION" id="52C6C9DC-818C-50BE-E652-6FF1C32B7AC7">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-05 02:24:33 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENABLED_FLAG" id="644DC8CC-A393-AE8A-29F9-5160EF88714B">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-05 02:24:33 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="START_DATE" id="D8951389-7A37-C41B-DD82-CFF75D7DB346">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-05 02:24:33 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_DATE" id="3063FF6C-6823-6797-A21F-24655A385433">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-05 02:24:33 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" id="122A442E-4355-745E-C184-538E1D61FDE9">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-05 02:24:33 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATION_DATE" id="6640C3FD-E1FF-F1E4-918A-F194D453A312">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-05 02:24:33 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_UPDATED_BY" id="A4336300-B926-1ECD-1022-7A11EC7C95BA">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-05 02:24:33 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_UPDATE_DATE" id="081E53C7-24DA-3352-E948-57A871B306CE">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-05 02:24:33 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBJECT_VERSION_ID" id="AB73AEBD-4E41-B337-F7A0-470AAE390B63">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-05 02:24:33 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>UPI_INVENTORY_ID_NNC</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6EC3850B-FE76-882D-CF42-AF512AFD9518" name="PPSC_SUB_CATEGORY_ID_PK">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-05 00:52:14 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AF98BFB-0F99-31D6-9811-63EA3B33A543"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E9416783-3AC0-A339-5639-5339C49E2D8F" name="PPSC_SHORT_NAME_UN">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 08:07:19 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="824A89EA-5B54-9276-8D1C-7E39411EF66C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6C6D0D8-57C9-E8EE-C441-2780B0DDCBA1" name="PPSC_NAME_UN">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 08:07:19 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2C1D2EB-4E3F-0438-2A30-60C594FB5DF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8AC355DE-2AA5-8178-BF78-70964740F581" name="PPSC_CATEGORY_ID_FK">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-05 00:53:09 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E9F99ED-4313-3544-D56C-7AE4B7D63136"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

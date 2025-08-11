@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BIDocument class="oracle.dbtools.crest.model.businessinfo.BIDocument" name="MD50" directorySegmentName="seg_0" id="A428B295-0504-41D6-F708-A80A9FBC5FE5">
+<createdBy>demasy</createdBy>
+<createdTime>2018-09-18 21:29:31 UTC</createdTime>
+<ownerDesignName>GlobalTradeServices</ownerDesignName>
+</BIDocument>

@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BIResponsibleParty class="oracle.dbtools.crest.model.businessinfo.BIResponsibleParty" name="ResParty_1" directorySegmentName="seg_0" id="7861D6FE-57F8-6B7C-81D8-5D6B2294B893">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-06 10:30:51 UTC</createdTime>
+<ownerDesignName>LC</ownerDesignName>
+</BIResponsibleParty>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F48A944F-8CFA-BBFF-C7E9-1797CDDDA14D" containerWithKeyObject="E08A8E68-6100-C8ED-8A3E-2990B928250B" localFKIndex="E98E895B-8828-FE1B-5E16-596724A42C5A" name="DPP_INVOICE_ID_FK">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-23 17:44:11 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<referredTableLongName>DL.POS_INVOICES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>62156FE2-1180-A74C-4820-21A5EA334C3E</referredTableID>
+<keyObject>62EE5CDE-FFA5-E748-DC5D-733B0A155068</keyObject>
+<referredKeyID>62EE5CDE-FFA5-E748-DC5D-733B0A155068</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>INVOICE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

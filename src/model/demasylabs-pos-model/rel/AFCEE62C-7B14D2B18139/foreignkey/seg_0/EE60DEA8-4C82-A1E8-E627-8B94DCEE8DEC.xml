@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EE60DEA8-4C82-A1E8-E627-8B94DCEE8DEC" containerWithKeyObject="AEF749E4-5C33-BD04-F912-BE5F3644BA51" localFKIndex="ABFE81CB-CE93-C86F-8B87-99244D766746" name="PC_PARTIY_ID_FK">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-23 19:41:11 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<referredTableLongName>DL.POS_PARTIES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E7CC4712-C360-5606-D6C9-171B8B7C10B6</referredTableID>
+<keyObject>3C2F546C-A337-BD2F-08F3-48B4BE9C156C</keyObject>
+<referredKeyID>3C2F546C-A337-BD2F-08F3-48B4BE9C156C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PARTIY_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

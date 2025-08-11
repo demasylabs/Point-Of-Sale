@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1E9076C7-40D3-13BD-0CFF-8778F6B9B2AA" containerWithKeyObject="9833A538-F2B9-F290-0DFC-17210B928FFB" localFKIndex="E6822A57-BD4B-4C48-BA06-7A62E8DA4389" name="PSB_STORE_ID_FK">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-23 21:13:39 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<referredTableLongName>DL.POS_STORES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FCB66261-296F-745C-C932-215B1E030B4C</referredTableID>
+<keyObject>43DB2FB4-0EBD-AA48-B271-1CAE1463B62D</keyObject>
+<referredKeyID>43DB2FB4-0EBD-AA48-B271-1CAE1463B62D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>STORE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="85D51AB8-C17A-39A4-7E28-7048BDDBDF60" containerWithKeyObject="E08A8E68-6100-C8ED-8A3E-2990B928250B" localFKIndex="381BF641-BF33-4446-3BB2-50A9EB8ACEA6" name="DPP_PAY_METHOD_ID_FK">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-23 17:43:59 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<referredTableLongName>DL.POS_PAYMENT_METHODS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5028643B-7FE4-295A-008E-C530AC78966C</referredTableID>
+<keyObject>54CB1E38-3445-228C-44A3-8C769BD29546</keyObject>
+<referredKeyID>54CB1E38-3445-228C-44A3-8C769BD29546</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>METHOD_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

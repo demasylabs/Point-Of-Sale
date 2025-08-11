@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<CollectionType class="oracle.dbtools.crest.model.design.datatypes.CollectionType" name="LC_HEADER_REC_TYPE" directorySegmentName="seg_0" id="1450E3D2-A8DE-AC51-AA51-95071494E72B">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-12 20:54:01 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<predefined>false</predefined>
+<dataTypeDescr class="oracle.dbtools.crest.model.design.datatypes.CollectionType$DataTypeWrapper">
+<size>50</size>
+<type>DOM3000004</type>
+<isreference>false</isreference>
+</dataTypeDescr>
+<maxElement>1</maxElement>
+<type>COLLECTION</type>
+</CollectionType>
