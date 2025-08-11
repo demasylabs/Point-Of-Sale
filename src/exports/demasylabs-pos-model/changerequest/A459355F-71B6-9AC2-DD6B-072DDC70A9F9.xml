@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ChangeRequest class="oracle.dbtools.crest.model.ChangeRequest" name="Initial Version" id="A459355F-71B6-9AC2-DD6B-072DDC70A9F9">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-06 10:29:37 UTC</createdTime>
+<ownerDesignName>LC</ownerDesignName>
+<engineerTo>
+<item key="AFCEE62C-B7E6-2BD1-93CF-7B14D2B18139" value="true"/>
+</engineerTo>
+<requestDate>2019-08-06</requestDate>
+<status>Proposed</status>
+</ChangeRequest>

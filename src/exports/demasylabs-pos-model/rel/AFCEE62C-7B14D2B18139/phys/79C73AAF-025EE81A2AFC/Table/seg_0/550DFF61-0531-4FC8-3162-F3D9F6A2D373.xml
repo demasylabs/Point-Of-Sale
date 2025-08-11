@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="POS_PRODUCT_TRANSACTIONS" directorySegmentName="seg_0" id="550DFF61-0531-4FC8-3162-F3D9F6A2D373">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+<schemaObject>D44398E1-223A-DCAA-3322-FBC3806BE4AA</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="END_DATE" id="16048D9A-5D88-063A-3ABC-D449174332A2">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-05 00:02:04 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CANCELED_BY" id="23918B64-67B1-3EBC-7B47-56974FF3DBD2">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="WAREHOUSE_ID" id="2F337E9D-3461-4177-4856-EC5454837B16">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED_BY" id="3EAC4139-8C38-99B6-3D2B-35CFA129354C">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-05 00:02:04 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CANCEL_REASON" id="4AD09130-AA90-70B6-E981-EAD9756C32D0">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPTION" id="56CF5590-7D74-1FA4-CB23-123550F5E73F">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OBJECT_VERSION_ID" id="8596954E-76CD-E335-18D4-29682C241BD7">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-05 00:02:04 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TRANSACTION_ID" id="8D52DD7D-769A-3102-E25E-EC7152729D2B">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_UPDATED_BY" id="912EB7F0-C45A-D999-E7B2-20F788F9648B">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-05 00:02:04 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_UPDATE_DATE" id="9D159466-02E9-8592-8122-66C6E11EC3F3">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-05 00:02:04 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="START_DATE" id="9E7DB3C3-6A9F-E031-2AB4-986449DAD41F">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-05 00:02:04 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TYPE" id="A024C8AA-E209-7CC8-6F06-9790349D98B7">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATION_DATE" id="CEE9D77C-6152-B654-C973-BBC43B9AAE8E">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-05 00:02:04 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="QUANTITY" id="DB6779B8-2B79-C1FB-FA25-510A9715C505">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CANCEL_FLAG" id="E831E43D-F9BA-0D3F-56A4-18950C6CC6B3">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRODUCT_ID" id="F3126ABD-266B-5681-716E-FD4E0885BE34">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TRX_NUMBER" id="F4F76C2A-8B0B-3F37-A596-36DE402EDAED">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PPT_PRODUCT_ID_FK" id="47852F52-9832-2E8C-803A-7B0F343C7E5A">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PPT_WAREHOUSE_ID_FK" id="FD5B66ED-613A-184D-5F15-E7119834DD9B">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PPT_TRANSACTION_ID_PK" id="FE8591E1-14E5-CC9A-0AEB-D83FE4301DEC">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="PPT_TRX_NUMBER_UN" id="F848B588-F8B7-6F3D-5662-8A518B6DB776">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 08:04:15 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

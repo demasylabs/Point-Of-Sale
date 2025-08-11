@@ -1,0 +1,250 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E08A8E68-6100-C8ED-8A3E-2990B928250B" schemaObject="D44398E1-223A-DCAA-3322-FBC3806BE4AA" name="POS_PAYMENTS">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-23 17:41:21 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<abbreviation>PP</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PAYMENT_ID" id="42BD9DCD-EF70-A1A4-2899-86D35030D740">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-23 17:43:00 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>DL_POS_PAYMENT_ID_S</autoIncrementSequenceName>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
+</Column>
+<Column name="PAY_METHOD_ID" id="004FE58D-377F-533A-02C5-A7D3E8BEE1D8">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-23 17:41:21 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="85D51AB8-C17A-39A4-7E28-7048BDDBDF60" referredColumn="575985CB-4E4E-DEBF-53A4-9B97806BAE13"/>
+</associations>
+</Column>
+<Column name="INVOICE_ID" id="E1612B3B-2D84-54AF-27E7-F8460F5454E0">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-23 17:43:49 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>DPI_INVOICE_ID_NNC</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="F48A944F-8CFA-BBFF-C7E9-1797CDDDA14D" referredColumn="04FC9A49-E439-57AF-CD95-7F4AE7FD0DF4"/>
+</associations>
+</Column>
+<Column name="PAYMENT_TYPE" id="ED57B525-93A9-D59D-98AE-CFF441CA74CA">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-23 20:11:29 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<defaultLabel>Payment Type</defaultLabel>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAYMENT_NUMBER" id="CEE3AB3E-8BF8-EFD1-1CFE-2B5B23829965">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-23 17:47:31 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION" id="BBFB4595-7E8B-8801-2F80-FBEE867D98F9">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-07 06:39:45 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAYMENT_DATE" id="27D9954A-6C95-281C-2727-9327EBD16790">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-23 19:51:07 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAYMENT_CURRANCY" id="F2D05BF4-ACEE-3631-1E37-AD3DD11B4F3B">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-23 20:01:39 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AMOUNT" id="1DC0DCB3-3C5C-E7E8-B748-EAF014AF75E5">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-24 19:52:59 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,7,3</ownDataTypeParameters>
+<defaultLabel>Amount</defaultLabel>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>DPI_INVOICE_ID_NNC</notNullConstraintName>
+</Column>
+<Column name="STATUS" id="8F1E210F-38C5-D1F8-1E86-90032F0C38DD">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-23 19:57:05 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENABLED_FLAG" id="06469002-8001-57B0-F1D5-BFDDB8A9F802">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-07 06:39:45 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="START_DATE" id="5259D8DE-3FE2-D1F4-59BE-534A0EE5CEEA">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-07 06:39:45 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_DATE" id="D7A235BF-1F61-DEC9-A766-3453C61FDF32">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-07 06:39:45 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" id="3A875925-A453-FF0E-5D1A-EA686A5D10A9">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-23 18:11:39 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATION_DATE" id="80DCA685-0404-F89E-701E-53DC4D28E108">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-23 18:11:39 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_UPDATED_BY" id="FB1C2031-F4E1-1D54-F2AB-40B74253A0C3">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-23 18:11:39 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_UPDATE_DATE" id="81D0C0A9-5DA2-AE62-0A85-87C3C8A28F24">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-23 18:11:39 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBJECT_VERSION_ID" id="2C329F7E-C361-710D-4E8C-A2DB6F5CF096">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-23 18:11:39 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>UPI_INVENTORY_ID_NNC</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="30895A66-FBC9-3A1A-145A-CBF53D79EF03" name="DPP_PAYMENT_ID_PK">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-23 17:41:21 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42BD9DCD-EF70-A1A4-2899-86D35030D740"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="381BF641-BF33-4446-3BB2-50A9EB8ACEA6" name="DPP_PAY_METHOD_ID_FK">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-23 17:43:59 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="004FE58D-377F-533A-02C5-A7D3E8BEE1D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E98E895B-8828-FE1B-5E16-596724A42C5A" name="DPP_INVOICE_ID_FK">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-23 17:44:11 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1612B3B-2D84-54AF-27E7-F8460F5454E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

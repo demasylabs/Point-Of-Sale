@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BIContact class="oracle.dbtools.crest.model.businessinfo.BIContact" name="Ahmed El-Demasy" directorySegmentName="seg_0" id="2DB4619B-44B0-667B-0125-409A4FA10006">
+<createdBy>demasy</createdBy>
+<createdTime>2018-09-18 21:28:48 UTC</createdTime>
+<ownerDesignName>GlobalTradeServices</ownerDesignName>
+<emails>
+<email>2A85AB2B-CBD3-95EC-217C-5D3AC20FE10F</email>
+</emails>
+</BIContact>

@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StructuredType class="oracle.dbtools.crest.model.design.datatypes.StructuredType" name="XXUI_LC_API_ERROR_TYPE" directorySegmentName="seg_0" id="7D857C35-57FC-E67A-0C7F-084762F2820C">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+<importedID>098F2E52-D83D-0328-FE59-311D2AD9C8B4</importedID>
+<predefined>false</predefined>
+<final>true</final>
+<instantiable>true</instantiable>
+<attributes itemClass="oracle.dbtools.crest.model.design.datatypes.TypeElement">
+<Attribute name="SEQ" id="A5ADB233-3351-6470-1298-FE4219C0BC31">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>132B8A29-6FAD-4DE8-80F8-7FDA44AB8011</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>132B8A29-6FAD-4DE8-80F8-7FDA44AB8011</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="ERROR_TYPE" id="37138D53-D639-76C5-D3C2-42D768DC414E">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>77639625-0658-924B-6D78-902524F946DC</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>77639625-0658-924B-6D78-902524F946DC</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>1</size>
+<type>LOGDT025</type>
+</Attribute>
+<Attribute name="ERROR_CODE" id="D2B6D41F-8BA5-B533-8548-7F9286283463">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>4E5C9EE1-4120-CDE9-138D-D13D7A8D61EC</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>4E5C9EE1-4120-CDE9-138D-D13D7A8D61EC</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>100</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="ERROR_MESSAGE" id="43183B7D-BBC9-B1A5-1EB6-A4A9B6256F03">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>6C9DA54F-A6EC-D66A-1C29-BBE1CC10385D</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>6C9DA54F-A6EC-D66A-1C29-BBE1CC10385D</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>4000</size>
+<type>LOGDT024</type>
+</Attribute>
+</attributes>
+<methods itemClass="oracle.dbtools.crest.model.design.datatypes.Method">
+<Method name="XXUI_LC_API_ERROR_TYPE" id="7C791790-2DA6-77F2-964E-6F7E12114D73">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-14 21:34:21 UTC</createdTime>
+<generatorID>97349F3D-3195-1C2A-B79B-0396AA9295E1</generatorID>
+<ownerDesignName>LC_PROJECT</ownerDesignName>
+<importedID>97349F3D-3195-1C2A-B79B-0396AA9295E1</importedID>
+<body><![CDATA[    BEGIN
+        SELF.SEQ := P_SEQ;
+        SELF.ERROR_TYPE := P_ERROR_TYPE;
+        SELF.ERROR_CODE := P_ERROR_CODE;
+        SELF.ERROR_MESSAGE := P_ERROR_MESSAGE;
+        RETURN;
+    END XXUI_LC_API_ERROR_TYPE;
+]]></body>
+<constructor>true</constructor>
+<number>0</number>
+<returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="XXUI_LC_API_ERROR_TYPE" id="1ACC03F8-C9CC-A28A-B532-E76B94FA4750">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<typeID>7D857C35-57FC-E67A-0C7F-084762F2820C</typeID>
+</returnValue>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="P_SEQ" id="4D265E47-A4ED-B795-6331-0192575622CA">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<typeID>LOGDT019</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="P_ERROR_TYPE" id="D70C9660-7F4C-DBA0-B87A-CEE05821CBF1">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<typeID>LOGDT025</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="P_ERROR_CODE" id="35CEA5B6-69E5-4E68-5C2A-D770370DF07D">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="P_ERROR_MESSAGE" id="BDB0716C-62FD-9E80-D73F-D756A11C31F7">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<typeID>LOGDT024</typeID>
+</Parameter>
+</parameters>
+</Method>
+</methods>
+</StructuredType>

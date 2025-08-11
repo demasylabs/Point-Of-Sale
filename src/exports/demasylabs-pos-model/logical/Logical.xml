@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="B2B71DBD-4038-B49B-82B7-1AE56A8AA26C">
+<createdBy>demasy</createdBy>
+<createdTime>2018-05-05 16:49:37 UTC</createdTime>
+<ownerDesignName>GlobalTradeServices</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

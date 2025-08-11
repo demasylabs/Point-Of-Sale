@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="POS_PRODUCTS_PROMO_DETAILS" directorySegmentName="seg_0" id="D8C64C03-BB47-BB95-2E6C-E6ED2A0D3D25">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+<schemaObject>D44398E1-223A-DCAA-3322-FBC3806BE4AA</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PRODUCT_ID" id="1D7E21D1-6C9B-CC90-5347-F0F9B44A34FB">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OBJECT_VERSION_ID" id="37A891DE-C7A6-7403-6BCB-EBF886D6AEE9">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 08:14:32 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_UPDATED_BY" id="417A28CE-12CB-7783-1A76-F03D4A3DA07E">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 08:14:32 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="START_DATE" id="50053BB3-C176-E68F-71AD-8801E96ABB45">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 08:14:32 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROMO_DETAIL_ID" id="6D50B976-864F-9957-CF9D-1D6DD41A4DD4">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROMOTION_ID" id="7DC89D3B-3724-204A-D023-D44A99A4A1C5">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="END_DATE" id="99DF9E0D-615A-5F73-4BCA-4A801D492CB7">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 08:14:32 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_UPDATE_DATE" id="A011C0B7-2ECF-7A2C-ED3B-B13C0B4EABB6">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 08:14:32 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED_BY" id="B84566A8-CDD5-FDC6-A97F-EC29ABC170BE">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 08:14:32 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATION_DATE" id="D1A3BD40-D194-0542-9565-83BF55AAC633">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 08:14:32 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DPPPD_PRODUCT_ID_FK" id="4C77C171-115E-A273-9AAC-B0944CF70BD6">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DPPPD_PROMOTION_ID_FK" id="8722EAA7-E332-4B31-21A9-F999D405A6D2">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DPPPD_PROMO_DETAIL_ID_PK" id="CF8F0C20-4758-FBF6-BB1C-BE072F7F73A9">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

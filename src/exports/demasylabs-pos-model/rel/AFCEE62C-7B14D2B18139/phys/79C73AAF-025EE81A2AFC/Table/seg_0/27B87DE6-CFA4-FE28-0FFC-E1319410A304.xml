@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="POS_ORDER_LINES" directorySegmentName="seg_0" id="27B87DE6-CFA4-FE28-0FFC-E1319410A304">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+<schemaObject>D44398E1-223A-DCAA-3322-FBC3806BE4AA</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SERVICE_ID" id="00345EB0-6BB1-7199-EA23-BCF00EFFC08B">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AMOUNT" id="0A56E492-35F8-1171-AA0D-D4A055D7BA1D">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPTION" id="0E0AC569-9E02-1317-009F-F303D90DBDDD">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LINE_TYPE" id="13F5284F-F57B-915E-FB43-B7BD207B7D64">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRICE" id="1959FD5F-AF51-B332-28E7-7DEF8D4E28A7">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORDER_ID" id="22609D36-6CDF-1027-2E76-B4786ABEC802">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LINE_NUM" id="681A96D5-AEFA-E41B-E338-A242C652B3BC">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="START_DATE" id="870C38B0-A658-5B3A-4D33-F8B4F7817362">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CANCEL_REASON" id="8DBEC7A8-8F61-62F5-90C5-1DD93385927F">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRODUCT_ID" id="AD805B7F-04B0-2650-4706-AB70CD08C1D2">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_UPDATED_BY" id="B78F08AB-130C-F1F9-3144-028C445D476F">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 08:14:20 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATION_DATE" id="BA459E21-A7B9-247B-3B15-4957288244EC">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 08:14:20 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CANCEL_FLAG" id="C11D3381-8685-5B21-7BD4-A060C0921758">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OBJECT_VERSION_ID" id="C4F6647C-E037-3C1A-2358-1FC649743A52">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 08:14:20 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED_BY" id="C810DD5B-AC00-1250-6181-DF2CF7833FD2">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 08:14:20 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_UPDATE_DATE" id="C8A4A273-18AE-5A86-6C16-46B218F6356E">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 08:14:20 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CANCELED_BY" id="CA07466D-7C22-EDAE-1717-8C9913A514F0">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORDER_LINE_ID" id="E2257F9B-B436-492B-4235-4C8A366E21DB">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="END_DATE" id="FC6F988E-5541-C432-97AF-57802DC76C5E">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="QUANTITY" id="FD83C8AC-D3AB-B9E5-AE2D-AFFB0685B29E">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="POL_ORDER_ID_FK" id="0742D0AB-38CA-BC89-5990-F363D73CD8B0">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="POL_PRODUCT_ID_FK" id="53853FBF-EB7B-03F3-7BC2-97AE4AE5B81A">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-05 01:03:36 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="POL_ORDER_LINE_ID_PK" id="88881D7B-C96E-E363-B6DE-6EEBEB3D9624">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>dl-pos-db12c-model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>
