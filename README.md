@@ -4,7 +4,7 @@ Oracle database sample schema created by Ahmed El-Demasy <ceo@egyptianprogrammer
 
 
 #### Figure 1 Point Of Sale (POS) Sample illustrates Schema 
-![Alt text](https://github.com/demasylabs/Point-Of-Sale/blob/master/oracle-db-release-12c/digrams/pos-erd.jpg)
+![Alt text](https://github.com/demasylabs/Point-Of-Sale/blob/master/src/model/versions/oracle-db-release-12c/digrams/pos-erd.jpg?raw=true)
 
 
 ### DL* Schema Scripts for Point Of Sale (POS) project
