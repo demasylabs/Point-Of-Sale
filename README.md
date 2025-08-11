@@ -1,12 +1,4 @@
-# Demasy Labs | Point Of S## Referen> If you have any further questions, please don't hesitate to contact me e-mail: **founder@demasy.io**es
-> Stay Tuned
-</br>
-
-###### Contact US
-> If you have any further questions, please don't hesitate to contact me e-mail: **founder@demasy.io**OS) Sample Schema
-Oracle database sample schema created by Ahmed El-Demasy <founder@demasy.io>.
-> Please note that this schema is for testing purposes only, as such it is unsupported and should not to be used in production environment.
-
+# Demasy Labs | Point Of Sale (POS) Sample Schema
 
 #### Figure 1 Point Of Sale (POS) Sample illustrates Schema 
 ![Alt text](https://github.com/demasylabs/Point-Of-Sale/blob/master/src/model/versions/oracle-db-release-12c/digrams/pos-erd.jpg?raw=true)
