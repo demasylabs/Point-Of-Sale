@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<CollectionTypeProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.CollectionTypeProxyOraclev10g" name="XXUI_LC_API_ERRORS_TYPE_T" directorySegmentName="seg_0" id="A967856C-60DB-4F6B-F129-63AB103C1203">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</CollectionTypeProxyOraclev10g>

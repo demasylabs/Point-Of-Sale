@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelationalSubView" name="Demasy Labs - Point Of Sale (POS)" id="314E3F5D-2253-E6D4-6F01-05FB7A55328E">
+<createdBy>demasy</createdBy>
+<modifiedBy>demasy</modifiedBy>
+<createdTime>2025-08-11 13:46:23 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>true</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.TVLegend" oid="C2224EDD-B028-AC3C-3D57-8E344610424E" otype="Legend" vid="A7518A1B-CD59-84F9-B1CA-9F4B3DF6A6C3">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="10" y="10" width="358" height="128"/>
+</OView>
+</objectViews>
+</Diagram>

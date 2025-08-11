@@ -5,6 +5,8 @@
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <ordsAlias>table_11</ordsAlias>
 <abbreviation>PPC</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<isEngineerToRelation>true</isEngineerToRelation>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
@@ -17,6 +19,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PPC_CATEGORY_ID_NNC</notNullConstraintName>
 </Column>
 <Column name="SHORT_NAME" id="6B954506-0229-2D84-6149-782B7BB867F1">
 <createdBy>demasy</createdBy>
@@ -28,6 +31,7 @@
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PPC_SHORT_NAME_NNC</notNullConstraintName>
 </Column>
 <Column name="NAME" id="82DB4B51-2E4B-F28F-AF9A-D24EF51F9AED">
 <createdBy>demasy</createdBy>
@@ -39,6 +43,7 @@
 <dataTypeSize>200 CHAR</dataTypeSize>
 <ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PPC_NAME_NNC</notNullConstraintName>
 </Column>
 <Column name="DESCRIPTION" id="D8CDB269-7E0C-37DF-7DC9-AE745D9005D0">
 <createdBy>demasy</createdBy>
@@ -60,8 +65,14 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>1 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="N" description="No"/>
+<valueDef value="Y" description="Yes"/>
+</listOfValues>
+<defaultValue>Y</defaultValue>
 <ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PPC_ENABLED_FLAG_NNC</notNullConstraintName>
 </Column>
 <Column name="START_DATE" id="2D830F1D-D5C5-1088-0405-6BD5C5B2A668">
 <createdBy>demasy</createdBy>
@@ -72,6 +83,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PPC_START_DATE_NNC</notNullConstraintName>
 </Column>
 <Column name="END_DATE" id="6B8E0F10-7AAF-54AC-351D-098CF3BCC56E">
 <createdBy>demasy</createdBy>
@@ -93,6 +105,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PPC_CREATED_BY_NNC</notNullConstraintName>
 </Column>
 <Column name="CREATION_DATE" id="1B728DF9-AADD-9419-918D-2532B22E41FA">
 <createdBy>demasy</createdBy>
@@ -103,6 +116,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PPC_CREATION_DATE_NNC</notNullConstraintName>
 </Column>
 <Column name="LAST_UPDATED_BY" id="8F8C65AE-9AF3-E695-EC2B-57706F0BE69A">
 <createdBy>demasy</createdBy>
@@ -113,6 +127,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PPC_LAST_UPDATED_BY_NNC</notNullConstraintName>
 </Column>
 <Column name="LAST_UPDATE_DATE" id="1176DAA7-3EC6-B10A-EF66-BB51150E8D3B">
 <createdBy>demasy</createdBy>
@@ -123,6 +138,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PPC_LAST_UPDATE_DATE_NNC</notNullConstraintName>
 </Column>
 <Column name="OBJECT_VERSION_ID" id="33AFD682-C15E-1755-451C-220B3F1D4E2D">
 <createdBy>demasy</createdBy>
@@ -131,9 +147,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<defaultValue>0</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>UPI_INVENTORY_ID_NNC</notNullConstraintName>
+<notNullConstraintName>PPC_OBJECT_VERSION_ID_NNC</notNullConstraintName>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

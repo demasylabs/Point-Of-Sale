@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="DEMASY" directorySegmentName="seg_0" id="90A0759B-B870-14A0-7F8F-7AB00F43A971">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:27 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<identifier>154AB89DCBDFFEA3C3778DD020B367C98C1F7C9589AB29E5776B26048DAEFE5C9C</identifier>
+</UserOraclev10g>

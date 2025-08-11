@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="XXDL" directorySegmentName="seg_0" id="D267FD2D-FC16-2E6A-4DAC-193F7B4BB031">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:44:28 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<ordsAlias>schema_4</ordsAlias>
+</SchemaObject>

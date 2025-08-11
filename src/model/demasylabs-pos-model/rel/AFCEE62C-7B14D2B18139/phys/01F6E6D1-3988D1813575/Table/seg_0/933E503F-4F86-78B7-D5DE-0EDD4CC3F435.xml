@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="POS_PRODUCT_CATEGORIES" directorySegmentName="seg_0" id="933E503F-4F86-78B7-D5DE-0EDD4CC3F435">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<schemaObject>D44398E1-223A-DCAA-3322-FBC3806BE4AA</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<user>484BF50E-3023-3D99-061C-AA3E92C2369F</user>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<storeAs>CLOB</storeAs>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="LAST_UPDATE_DATE" id="1176DAA7-3EC6-B10A-EF66-BB51150E8D3B">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATION_DATE" id="1B728DF9-AADD-9419-918D-2532B22E41FA">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="START_DATE" id="2D830F1D-D5C5-1088-0405-6BD5C5B2A668">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OBJECT_VERSION_ID" id="33AFD682-C15E-1755-451C-220B3F1D4E2D">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="CREATED_BY" id="4918359D-1311-D98B-4CE2-365B618DB374">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="END_DATE" id="6B8E0F10-7AAF-54AC-351D-098CF3BCC56E">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SHORT_NAME" id="6B954506-0229-2D84-6149-782B7BB867F1">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="82DB4B51-2E4B-F28F-AF9A-D24EF51F9AED">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CATEGORY_ID" id="8A7D65C3-57B5-FA94-5E58-FAFA76705A8B">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_UPDATED_BY" id="8F8C65AE-9AF3-E695-EC2B-57706F0BE69A">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ENABLED_FLAG" id="BCC783D4-F349-1763-4BC2-CEFFAC3A48D7">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<defaultValue>Y</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPTION" id="D8CDB269-7E0C-37DF-7DC9-AE745D9005D0">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PPC_CATEGORY_ID_PK" id="FA90E6EB-C956-8A22-11B4-FA1ECEB3578D">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="PPC_NAME_UN" id="913439B7-A95B-88B3-0BE5-8F97663C3BEB">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="PPC_SHORT_NAME_UN" id="BEF1072F-32D8-4F22-25BB-30634D79DFD7">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

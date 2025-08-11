@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AA28300F-9CF9-E67C-BAA3-5083C727091E" containerWithKeyObject="16248F8E-5077-D3A3-ACBB-466477758291" localFKIndex="89FCD33A-5AD0-9E30-73E0-20FDB557FB93" name="PCA_PARTIY_ID_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AA28300F-9CF9-E67C-BAA3-5083C727091E" containerWithKeyObject="16248F8E-5077-D3A3-ACBB-466477758291" localFKIndex="89FCD33A-5AD0-9E30-73E0-20FDB557FB93" name="PCA_PARTY_ID_FK">
 <createdBy>demasy</createdBy>
 <createdTime>2019-10-05 01:06:25 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
@@ -9,7 +9,7 @@
 <keyObject>3C2F546C-A337-BD2F-08F3-48B4BE9C156C</keyObject>
 <referredKeyID>3C2F546C-A337-BD2F-08F3-48B4BE9C156C</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>PARTIY_ID</refColNames>
+<refColNames>PARTY_ID</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

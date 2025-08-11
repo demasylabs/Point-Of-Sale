@@ -1,23 +1,25 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="POS_CASHIERS" directorySegmentName="seg_0" id="16248F8E-5077-D3A3-ACBB-466477758291">
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="POS_CASHIERS" directorySegmentName="seg_0" id="16248F8E-5077-D3A3-ACBB-466477758291">
 <createdBy>demasy</createdBy>
-<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <schemaObject>D44398E1-223A-DCAA-3322-FBC3806BE4AA</schemaObject>
 <logging>YES</logging>
 <partitionedRowMovement>DISABLE</partitionedRowMovement>
 <temporaryChanged>false</temporaryChanged>
+<user>484BF50E-3023-3D99-061C-AA3E92C2369F</user>
 <accessDriverType>oracle_loader</accessDriverType>
 <rejectLimit></rejectLimit>
+<storeAs>CLOB</storeAs>
 <columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
 <ColumnProxy name="CASHIER_TYPE" id="168E42A3-6230-5EB3-ABAD-65395D05191D">
 <createdBy>demasy</createdBy>
-<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="CASHIER_NUMBER" id="24C92BC6-0CE3-2777-3B9D-3FA4A4BA59BD">
 <createdBy>demasy</createdBy>
-<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="HOLD_FLAG" id="29804282-3DA1-E273-CA93-29CEE933FBDC">
@@ -44,12 +46,12 @@
 </ColumnProxy>
 <ColumnProxy name="PARTIY_ID" id="5C8ADAEB-E516-8607-32F7-40517FB450EB">
 <createdBy>demasy</createdBy>
-<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="LOGIN_USER" id="8A41CB93-3BC7-FC5C-59FF-F3AC49333D66">
 <createdBy>demasy</createdBy>
-<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="LAST_UPDATED_BY" id="94B8F7D6-E431-6A5B-64CE-E43F0C5029FB">
@@ -65,7 +67,7 @@
 </ColumnProxy>
 <ColumnProxy name="DESCRIPTION" id="B2AE3BC9-EA8C-225D-396B-46B20CD598B3">
 <createdBy>demasy</createdBy>
-<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="LAST_UPDATE_DATE" id="B43B7FB2-4976-E355-3E6D-A4B33A5E1603">
@@ -80,7 +82,7 @@
 </ColumnProxy>
 <ColumnProxy name="LOGIN_PASSWORD" id="C509A220-30A3-1C37-26B4-56EBA453A1FC">
 <createdBy>demasy</createdBy>
-<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="CREATED_BY" id="E4D96936-20AB-D04F-72FF-913E89A29CD3">
@@ -90,21 +92,21 @@
 </ColumnProxy>
 <ColumnProxy name="CASHIER_ID" id="F51A4562-F7EF-DB31-6663-370E5BD68419">
 <createdBy>demasy</createdBy>
-<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
 <foreignKeys>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PCA_PARTY_ID_FK" id="89FCD33A-5AD0-9E30-73E0-20FDB557FB93">
 <createdBy>demasy</createdBy>
-<createdTime>2019-10-05 01:06:25 UTC</createdTime>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 </ForeignKey>
 </foreignKeys>
 <primaryKeys>
 <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PCA_CASHIER_ID_PK" id="E27928E4-9F12-0D95-E495-34C44E681B17">
 <createdBy>demasy</createdBy>
-<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <indexSort>SORTED</indexSort>
 </PrimaryKey>
@@ -112,15 +114,15 @@
 <uniqueKeys>
 <UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="PCA_CASHIER_NUMBER_UN" id="04FBCCCE-8CB9-BA07-338B-3FDE1423FD6F">
 <createdBy>demasy</createdBy>
-<createdTime>2019-10-06 08:11:55 UTC</createdTime>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <indexSort>SORTED</indexSort>
 </UniqueKey>
 <UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="PCA_LOGIN_USER_UN" id="B4A9F97A-0B85-0D2A-D467-74512AC2E411">
 <createdBy>demasy</createdBy>
-<createdTime>2019-10-06 09:46:37 UTC</createdTime>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <indexSort>SORTED</indexSort>
 </UniqueKey>
 </uniqueKeys>
-</TableProxyOraclev12c>
+</TableProxyOraclev20c>

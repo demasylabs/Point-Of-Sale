@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="XXDL" directorySegmentName="seg_0" id="B8E14599-7E4D-850E-1855-27776DFF17FF">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:43 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<identifier>157B247C4B794591C0FC5C4F765C12A9873FEDFC1CAF4B1CFF8503363513D83EA0</identifier>
+</UserOraclev10g>

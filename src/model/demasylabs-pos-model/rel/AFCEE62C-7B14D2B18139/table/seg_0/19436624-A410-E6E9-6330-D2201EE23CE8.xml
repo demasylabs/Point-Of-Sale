@@ -18,7 +18,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>DPO_ORDER_ID_NNC</notNullConstraintName>
+<notNullConstraintName>PO_ORDER_ID_NNC</notNullConstraintName>
 </Column>
 <Column name="BRANCH_ID" id="F28E856D-B209-77D4-8835-7EFD46BD15CD">
 <createdBy>demasy</createdBy>
@@ -28,9 +28,10 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PO_BRANCH_ID_NNC</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="FED95D3C-DD1A-A1E4-3DB5-F7DCA5E42B6F" referredColumn="CB55887E-22D2-EA83-5D68-33ECA6778D44"/>
 </associations>
@@ -45,6 +46,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PO_CASHIER_ID_NNC</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="F1ADA1E2-8D18-6AA1-BAA4-F6976A129D53" referredColumn="F51A4562-F7EF-DB31-6663-370E5BD68419"/>
 </associations>
@@ -58,7 +60,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>UPI_INVENTORY_ID_NNC</notNullConstraintName>
+<notNullConstraintName>PO_CUSTOMER_ID_NNC</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="59B7F622-02DD-AA4C-123D-0EEBB17783E9" referredColumn="B1B197B0-B9EB-A316-711D-C1680640D977"/>
 </associations>
@@ -73,7 +75,7 @@
 <dataTypeSize>1 CHAR</dataTypeSize>
 <ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>DPO_ORDER_ID_NNC</notNullConstraintName>
+<notNullConstraintName>PO_ORDER_TYPE_NNC</notNullConstraintName>
 </Column>
 <Column name="ORDER_NUMBER" id="2094DF61-845B-3D24-A013-781669F944F2">
 <createdBy>demasy</createdBy>
@@ -85,6 +87,7 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PO_ORDER_NUMBER_NNC</notNullConstraintName>
 </Column>
 <Column name="ORDER_DATE" id="E5447272-1AB2-2874-EC7E-F0B2E11BF8DB">
 <createdBy>demasy</createdBy>
@@ -95,6 +98,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PO_ORDER_DATE_NNC</notNullConstraintName>
 </Column>
 <Column name="STATUS" id="B73901D5-855A-00E1-E28F-0239D41232A5">
 <createdBy>demasy</createdBy>
@@ -106,6 +110,7 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PO_STATUS_NNC</notNullConstraintName>
 </Column>
 <Column name="DESCRIPTION" id="1ED11F9F-2C59-B1E1-7880-0BE9A433D9FA">
 <createdBy>demasy</createdBy>
@@ -130,6 +135,7 @@
 <dataTypeSize>1 CHAR</dataTypeSize>
 <ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PO_ENABLED_FLAG_NNC</notNullConstraintName>
 </Column>
 <Column name="HOLD_FLAG" id="1C8C3833-F064-7077-8188-A3986E4D9722">
 <createdBy>demasy</createdBy>
@@ -199,6 +205,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PO_CREATED_BY_NNC</notNullConstraintName>
 </Column>
 <Column name="CREATION_DATE" id="10259455-C91D-18E4-9F60-3411F7CC900B">
 <createdBy>demasy</createdBy>
@@ -209,6 +216,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PO_CREATION_DATE_NNC</notNullConstraintName>
 </Column>
 <Column name="LAST_UPDATED_BY" id="0E0779FD-D736-6AA4-A659-271A3BCA3FA4">
 <createdBy>demasy</createdBy>
@@ -219,6 +227,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PO_LAST_UPDATED_BY_NNC</notNullConstraintName>
 </Column>
 <Column name="LAST_UPDATE_DATE" id="AA2BE392-B8A2-AB48-9489-01D3C4827AB6">
 <createdBy>demasy</createdBy>
@@ -229,6 +238,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PO_LAST_UPDATE_DATE_NNC</notNullConstraintName>
 </Column>
 <Column name="OBJECT_VERSION_ID" id="3817D2E2-5BDA-B267-C8E1-6C4BFACFAE68">
 <createdBy>demasy</createdBy>
@@ -239,7 +249,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>UPI_INVENTORY_ID_NNC</notNullConstraintName>
+<notNullConstraintName>PO_OBJECT_VERSION_ID_NNC</notNullConstraintName>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -254,7 +264,7 @@
 <colUsage columnID="19FA46B4-DE80-BA3A-1391-E11CAD22931F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6C0ABAF5-43E2-C1B2-F262-1BB47332523C" name="PO_NUMBER_UN">
+<ind_PK_UK id="6C0ABAF5-43E2-C1B2-F262-1BB47332523C" name="PO_ORDER_NUMBER_UN">
 <createdBy>demasy</createdBy>
 <createdTime>2019-10-06 09:31:06 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>

@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SequenceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SequenceOraclev10g" name="POS_CUSTOMERS_SEQ" directorySegmentName="seg_0" id="FB4E65BA-D606-4330-76C5-81BF3E79F01D">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 16:38:57 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<user>484BF50E-3023-3D99-061C-AA3E92C2369F</user>
+</SequenceOraclev10g>

@@ -1,0 +1,768 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StructuredTypeProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.StructuredTypeProxyOraclev10g" name="LC_HEADER_REC_TYPE" directorySegmentName="seg_0" id="802DE413-50D8-433F-1EFC-92A4814B4D35">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<attributes itemClass="oracle.dbtools.crest.model.design.storage.oracle.v9i.TypeElementProxyOraclev9i">
+<Attribute name="TOLERANCE_AMOUNT" id="0135F8C4-D334-6483-35F4-2DBAEB1E308D">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="PRIORITY_FLAG" id="0164F4D9-6B50-D551-DFE4-70AA07B83433">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE24" id="01EE9F27-B65C-5EFE-FF7A-9AFAAD9BACDF">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="DISCREPANCIES_FLAG" id="037ED3F9-8D5D-FB75-FC8B-C784CBFEA9CD">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="DOCUMENT_ID" id="0536D009-32E4-1B03-FEAA-A5530FBBDF8B">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="STYLE_ID" id="072A3FEF-F0BD-51E1-9C35-23B3482278DA">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="NEGOTIATION_DAYS" id="0DFD913B-CE77-B5CC-0A7F-84579113AF28">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="CLOSED_REASON" id="0EB5F119-E7B1-8F9B-4E70-94F4E4AC3D87">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE17" id="13BB54E2-22EE-DA97-F255-6981B5FDA25A">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="APPLICANT_ORGINZATION_ID" id="1418C1C1-8E6F-F7BB-83A5-43674704067C">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="TOLERANCE_AMOUNT_MINUS" id="1529A02F-2A20-BB3D-6D80-B67420144D9B">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="CREATED_BY" id="1C638B7C-BA39-E8D9-9CB3-8FF3F419BB0D">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="MARGIN_AMOUNT" id="1C9A1E9B-01BD-CCC5-6C87-68FD7C4B4E6F">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="CREATION_DATE" id="1D407C3C-5BD1-D13C-A523-19485F7C5DA3">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="TOLERANCE_AMOUNT_PLUS" id="1D89AFCA-B481-7C4C-504F-29C919A97075">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="BUYER_ID" id="204C1813-A4C9-877E-42A0-EA50E494EE1E">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE14" id="257A34B5-E0F7-BCE0-097F-E3C1BDA8AC67">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE7" id="2621A748-BEE4-BBAE-96EA-1DFF5DF1BE55">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="NOTE_TO_BENEFICIARY" id="2860579A-D3A8-4A1D-FD54-D6EEF40747DA">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="BENEFICIARY_ID" id="2AC34E67-4788-604A-C6CD-BBC69DCFB52F">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE9" id="2C9C0B83-9024-C54B-2D5F-2D09119A090D">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="CURRENCY" id="2D6962B9-E05A-9FEA-CEA1-C5D3D10CF0DD">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="BENEFICIARY_SITE_ID" id="2D72FAA8-0985-2428-F25B-6904E30840D1">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="SHIPMENT_TERM" id="2E826624-7761-0F9C-D1D5-AEFE1B5509D0">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE5" id="30B9FA2A-5C8F-B2BF-255F-C2110008498E">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="SHIP_FROM_COUNTRY" id="3608A385-A702-550A-4302-F192E13B016A">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="CLOSED_DATE" id="3878920C-81B3-51FC-C728-27AF6FC65968">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="CONVERSION_DATE" id="3D3528CC-7DE6-F2BC-F386-5ED1898DA372">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="BENEFICIARY_BANK_BRANCH_ID" id="3F06CDA2-6F3E-06A3-4B14-80939D33BE8F">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE18" id="4431C177-B018-3FF8-6414-B920249D0630">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="CONFIRMATION_CHARGES_BY" id="44D0D749-F988-72A3-9761-1C3405C15D23">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="OBJECT_VERSION_NUMBER" id="463137B5-DBAE-4C17-8D26-C6D23A952BFD">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="BENEFICIARY_COUNTRY" id="474BAEE5-AB1C-BE51-F65D-AFEEF3D4C76E">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE3" id="48EAE8A7-B0A0-E10D-F455-301E293EF87E">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="AME_TRANSACTION_ID" id="4BA7F2B7-8DC8-0668-4A4D-497C6CE7C328">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="LONG_DESCRIPTION" id="4BFB570F-5F47-9BD1-CD5C-553BFE49AA67">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="STATUS" id="4E036433-8F60-1583-C531-D60558D159FD">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="OPENING_DATE" id="4F0DCE6C-026F-AAC3-4462-CFA13E74BA3F">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="APPLICANT_BANK_ID" id="4F4BCFD4-703D-EBD7-4B05-E45D9D5FA4EC">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="EXPIRY_DATE" id="50E6ACF1-6DF9-789F-8D83-B937F6D03233">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE23" id="512498C0-2268-686E-D974-4793CCBE036C">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="PRESENTATION_TERM" id="5176E21F-49C9-217B-C876-65BF25E67174">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE16" id="5490EB93-F0BE-25CD-C34B-08775F55A5FB">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="LC_DOCUMENT_NUMBER" id="54BA9E1A-0913-06EE-D781-B987A711FD0B">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="TRANSFERABLE" id="58F60DFD-4A9C-8063-D5D8-47627290DB08">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="CONFIRM_CHARGE_AMOUNT" id="59FCB70E-8AF4-52AA-C877-0E78E61F2C03">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE26" id="5BDA13C9-5010-23F1-A7B1-5BF970B65241">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="CATEGORY_ID" id="5CE82BB2-CADF-9DDE-BB6C-D6D9F6F3CFAC">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="CONVERSION_RATE" id="5CF3CD4A-A438-4FE4-D528-EAFA425964F5">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="BENEFICIARY_BANK_CONTACT_ID" id="61BB97ED-6A28-70B6-3F9F-F4C1FBAE2058">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="PRESENTATION_PERIOD" id="6474188E-CEAC-D75F-F260-BA50113A6FD2">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="SHORT_DESCRIPTION" id="651317C4-A598-5C5B-CA44-B5E668C8533D">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE21" id="66432D30-8B21-2A33-A796-2BD2CDB6DBEA">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="CLOSED_TYPE" id="66A798A8-EC4A-236A-6CEE-3F24B8EA5D1F">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="LC_HEADER_ID" id="679708FE-30FC-5CED-2695-12E1F4FDF621">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="ORG_ID" id="67F3C84A-1025-95EC-E920-8651C4190297">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE29" id="681A4F57-B1D2-A553-CD0D-084863DC3219">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="PRESENTATION_PERIOD_DATE" id="691AD5C9-0C3E-7C44-E21E-E65815A7875B">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE1" id="6A0B8B1D-C6E1-14A2-3821-44D281A453A0">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="APPROVED_BY" id="6BF4FE0B-6F60-70D1-483B-F34B078A21D0">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="CLOSED_REMARKS" id="6C8DD4F9-8802-61F0-F950-F8276D2BF373">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="LC_BANK_NUMBER" id="6DC23486-B452-C72F-195C-5FF017BE1C03">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="SHIP_PORT_TYPE" id="706762D8-061A-7111-CFBA-36B9CC47E832">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="BACK_TO_BACK" id="714E75E7-5F5D-FB64-7379-F8B68CAF4D7C">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="AUTO_CLOSURE_FLAG" id="71C0CEE8-C3EF-DA19-983F-2F3990F89A21">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="COVERAGE_PERCENT" id="72026DFF-6403-F496-96C4-3894F529A73F">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="SHIP_DISCHARGE_PORT" id="73CF1C92-5485-F16E-415E-93A217852AA1">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="CONFIRMATION_DATE" id="7A8DE82A-CBAB-19CC-B4F3-9FD0A825E465">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="PARTIAL_SHIPMENT" id="7AF63633-6432-D00B-1DEF-8998016D69AD">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="MAXIMUM_AMOUNT" id="83181CC1-0136-A2EA-BD1B-50DAC2882E26">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="CONTAINER_SHIPMENT" id="83E9838F-8ED8-50D3-7049-24623213FC93">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="CLOSED_STATUS" id="85688A13-CB55-AAC3-90B2-34D1CFD46AB7">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="TRANS_SHIPMENT" id="86AC82AA-F21E-1191-F4F1-303C499F1578">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="ITEMKEY" id="871647E7-5091-492B-2929-047D8C92E137">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="TOLERANCE_QTY_PLUS" id="888948DE-C95C-AAD4-78B2-7AB0D7CF47DD">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="CONFIRMATION_BY" id="897FE5F4-69D7-0F06-C1E0-312675106E38">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="REQUIRED_CONFIRMATION" id="89F6D997-5B88-CD98-E803-B9258B90CC5E">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="APPLICANT_BANK_BRANCH_ID" id="8A66B130-17DA-39D6-5ECE-D87EB67BDD40">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE10" id="8C69B165-8474-055F-C3A4-A535FD7B8199">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE8" id="8EC31693-EE24-B398-FEFF-12F3DA198BEE">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="LAST_NEGOTIATION_DATE" id="8F826270-325C-4163-FE7B-0407B4E4C3C3">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="NUMBER_OF_SHIPMENTS" id="9148813C-E157-ECBD-1B71-2828A4975E4A">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="LC_YEAR" id="92E45F9D-F9A0-4B60-152F-6C4CC2175E18">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="SUB_CATEGORY_ID" id="964AE82A-2387-C579-A711-39B069CFD480">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="SHIP_LOADING_PORT" id="980A2C79-2F2F-B5B0-71FB-B751409600A0">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="AMOUNT" id="985A5DDB-9112-6207-6961-C0BC0411DEDD">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="PROGRAM_UPDATE_DATE" id="98CD1DEF-91DD-82D1-EC20-2F6D9A641752">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="PROGRAM_APPLICATION_ID" id="99CC6747-D77A-7CF7-88D6-52453F151FD0">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="MARGIN_PERCENT" id="9A55D25E-EB34-89C6-F672-A00FC2E6FE94">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="SHIP_DESTINATION_AIRPORT" id="9B3F7F3C-220D-783D-1307-B380A19F0B94">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="COVERAGE_BY" id="9BCF6E46-6BB1-2B02-CADB-0C09B2E6DB3D">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE15" id="9C59CA5B-7578-0442-962B-405BD443FFFA">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="LAST_UPDATE_LOGIN" id="A03B72C5-3D19-2781-7EC7-8904EC0C78E9">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE27" id="A27CD486-FE5B-9D1D-B991-000142F8AE00">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE13" id="A3AF78C1-32BC-1AB7-A5B3-276A19AF3AD4">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="REQUEST_ID" id="A5C0E2F2-9F71-6016-421F-4795F03CF38E">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="DELIVERY_PLACE" id="A9C06DC7-5C7E-5F5D-1C43-81BDA589564D">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="COLLATERAL_HEADER_ID" id="ACA41685-1F74-C887-9BB3-9487AE9024E0">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="PURCHASE_TERMS" id="AD05FD6D-A06B-BA34-D40E-F824BF2BA887">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="CONVERSION_TYPE" id="AD2CEF3B-D081-B684-ECE4-8A026F3A825C">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE12" id="ADBE825F-07A5-BA6E-DDCC-A22979FE7AA8">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="SHIP_AIR_SHIPMENT_FLAG" id="B021C29B-3B1F-2062-E65C-B8B0AD067D16">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE2" id="B28A0A19-0F16-2DB3-EAB3-F73449BA635F">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="VERSION_ID" id="B3026BA0-2F8E-6A43-14F2-C785431756F4">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="SHIPMENT_DESCRIPTION" id="B3F533EE-D368-7317-7DA8-EE6D3BCAA3F5">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="AME_APPLICATION_ID" id="B8F4822E-A1DE-D77F-EB11-B45EC6043C03">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="TOLERANCE_QUANTITY" id="BADB2573-D382-7B54-414A-5FB1DC8E3129">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE11" id="BAF3DB3A-2065-A776-C6EC-B6902D21BDD2">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE22" id="BB029F36-7C58-55DF-C33E-FE998D294668">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="TOLERANCE_QTY_MINUS" id="BBC2BD8F-AA53-40CE-5C84-C990180D4A56">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="COVERAGE_AMOUNT" id="C05178DB-326F-4187-2961-3AE81B79DB5D">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="DOCUMENT_TYPE" id="C6000C50-8C99-DDB3-28D4-B746B7185205">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE28" id="C679CA21-6BA0-C7F2-2337-588D22335F40">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE4" id="C6C31E6D-0E03-A3EF-C825-39811D0C1980">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="CONFIRMED" id="C6CD0A5E-1A2D-7978-01C7-08148DA12530">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="APPROVED_DATE" id="D132F3FE-CDBA-0204-CCA7-EBC63B6A9567">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="STATUS_DATE" id="D43FFAF6-37C1-0962-1BBE-FDA213A14876">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="CONFIRM_CHARGE_PERCENT" id="D52A7F0A-DA4E-0902-EE50-9A9BCDE22743">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="PAYMENT_TYPE" id="D548155A-E9DE-AB42-C4A6-8B1D47331E1F">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="LAST_UPDATE_DATE" id="D5A83DF4-FF96-3456-3757-940AD93518BF">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="VERSION_REASON" id="D5CE39BB-7611-27F7-8C84-23939F152B2A">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="PROGRAM_ID" id="DDE7D125-809C-534E-0506-5BE787553D2A">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="APPROVED_AMOUNT" id="DF5CE1D3-B401-20F6-E7DB-86C4E679E4B0">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="LATEST_SHIPMENT_DATE" id="E6A769CF-475B-5B85-E54E-B4901B059191">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="COVERAGE_TYPE" id="E75F9F80-37FA-255A-5DBB-B84C6764AFD4">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="ITEMTYPE" id="E76E9FB9-BC15-F61A-7893-018F150E3E80">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE25" id="E84EC73A-157B-0830-8889-098154743D78">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="PARENT_HEADER_ID" id="E85BC1A4-C7EA-8422-392E-31CC28C02153">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="EXPIRY_PLACE" id="E9268650-8560-BD53-1D8E-F7CC9D0F12FA">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="SOURCE" id="EA56316F-78F5-C1AF-7957-44B0D8DDD992">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="PAYMENT_TERM" id="EAD5D855-57D2-8E1D-7CE4-153F17BD129B">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="SHIP_TO_COUNTRY" id="ECA99980-F850-8D05-C30D-7CAF63954D1E">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="SHIP_DEPARTURE_AIRPORT" id="F036C86F-A19E-9125-8593-DEAFDFB45161">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE_CATEGORY" id="F0AAAE32-D966-F151-0553-F19AE5F0D0E9">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE6" id="F2F9ACA0-5DD9-50E1-5CD4-6C7EF5DEC83D">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="BENEFICIARY_CONTACT_ID" id="F332CCC5-97F8-9F9B-FF40-74EFD3FA37FC">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="ADVISE_BY" id="F43C63EE-03DE-0901-D933-29135EF0C35A">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="EARLIEST_SHIPMENT_DATE" id="F689DD0A-EE06-EDB4-5240-5E3E0C6E686A">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="AME_TRANSACTION" id="F68E7301-CE90-8E69-2470-3CC8B773609F">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="REVOCABLE" id="F6B79511-E14C-A13A-42E9-E72BFBD0A354">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE30" id="F7DCD08E-E816-7585-E30C-7AEE3DD57002">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="LAST_UPDATED_BY" id="F89D5E6C-84AC-8358-07CB-F4BE605E947F">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="BENEFICIARY_BANK_ID" id="FB7F267B-A2F1-602E-3EEF-AD0E62A2DC63">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE20" id="FC8C6E82-C6FD-70F1-5C0D-03DFF26524DF">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="ATTRIBUTE19" id="FCA63E67-1A23-BF31-91E5-435FC1AFD884">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+<Attribute name="NUMBER_OF_PAYMENTS" id="FE655106-2142-B4AA-BE3D-2A250EA206ED">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</Attribute>
+</attributes>
+<methods itemClass="oracle.dbtools.crest.model.design.storage.oracle.v9i.MethodProxyOraclev9i">
+<Method name="GET_ORG" id="FC58BF65-E679-C997-E7FD-CBD54F5B99F6">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<bodyChanged>false</bodyChanged>
+<plSQLBody>        L_ORG_ID NUMBER;
+    BEGIN
+        SELECT
+            XLHA.ORG_ID
+        INTO L_ORG_ID
+        FROM
+            XXUI.XXUI_LC_HEADERS_ALL XLHA
+        WHERE
+            1 = 1
+            AND XLHA.LC_HEADER_ID = P_LC_HEADER_ID;
+
+        RETURN(L_ORG_ID);
+    END GET_ORG;
+</plSQLBody>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.storage.oracle.v10g.MethodParamProxyOraclev10g" name="P_LC_HEADER_ID" id="659262C5-F6B2-399A-B26B-9C8D8DC3A5E7">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<directionType>IN</directionType>
+</Parameter>
+</parameters>
+</Method>
+</methods>
+</StructuredTypeProxyOraclev10g>
