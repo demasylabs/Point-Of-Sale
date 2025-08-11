@@ -1,5 +1,10 @@
-# Demasy Labs | Point Of Sale (POS) Sample Schema
-Oracle database sample schema created by Ahmed El-Demasy <ceo@egyptianprogrammers.com>.
+# Demasy Labs | Point Of S## Referen> If you have any further questions, please don't hesitate to contact me e-mail: **founder@demasy.io**es
+> Stay Tuned
+</br>
+
+###### Contact US
+> If you have any further questions, please don't hesitate to contact me e-mail: **founder@demasy.io**OS) Sample Schema
+Oracle database sample schema created by Ahmed El-Demasy <founder@demasy.io>.
 > Please note that this schema is for testing purposes only, as such it is unsupported and should not to be used in production environment.
 
 
@@ -29,5 +34,5 @@ Oracle database sample schema created by Ahmed El-Demasy <ceo@egyptianprogrammer
 </br>
 
 ###### Contact US
-> If you have any further questions, please don’t hesitate to contact me e-mail: **ceo@egyptianprogrammers.com**
+> If you have any further questions, please don’t hesitate to contact me e-mail: **founder@demasy.io**
 
