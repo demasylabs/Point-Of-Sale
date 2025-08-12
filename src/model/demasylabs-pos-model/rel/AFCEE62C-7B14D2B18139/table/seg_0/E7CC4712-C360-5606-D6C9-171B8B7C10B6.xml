@@ -2,6 +2,8 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7CC4712-C360-5606-D6C9-171B8B7C10B6" schemaObject="D44398E1-223A-DCAA-3322-FBC3806BE4AA" name="POS_PARTIES">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 19:28:08 UTC</createdTime>
+<comment><![CDATA[Master party table implementing the Party Pattern design. Stores unified data for all entities (persons, organizations) including customers, vendors, employees, and suppliers. Serves as the foundation for relationship management across the POS system.]]></comment>
+<commentInRDBMS><![CDATA[Master party table implementing the Party Pattern design. Stores unified data for all entities (persons, organizations) including customers, vendors, employees, and suppliers. Serves as the foundation for relationship management across the POS system.]]></commentInRDBMS>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <ordsAlias>table_17</ordsAlias>
 <abbreviation>PP</abbreviation>
@@ -26,9 +28,9 @@
 <Column name="PARTY_TYPE" id="BDA027CC-95AF-475E-414B-028EB73F4B16">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 19:32:30 UTC</createdTime>
-<comment><![CDATA[Distinguishes between Person (P) and Organization (O)]]></comment>
-<commentInRDBMS><![CDATA[Distinguishes between Person (P) and Organization (O)]]></commentInRDBMS>
-<notes><![CDATA[Distinguishes between Person (P) and Organization (O)]]></notes>
+<comment><![CDATA[Party type: P=Person, O=Organization, E=Employee, G=Group]]></comment>
+<commentInRDBMS><![CDATA[Party type: P=Person, O=Organization, E=Employee, G=Group]]></commentInRDBMS>
+<notes><![CDATA[Party type: P=Person, O=Organization, E=Employee, G=Group]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <constraintName>PP_PARTY_TYPE_CK</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -36,6 +38,8 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>1 CHAR</dataTypeSize>
 <listOfValues>
+<valueDef value="E" description="Employee"/>
+<valueDef value="G" description="Group"/>
 <valueDef value="O" description="Organization"/>
 <valueDef value="P" description="Person"/>
 </listOfValues>
@@ -61,9 +65,9 @@
 <Column name="PARTY_NAME" id="91F7BFBE-4317-1A50-8067-4DEDA883B375">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 19:32:17 UTC</createdTime>
-<comment><![CDATA[Full name for display purposes]]></comment>
-<commentInRDBMS><![CDATA[Full name for display purposes]]></commentInRDBMS>
-<notes><![CDATA[Full name for display purposes]]></notes>
+<comment><![CDATA[Computed full name: title + first + middle + last for persons, party_name for others]]></comment>
+<commentInRDBMS><![CDATA[Computed full name: title + first + middle + last for persons, party_name for others]]></commentInRDBMS>
+<notes><![CDATA[Computed full name: title + first + middle + last for persons, party_name for others]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -91,16 +95,16 @@
 <Column name="TITLE_CODE" id="20993517-6B2A-677B-FC8E-286AB2E57DF0">
 <createdBy>demasy</createdBy>
 <createdTime>2019-10-05 22:48:12 UTC</createdTime>
-<comment><![CDATA[Personal title (Mr, Ms, Dr, etc.)]]></comment>
-<commentInRDBMS><![CDATA[Personal title (Mr, Ms, Dr, etc.)]]></commentInRDBMS>
-<notes><![CDATA[Personal title (Mr, Ms, Dr, etc.)]]></notes>
+<comment><![CDATA[Personal title (Mr, Ms, Mrs, Dr, Prof, etc.) - applicable for person type parties]]></comment>
+<commentInRDBMS><![CDATA[Personal title (Mr, Ms, Mrs, Dr, Prof, etc.) - applicable for person type parties]]></commentInRDBMS>
+<notes><![CDATA[Personal title (Mr, Ms, Mrs, Dr, Prof, etc.) - applicable for person type parties]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>3 CHAR</dataTypeSize>
-<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="FIRST_NAME" id="3D060F28-B3D9-9A6D-9CFE-5DD197340EA8">
@@ -140,6 +144,7 @@
 <commentInRDBMS><![CDATA[Last name for person type parties]]></commentInRDBMS>
 <notes><![CDATA[Last name for person type parties]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -166,9 +171,9 @@
 <Column name="GENDER_CODE" id="64801362-B37D-04AC-FEF0-907080B99B98">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 19:30:16 UTC</createdTime>
-<comment><![CDATA[Gender (M/F/O for Male/Female/Other)]]></comment>
-<commentInRDBMS><![CDATA[Gender (M/F/O for Male/Female/Other)]]></commentInRDBMS>
-<notes><![CDATA[Gender (M/F/O for Male/Female/Other)]]></notes>
+<comment><![CDATA[Gender: M=Male, F=Female, O=Other, N=Not specified]]></comment>
+<commentInRDBMS><![CDATA[Gender: M=Male, F=Female, O=Other, N=Not specified]]></commentInRDBMS>
+<notes><![CDATA[Gender: M=Male, F=Female, O=Other, N=Not specified]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <constraintName>PP_GENDER_CODE_CK</constraintName>
 <nullsAllowed>true</nullsAllowed>
@@ -179,6 +184,8 @@
 <listOfValues>
 <valueDef value="F" description="Female"/>
 <valueDef value="M" description="Male"/>
+<valueDef value="N" description="Not specified"/>
+<valueDef value="O" description="Other"/>
 </listOfValues>
 <ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -241,6 +248,9 @@
 <Column name="STATUS_CODE" id="BF3F3CD8-EC54-4C4C-6D90-72B7810967D0">
 <createdBy>demasy</createdBy>
 <createdTime>2025-08-11 17:29:43 UTC</createdTime>
+<comment><![CDATA[Status: A=Active, B=Blocked, I=Inactive, P=Pending, S=Suspended]]></comment>
+<commentInRDBMS><![CDATA[Status: A=Active, B=Blocked, I=Inactive, P=Pending, S=Suspended]]></commentInRDBMS>
+<notes><![CDATA[Status: A=Active, B=Blocked, I=Inactive, P=Pending, S=Suspended]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <constraintName>PP_STATUS_CODE_CK</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -251,6 +261,7 @@
 <valueDef value="A" description="Active"/>
 <valueDef value="B" description="Blocked"/>
 <valueDef value="I" description="Inaction"/>
+<valueDef value="P" description="Pending"/>
 <valueDef value="S" description="Supended"/>
 </listOfValues>
 <defaultValue>A</defaultValue>
@@ -401,11 +412,10 @@
 <colUsage columnID="7E019724-F29E-F1AA-48C5-D69C47FDEC8B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="9F20D4E5-DAEC-990B-821A-17F56B29951E" name="PP_PARTY_NAME_UN">
+<ind_PK_UK id="0B6E78B9-183C-D73D-DC9C-E2F97DB66B46" name="PP_PARTY_NAME_IDX">
 <createdBy>demasy</createdBy>
-<createdTime>2025-08-11 15:14:57 UTC</createdTime>
+<createdTime>2025-08-12 08:42:16 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
-<indexState>Unique Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="91F7BFBE-4317-1A50-8067-4DEDA883B375"/>

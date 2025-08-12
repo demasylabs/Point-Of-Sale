@@ -120,21 +120,6 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>PC_CUSTOMER_NUMBER_NNC</notNullConstraintName>
 </Column>
-<Column name="DESCRIPTION" id="0F435CB6-3E5F-D23F-758D-DE713128E4DE">
-<createdBy>demasy</createdBy>
-<createdTime>2019-10-06 07:16:41 UTC</createdTime>
-<comment><![CDATA[Customer-specific notes and comments]]></comment>
-<commentInRDBMS><![CDATA[Customer-specific notes and comments]]></commentInRDBMS>
-<notes><![CDATA[Customer-specific notes and comments]]></notes>
-<ownerDesignName>demasylabs-pos-model</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>4000 BYTE</dataTypeSize>
-<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="REGISTERED_DATE" id="15C60CB8-F5A8-C9B3-00AE-98EA644DB369">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 18:26:09 UTC</createdTime>
@@ -185,14 +170,14 @@
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PREF_CONTECT_CODE" id="0880A0CC-14C4-701A-B01C-13BEAD2FEACA">
+<Column name="PREF_CONTACT_CODE" id="0880A0CC-14C4-701A-B01C-13BEAD2FEACA">
 <createdBy>demasy</createdBy>
 <createdTime>2025-08-11 16:53:03 UTC</createdTime>
 <comment><![CDATA[Preferred contact method]]></comment>
 <commentInRDBMS><![CDATA[Preferred contact method]]></commentInRDBMS>
 <notes><![CDATA[Preferred contact method]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
-<constraintName>PC_PREF_CONTECT_CODE_CK</constraintName>
+<constraintName>PC_PREF_CONTACT_CODE_CK</constraintName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -350,6 +335,50 @@
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="PASSWORD_HASH" id="8B170D2A-4C50-7004-E8D0-7C1901CE02F0">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 19:28:32 UTC</createdTime>
+<comment><![CDATA[Hashed customer portal password using bcrypt or SHA-256]]></comment>
+<commentInRDBMS><![CDATA[Hashed customer portal password using bcrypt or SHA-256]]></commentInRDBMS>
+<notes><![CDATA[Hashed customer portal password using bcrypt or SHA-256]]></notes>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASSWORD_SALT" id="F1DA9152-7349-FC65-F0FD-A70BD1CB007E">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 19:28:32 UTC</createdTime>
+<comment><![CDATA[Salt value used for password hashing to prevent rainbow table attacks]]></comment>
+<commentInRDBMS><![CDATA[Salt value used for password hashing to prevent rainbow table attacks]]></commentInRDBMS>
+<notes><![CDATA[Salt value used for password hashing to prevent rainbow table attacks]]></notes>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_PASSWORD_CHANGE" id="76CD45D4-3DF1-390B-D742-39EEC78B180D">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 19:29:16 UTC</createdTime>
+<comment><![CDATA[Timestamp of last password change for security policy enforcement]]></comment>
+<commentInRDBMS><![CDATA[Timestamp of last password change for security policy enforcement]]></commentInRDBMS>
+<notes><![CDATA[Timestamp of last password change for security policy enforcement]]></notes>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="CHILD_UNDER_18_FLAG" id="105DA3EF-1DDF-F8E4-13DF-FC4EA8CCCAFA">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 18:28:34 UTC</createdTime>
@@ -405,6 +434,21 @@
 </listOfValues>
 <defaultValue>N</defaultValue>
 <ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION" id="0F435CB6-3E5F-D23F-758D-DE713128E4DE">
+<createdBy>demasy</createdBy>
+<createdTime>2019-10-06 07:16:41 UTC</createdTime>
+<comment><![CDATA[Customer-specific notes and comments]]></comment>
+<commentInRDBMS><![CDATA[Customer-specific notes and comments]]></commentInRDBMS>
+<notes><![CDATA[Customer-specific notes and comments]]></notes>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="STATUS_CODE" id="7C564946-FF9B-00E0-887E-4B3D2D161B8D">
