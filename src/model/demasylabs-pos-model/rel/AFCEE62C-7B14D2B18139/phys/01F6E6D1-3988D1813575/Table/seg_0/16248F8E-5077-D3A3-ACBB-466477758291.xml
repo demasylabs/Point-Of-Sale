@@ -12,6 +12,16 @@
 <rejectLimit></rejectLimit>
 <storeAs>CLOB</storeAs>
 <columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="LOGIN_PASSWORD" id="09857693-378E-940D-171B-0FAD8700420B">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-12 08:52:09 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUPERVISOR_ID" id="12FAA41E-D7FD-87EA-6314-B96D6037F2F4">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-12 08:58:29 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</ColumnProxy>
 <ColumnProxy name="CASHIER_TYPE" id="168E42A3-6230-5EB3-ABAD-65395D05191D">
 <createdBy>demasy</createdBy>
 <createdTime>2025-08-11 13:45:07 UTC</createdTime>
@@ -27,6 +37,11 @@
 <createdTime>2025-08-11 16:35:15 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <defaultValue>N</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="LOGIN_USER" id="3B943499-11A4-74E4-0B09-D59EA7F4750E">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-12 08:52:09 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="OBJECT_VERSION_ID" id="45CC6617-A373-58D1-DAC7-0D5248D3C67E">
 <createdBy>demasy</createdBy>
@@ -44,14 +59,25 @@
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <defaultValue>Y</defaultValue>
 </ColumnProxy>
-<ColumnProxy name="PARTIY_ID" id="5C8ADAEB-E516-8607-32F7-40517FB450EB">
+<ColumnProxy name="PARTY_ID" id="5C8ADAEB-E516-8607-32F7-40517FB450EB">
 <createdBy>demasy</createdBy>
 <createdTime>2025-08-11 13:45:07 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="LOGIN_USER" id="8A41CB93-3BC7-FC5C-59FF-F3AC49333D66">
+<ColumnProxy name="LAST_PASSWORD_CHANGE" id="6507A111-F635-7D75-113F-2DEE072DD199">
 <createdBy>demasy</createdBy>
-<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<createdTime>2025-08-12 08:52:09 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATUS_CODE" id="71651551-6184-2CC1-4AF3-A725B06A7DCF">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-11 17:30:03 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<defaultValue>A</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="PASSWORD_SALT" id="875826FC-10CB-4640-326E-FF283EAD1E0D">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-12 08:52:09 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="LAST_UPDATED_BY" id="94B8F7D6-E431-6A5B-64CE-E43F0C5029FB">
@@ -80,9 +106,9 @@
 <createdTime>2025-08-11 16:35:15 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="LOGIN_PASSWORD" id="C509A220-30A3-1C37-26B4-56EBA453A1FC">
+<ColumnProxy name="PASSWORD_HASH" id="D465B0E9-C98A-721D-C2D6-88C70025C20A">
 <createdBy>demasy</createdBy>
-<createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<createdTime>2025-08-12 08:52:09 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="CREATED_BY" id="E4D96936-20AB-D04F-72FF-913E89A29CD3">
@@ -100,6 +126,11 @@
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PCA_PARTY_ID_FK" id="89FCD33A-5AD0-9E30-73E0-20FDB557FB93">
 <createdBy>demasy</createdBy>
 <createdTime>2025-08-11 13:45:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PCA_CASHIER_ID_FK" id="98C8C5E2-7ED8-02E5-93C6-49DA170017E4">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-12 08:58:53 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 </ForeignKey>
 </foreignKeys>

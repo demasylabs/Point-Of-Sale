@@ -7,6 +7,26 @@
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <ordsAlias>table_17</ordsAlias>
 <abbreviation>PP</abbreviation>
+<afterCreate><![CDATA[------------------ end creation script ------------------ ]]></afterCreate>
+<beforeCreate><![CDATA[/*
+     Product: Demasy Labs - Point Of Sale (POS)
+      Schema: {schema}
+ Object Name: {table}
+ Primary Key: {pk name}
+    Sequence: POS_PARTY_ID_SEQ
+ Purpose: Point Of Sale (POS) Sample Schema
+ History
+ 13–NOV–1986 created Ahmed Demasy <founder@demasy.io>
+
+ ** Copyright Information **
+ Point Of Sale (POS) is a copyrighted product owned by Demasy Labs.
+*/
+
+------------------ start creation script ------------------
+]]></beforeCreate>
+<beforeDrop><![CDATA[------------------ drop/rename script ------------------]]></beforeDrop>
+<endOfScript><![CDATA[------------------  end Script ------------------ ]]></endOfScript>
+<shouldGeneratescript>true</shouldGeneratescript>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>

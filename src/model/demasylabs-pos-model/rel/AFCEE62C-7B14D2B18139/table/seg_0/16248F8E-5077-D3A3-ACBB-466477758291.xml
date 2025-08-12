@@ -2,9 +2,33 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="16248F8E-5077-D3A3-ACBB-466477758291" schemaObject="D44398E1-223A-DCAA-3322-FBC3806BE4AA" name="POS_CASHIERS">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 19:38:27 UTC</createdTime>
+<comment><![CDATA[Cashier and employee management table for POS system access control. Stores authentication credentials, role assignments, and operational permissions for staff members. Integrates with pos_parties for unified employee data management.]]></comment>
+<commentInRDBMS><![CDATA[Cashier and employee management table for POS system access control. Stores authentication credentials, role assignments, and operational permissions for staff members. Integrates with pos_parties for unified employee data management.]]></commentInRDBMS>
+<notes><![CDATA[Cashier and employee management table for POS system access control. Stores authentication credentials, role assignments, and operational permissions for staff members. Integrates with pos_parties for unified employee data management.]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <ordsAlias>table_18</ordsAlias>
 <abbreviation>PCA</abbreviation>
+<afterCreate><![CDATA[------------------ end creation script ------------------ ]]></afterCreate>
+<beforeCreate><![CDATA[/*
+     Product: Demasy Labs - Point Of Sale (POS)
+      Schema: {schema}
+ Object Name: {table}
+ Primary Key: {pk name}
+    Sequence: POS_CASHIER_ID_SEQ
+ Purpose: Point Of Sale (POS) Sample Schema
+ History
+ 13–NOV–1986 created Ahmed Demasy <founder@demasy.io>
+
+ ** Copyright Information **
+ Point Of Sale (POS) is a copyrighted product owned by Demasy Labs.
+*/
+
+------------------ start creation script ------------------
+]]></beforeCreate>
+<beforeDrop><![CDATA[------------------ drop/rename script ------------------]]></beforeDrop>
+<endOfScript><![CDATA[------------------  end Script ------------------ ]]></endOfScript>
+<shouldGeneratescript>true</shouldGeneratescript>
+<allowColumnReorder>false</allowColumnReorder>
 <isEngineerToRelation>true</isEngineerToRelation>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -26,7 +50,9 @@
 <Column name="PARTY_ID" id="5C8ADAEB-E516-8607-32F7-40517FB450EB">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 19:39:16 UTC</createdTime>
-<notes><![CDATA[Foreign key reference to POS_PARTIES]]></notes>
+<comment><![CDATA[Foreign key reference to pos_parties table for employee personal information]]></comment>
+<commentInRDBMS><![CDATA[Foreign key reference to pos_parties table for employee personal information]]></commentInRDBMS>
+<notes><![CDATA[Foreign key reference to pos_parties table for employee personal information]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -38,12 +64,29 @@
 <colAssociation fkAssociation="AA28300F-9CF9-E67C-BAA3-5083C727091E" referredColumn="E0035C15-8A10-5423-F6C8-2CEDF4D86585"/>
 </associations>
 </Column>
+<Column name="SUPERVISOR_ID" id="12FAA41E-D7FD-87EA-6314-B96D6037F2F4">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-12 08:58:29 UTC</createdTime>
+<comment><![CDATA[Reference to supervising cashier/manager for hierarchical reporting structure]]></comment>
+<commentInRDBMS><![CDATA[Reference to supervising cashier/manager for hierarchical reporting structure]]></commentInRDBMS>
+<notes><![CDATA[Reference to supervising cashier/manager for hierarchical reporting structure]]></notes>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="96E7D3E9-6990-51B2-6DB5-C310AAF02D98" referredColumn="F51A4562-F7EF-DB31-6663-370E5BD68419"/>
+</associations>
+</Column>
 <Column name="CASHIER_TYPE" id="168E42A3-6230-5EB3-ABAD-65395D05191D">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-24 00:20:33 UTC</createdTime>
-<comment><![CDATA[Cashier type classification]]></comment>
-<commentInRDBMS><![CDATA[Cashier type classification]]></commentInRDBMS>
-<notes><![CDATA[Cashier type classification]]></notes>
+<comment><![CDATA[Cashier role type: A=Admin, M=Manager, R=Regular, S=Supervisor, SV=Supervisor (alternate)]]></comment>
+<commentInRDBMS><![CDATA[Cashier role type: A=Admin, M=Manager, R=Regular, S=Supervisor, SV=Supervisor (alternate)]]></commentInRDBMS>
+<notes><![CDATA[Cashier role type: A=Admin, M=Manager, R=Regular, S=Supervisor, SV=Supervisor (alternate)]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <constraintName>PCA_CASHIER_TYPE_CK</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -90,36 +133,6 @@
 <ownDataTypeParameters>4000 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="LOGIN_USER" id="8A41CB93-3BC7-FC5C-59FF-F3AC49333D66">
-<createdBy>demasy</createdBy>
-<createdTime>2019-08-24 00:15:01 UTC</createdTime>
-<comment><![CDATA[System login username]]></comment>
-<commentInRDBMS><![CDATA[System login username]]></commentInRDBMS>
-<notes><![CDATA[System login username]]></notes>
-<ownerDesignName>demasylabs-pos-model</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20 CHAR</dataTypeSize>
-<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="LOGIN_PASSWORD" id="C509A220-30A3-1C37-26B4-56EBA453A1FC">
-<createdBy>demasy</createdBy>
-<createdTime>2019-08-24 00:15:01 UTC</createdTime>
-<comment><![CDATA[System login password]]></comment>
-<commentInRDBMS><![CDATA[System login password]]></commentInRDBMS>
-<notes><![CDATA[System login password]]></notes>
-<ownerDesignName>demasylabs-pos-model</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100 CHAR</dataTypeSize>
-<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="HOLD_FLAG" id="29804282-3DA1-E273-CA93-29CEE933FBDC">
 <createdBy>demasy</createdBy>
 <createdTime>2025-08-11 16:35:15 UTC</createdTime>
@@ -141,9 +154,86 @@
 <ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="LOGIN_USER" id="3B943499-11A4-74E4-0B09-D59EA7F4750E">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-12 08:52:09 UTC</createdTime>
+<comment><![CDATA[System login username for POS access]]></comment>
+<commentInRDBMS><![CDATA[System login username for POS access]]></commentInRDBMS>
+<notes><![CDATA[System login username for POS access]]></notes>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOGIN_PASSWORD" id="09857693-378E-940D-171B-0FAD8700420B">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-12 08:52:09 UTC</createdTime>
+<comment><![CDATA[Legacy password field - use password_hash for secure storage]]></comment>
+<commentInRDBMS><![CDATA[Legacy password field - use password_hash for secure storage]]></commentInRDBMS>
+<notes><![CDATA[Legacy password field - use password_hash for secure storage]]></notes>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASSWORD_HASH" id="D465B0E9-C98A-721D-C2D6-88C70025C20A">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-12 08:52:09 UTC</createdTime>
+<comment><![CDATA[Hashed login password using bcrypt or SHA-256 algorithm]]></comment>
+<commentInRDBMS><![CDATA[Hashed login password using bcrypt or SHA-256 algorithm]]></commentInRDBMS>
+<notes><![CDATA[Hashed login password using bcrypt or SHA-256 algorithm]]></notes>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASSWORD_SALT" id="875826FC-10CB-4640-326E-FF283EAD1E0D">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-12 08:52:09 UTC</createdTime>
+<comment><![CDATA[Salt value for password hashing security]]></comment>
+<commentInRDBMS><![CDATA[Salt value for password hashing security]]></commentInRDBMS>
+<notes><![CDATA[Salt value for password hashing security]]></notes>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_PASSWORD_CHANGE" id="6507A111-F635-7D75-113F-2DEE072DD199">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-12 08:52:09 UTC</createdTime>
+<comment><![CDATA[Timestamp of last password change for security policy enforcement]]></comment>
+<commentInRDBMS><![CDATA[Timestamp of last password change for policy enforcement]]></commentInRDBMS>
+<notes><![CDATA[Timestamp of last password change for security policy enforcement]]></notes>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="STATUS_CODE" id="71651551-6184-2CC1-4AF3-A725B06A7DCF">
 <createdBy>demasy</createdBy>
 <createdTime>2025-08-11 17:30:03 UTC</createdTime>
+<comment><![CDATA[A=Active, B=Blocked, I=Inactive, P=Pending, S=Suspended]]></comment>
+<commentInRDBMS><![CDATA[A=Active, B=Blocked, I=Inactive, P=Pending, S=Suspended]]></commentInRDBMS>
+<notes><![CDATA[A=Active, B=Blocked, I=Inactive, P=Pending, S=Suspended]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <constraintName>PCA_STATUS_CODE_CK</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -154,6 +244,7 @@
 <valueDef value="A" description="Active"/>
 <valueDef value="B" description="Blocked"/>
 <valueDef value="I" description="Inaction"/>
+<valueDef value="P" description="Pending"/>
 <valueDef value="S" description="Supended"/>
 </listOfValues>
 <defaultValue>A</defaultValue>
@@ -311,7 +402,7 @@
 <indexState>Unique Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="8A41CB93-3BC7-FC5C-59FF-F3AC49333D66"/>
+<colUsage columnID="3B943499-11A4-74E4-0B09-D59EA7F4750E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="89FCD33A-5AD0-9E30-73E0-20FDB557FB93" name="PCA_PARTY_ID_FK">
@@ -322,6 +413,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="5C8ADAEB-E516-8607-32F7-40517FB450EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98C8C5E2-7ED8-02E5-93C6-49DA170017E4" name="PCA_CASHIER_ID_FK">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-12 08:58:53 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12FAA41E-D7FD-87EA-6314-B96D6037F2F4"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
