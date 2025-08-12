@@ -1,7 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9833A538-F2B9-F290-0DFC-17210B928FFB" schemaObject="D44398E1-223A-DCAA-3322-FBC3806BE4AA" name="POS_STORE_BRANCHS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9833A538-F2B9-F290-0DFC-17210B928FFB" schemaObject="D44398E1-223A-DCAA-3322-FBC3806BE4AA" name="POS_STORE_BRANCHES">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 21:03:27 UTC</createdTime>
+<comment><![CDATA[Branch management table for store subdivisions. Branches represent operational units within stores, supporting hierarchical organization with parent-child relationships and manager assignments.]]></comment>
+<commentInRDBMS><![CDATA[Branch management table for store subdivisions. Branches represent operational units within stores, supporting hierarchical organization with parent-child relationships and manager assignments.]]></commentInRDBMS>
+<notes><![CDATA[Branch management table for store subdivisions. Branches represent operational units within stores, supporting hierarchical organization with parent-child relationships and manager assignments.]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <ordsAlias>table_10</ordsAlias>
 <abbreviation>PSB</abbreviation>
@@ -12,6 +15,9 @@
 <Column name="BRANCH_ID" id="CB55887E-22D2-EA83-5D68-33ECA6778D44">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 21:03:27 UTC</createdTime>
+<comment><![CDATA[Primary identifier for branches]]></comment>
+<commentInRDBMS><![CDATA[Primary identifier for branches]]></commentInRDBMS>
+<notes><![CDATA[Primary identifier for branches]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,24 +25,47 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PSB_BRANCH_ID_NNC</notNullConstraintName>
 </Column>
 <Column name="STORE_ID" id="E12558A2-CD17-0F7F-B5E1-2049E813CAD9">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 21:11:52 UTC</createdTime>
+<comment><![CDATA[Foreign key reference to parent store]]></comment>
+<commentInRDBMS><![CDATA[Foreign key reference to parent store]]></commentInRDBMS>
+<notes><![CDATA[Foreign key reference to parent store]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PSB_STORE_ID_NNC</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="1E9076C7-40D3-13BD-0CFF-8778F6B9B2AA" referredColumn="F058E5F1-7CF7-9DB5-E180-7AD704C42613"/>
+</associations>
+</Column>
+<Column name="PARENT_ID" id="E0AF577E-E876-9A75-76FD-F7570B5DB308">
+<createdBy>demasy</createdBy>
+<createdTime>2019-08-23 21:07:47 UTC</createdTime>
+<comment><![CDATA[Self-referencing foreign key for branch hierarchy (sub-branches)]]></comment>
+<commentInRDBMS><![CDATA[Self-referencing foreign key for branch hierarchy (sub-branches)]]></commentInRDBMS>
+<notes><![CDATA[Self-referencing foreign key for branch hierarchy (sub-branches)]]></notes>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="1E9076C7-40D3-13BD-0CFF-8778F6B9B2AA" referredColumn="F058E5F1-7CF7-9DB5-E180-7AD704C42613"/>
-</associations>
 </Column>
 <Column name="SHORT_NAME" id="00C322F7-A276-F780-AC6B-CC5359625C9C">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 21:03:27 UTC</createdTime>
+<comment><![CDATA[Abbreviated branch name for reports and displays]]></comment>
+<commentInRDBMS><![CDATA[Abbreviated branch name for reports and displays]]></commentInRDBMS>
+<notes><![CDATA[Abbreviated branch name for reports and displays]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -44,10 +73,14 @@
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PSB_SHORT_NAME_NNC</notNullConstraintName>
 </Column>
 <Column name="NAME" id="F18A0C7B-F98E-39FB-17A3-0F7EBF688A1C">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 21:03:27 UTC</createdTime>
+<comment><![CDATA[Full branch name for official documentation]]></comment>
+<commentInRDBMS><![CDATA[Full branch name for official documentation]]></commentInRDBMS>
+<notes><![CDATA[Full branch name for official documentation]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -55,65 +88,106 @@
 <dataTypeSize>100 CHAR</dataTypeSize>
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PSB_NAME_NNC</notNullConstraintName>
 </Column>
 <Column name="DESCRIPTION" id="DFD2D4EB-9C8F-EB93-F665-490831F5FE01">
 <createdBy>demasy</createdBy>
 <createdTime>2019-10-05 21:01:48 UTC</createdTime>
+<comment><![CDATA[Branch details, location notes, and operational information]]></comment>
+<commentInRDBMS><![CDATA[Branch details, location notes, and operational information]]></commentInRDBMS>
+<notes><![CDATA[Branch details, location notes, and operational information]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="PARENT_ID" id="E0AF577E-E876-9A75-76FD-F7570B5DB308">
-<createdBy>demasy</createdBy>
-<createdTime>2019-08-23 21:07:47 UTC</createdTime>
-<ownerDesignName>demasylabs-pos-model</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="MANAGER_ID" id="46BD05B9-828C-AF4B-066D-3FE817AFB8D6">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 21:10:29 UTC</createdTime>
+<comment><![CDATA[Reference to branch manager (pos_cashiers table)]]></comment>
+<commentInRDBMS><![CDATA[Reference to branch manager (pos_cashiers table)]]></commentInRDBMS>
+<notes><![CDATA[Reference to branch manager (pos_cashiers table)]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PSB_MANAGER_ID_NNC</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="42E6ED3F-F3D6-9EA8-253D-96C84F69DC47" referredColumn="F51A4562-F7EF-DB31-6663-370E5BD68419"/>
+</associations>
 </Column>
-<Column name="ENABLED_FLAG" id="22538107-A4C3-AD28-97DE-4E36AC9D695A">
+<Column name="STATUS_CODE" id="B7DEB457-7CAC-C5F0-ACF7-8D98B0064C19">
 <createdBy>demasy</createdBy>
-<createdTime>2019-10-05 21:01:48 UTC</createdTime>
+<createdTime>2025-08-12 09:42:02 UTC</createdTime>
+<comment><![CDATA[Branch operational status: A=Active, B=Blocked, I=Inactive, S=Suspended]]></comment>
+<commentInRDBMS><![CDATA[Branch operational status: A=Active, B=Blocked, I=Inactive, S=Suspended]]></commentInRDBMS>
+<notes><![CDATA[Branch operational status: A=Active, B=Blocked, I=Inactive, S=Suspended]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<constraintName>PSB_STATUS_CODE_CK</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="A" description="Active"/>
+<valueDef value="B" description="Blocked"/>
+<valueDef value="I" description="Inaction"/>
+<valueDef value="S" description="Supended"/>
+</listOfValues>
+<defaultValue>A</defaultValue>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PSB_STATUS_CODE_NNC</notNullConstraintName>
 </Column>
-<Column name="START_DATE" id="B2E99E10-C2EA-4DB7-C667-7D44FD66D49E">
+<Column name="ENABLED_FLAG" id="01BEE6B4-8CB3-7750-6A5B-1834A2E13F1C">
 <createdBy>demasy</createdBy>
-<createdTime>2019-10-05 21:01:48 UTC</createdTime>
+<createdTime>2025-08-12 09:42:02 UTC</createdTime>
+<comment><![CDATA[Active status]]></comment>
+<commentInRDBMS><![CDATA[Active status]]></commentInRDBMS>
+<notes><![CDATA[Active status]]></notes>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<constraintName>PSB_ENABLED_FLAG_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="N" description="No"/>
+<valueDef value="Y" description="Yes"/>
+</listOfValues>
+<defaultValue>Y</defaultValue>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PSB_ENABLED_FLAG_NNC</notNullConstraintName>
+</Column>
+<Column name="START_DATE" id="C702C642-93EB-E949-A298-176AD0FEA78B">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-12 09:42:02 UTC</createdTime>
+<comment><![CDATA[Effective start date]]></comment>
+<commentInRDBMS><![CDATA[Effective start date]]></commentInRDBMS>
+<notes><![CDATA[Effective start date]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>SYSDATE</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PSB_START_DATE_NNC</notNullConstraintName>
 </Column>
-<Column name="END_DATE" id="A6C18289-77E3-F6FA-A55D-9B406F06E2AD">
+<Column name="END_DATE" id="BD144577-3EC7-BF18-FD11-BC5C774C8EA5">
 <createdBy>demasy</createdBy>
-<createdTime>2019-10-05 21:01:48 UTC</createdTime>
+<createdTime>2025-08-12 09:42:02 UTC</createdTime>
+<comment><![CDATA[Effective end date]]></comment>
+<commentInRDBMS><![CDATA[Effective end date]]></commentInRDBMS>
+<notes><![CDATA[Effective end date]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -122,56 +196,75 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CREATED_BY" id="AA29DFD6-6C70-F513-F896-421B60A477D5">
+<Column name="CREATED_BY" id="430D5864-52AE-9220-AA03-9445B540156B">
 <createdBy>demasy</createdBy>
-<createdTime>2019-10-05 21:01:48 UTC</createdTime>
+<createdTime>2025-08-12 09:42:02 UTC</createdTime>
+<comment><![CDATA[User who created the record]]></comment>
+<commentInRDBMS><![CDATA[User who created the record]]></commentInRDBMS>
+<notes><![CDATA[User who created the record]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PSB_CREATED_BY_NNC</notNullConstraintName>
 </Column>
-<Column name="CREATION_DATE" id="AB553E3E-2973-9730-201D-AEBEF4DCCE80">
+<Column name="CREATION_DATE" id="A9B2F516-515B-103C-2856-067727894313">
 <createdBy>demasy</createdBy>
-<createdTime>2019-10-05 21:01:48 UTC</createdTime>
+<createdTime>2025-08-12 09:42:02 UTC</createdTime>
+<comment><![CDATA[Record creation timestamp]]></comment>
+<commentInRDBMS><![CDATA[Record creation timestamp]]></commentInRDBMS>
+<notes><![CDATA[Record creation timestamp]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PSB_CREATION_DATE_NNC</notNullConstraintName>
 </Column>
-<Column name="LAST_UPDATED_BY" id="7EFFB604-DC48-1AAC-41E4-1962035AF1F5">
+<Column name="LAST_UPDATED_BY" id="7FAAA46E-5599-F826-D99D-E54D275B1C2A">
 <createdBy>demasy</createdBy>
-<createdTime>2019-10-05 21:01:48 UTC</createdTime>
+<createdTime>2025-08-12 09:42:02 UTC</createdTime>
+<comment><![CDATA[User who last updated the record]]></comment>
+<commentInRDBMS><![CDATA[User who last updated the record]]></commentInRDBMS>
+<notes><![CDATA[User who last updated the record]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PSB_LAST_UPDATED_BY_NNC</notNullConstraintName>
 </Column>
-<Column name="LAST_UPDATE_DATE" id="0729EBB2-0BF4-263B-702A-7B867A7F8DE2">
+<Column name="LAST_UPDATE_DATE" id="247B5786-4C38-1C17-551C-5415484B4E66">
 <createdBy>demasy</createdBy>
-<createdTime>2019-10-05 21:01:48 UTC</createdTime>
+<createdTime>2025-08-12 09:42:02 UTC</createdTime>
+<comment><![CDATA[Last update timestamp]]></comment>
+<commentInRDBMS><![CDATA[Last update timestamp]]></commentInRDBMS>
+<notes><![CDATA[Last update timestamp]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PSB_LAST_UPDATE_DATE_NNC</notNullConstraintName>
 </Column>
-<Column name="OBJECT_VERSION_ID" id="79677C02-AC84-D876-2980-BBFF019D9687">
+<Column name="OBJECT_VERSION_ID" id="58FD5ECB-4DE3-532B-0106-8CC976E1B8CE">
 <createdBy>demasy</createdBy>
-<createdTime>2019-10-05 21:01:48 UTC</createdTime>
+<createdTime>2025-08-12 09:42:02 UTC</createdTime>
+<comment><![CDATA[Optimistic locking version number]]></comment>
+<commentInRDBMS><![CDATA[Optimistic locking version number]]></commentInRDBMS>
+<notes><![CDATA[Optimistic locking version number]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>UPI_INVENTORY_ID_NNC</notNullConstraintName>
+<notNullConstraintName>PSB_OBJECT_VERSION_ID_NNC</notNullConstraintName>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -214,6 +307,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="E12558A2-CD17-0F7F-B5E1-2049E813CAD9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45B32284-4D7F-E893-0B0D-E0FFC40A171C" name="PSB_CASHIER_ID_FK">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-12 09:49:47 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46BD05B9-828C-AF4B-066D-3FE817AFB8D6"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
