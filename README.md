@@ -1,7 +1,7 @@
 # Demasy Labs | Point Of Sale (POS) Sample Schema
 
 #### Figure 1 Point Of Sale (POS) Sample illustrates Schema 
-![Alt text](https://github.com/demasylabs/Point-Of-Sale/blob/master/src/model/versions/oracle-db-release-12c/digrams/pos-erd.jpg?raw=true)
+![Alt text](https://github.com/demasylabs/Point-Of-Sale/blob/master/src/resources/images/demasylabs-erd-latest.jpg)
 
 
 ### DL* Schema Scripts for Point Of Sale (POS) project
