@@ -2,22 +2,29 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6CF54968-7838-11AA-F5E1-E5303A33169B" schemaObject="D44398E1-223A-DCAA-3322-FBC3806BE4AA" name="POS_WAREHOUSES">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 15:06:53 UTC</createdTime>
+<comment><![CDATA[Warehouse facilities management within store branch hierarchy. Supports multi-level warehouse organization with capacity tracking and comprehensive address information.]]></comment>
+<commentInRDBMS><![CDATA[Warehouse facilities management within store branch hierarchy. Supports multi-level warehouse organization with capacity tracking and comprehensive address information.]]></commentInRDBMS>
+<notes><![CDATA[Warehouse facilities management within store branch hierarchy. Supports multi-level warehouse organization with capacity tracking and comprehensive address information.]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <ordsAlias>table_1</ordsAlias>
 <abbreviation>PW</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
 <Column name="WAREHOUSE_ID" id="060830BD-55A0-9DB5-CFE0-B4849C830AF3">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 15:10:40 UTC</createdTime>
+<comment><![CDATA[Unique warehouse identifier (Primary Key)]]></comment>
+<commentInRDBMS><![CDATA[Unique warehouse identifier (Primary Key)]]></commentInRDBMS>
+<notes><![CDATA[Unique warehouse identifier (Primary Key)]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>UOW_WAREHOUSE_ID_NNC</notNullConstraintName>
+<notNullConstraintName>PW_WAREHOUSE_ID_NNC</notNullConstraintName>
 </Column>
 <Column name="BRANCH_ID" id="87D88619-006D-AB30-9A4D-B12EAD79C02A">
 <createdBy>demasy</createdBy>
@@ -27,9 +34,10 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PW_BRANCH_ID_NNC</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="7F875A92-1988-79FE-5712-7D01405D5E37" referredColumn="CB55887E-22D2-EA83-5D68-33ECA6778D44"/>
 </associations>
@@ -37,6 +45,9 @@
 <Column name="PARENT_ID" id="16DA45BD-857E-6879-2EAE-BAF1F897C722">
 <createdBy>demasy</createdBy>
 <createdTime>2019-10-05 01:58:36 UTC</createdTime>
+<comment><![CDATA[Parent warehouse ID for hierarchical organization (Self FK)]]></comment>
+<commentInRDBMS><![CDATA[Parent warehouse ID for hierarchical organization (Self FK)]]></commentInRDBMS>
+<notes><![CDATA[Parent warehouse ID for hierarchical organization (Self FK)]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -45,6 +56,29 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WAREHOUSE_TYPE" id="0198ED48-076B-16D5-3EE4-4EDD6F2AFF61">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-12 13:30:35 UTC</createdTime>
+<comment><![CDATA[Warehouse classification: M=Main, B=Backup, OF=Overflow, CS=Cold Storage, S=Staging]]></comment>
+<commentInRDBMS><![CDATA[Warehouse classification: M=Main, B=Backup, OF=Overflow, CS=Cold Storage, S=Staging]]></commentInRDBMS>
+<notes><![CDATA[Warehouse classification: M=Main, B=Backup, OF=Overflow, CS=Cold Storage, S=Staging]]></notes>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<constraintName>PW_WAREHOUSE_TYPE_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="B" description="Backup"/>
+<valueDef value="CS" description="Cold Storage"/>
+<valueDef value="M" description="Main"/>
+<valueDef value="OF" description="Overflow"/>
+<valueDef value="S" description="Staging"/>
+</listOfValues>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PW_WAREHOUSE_TYPE_NNC</notNullConstraintName>
 </Column>
 <Column name="SHORT_NAME" id="C895A5DD-3910-7CC6-4903-A71B911A97E0">
 <createdBy>demasy</createdBy>
@@ -56,6 +90,7 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PW_SHORT_NAME_NNC</notNullConstraintName>
 </Column>
 <Column name="NAME" id="B4E0B730-88CD-1A91-A713-221C44BE7DDC">
 <createdBy>demasy</createdBy>
@@ -67,7 +102,7 @@
 <dataTypeSize>100 CHAR</dataTypeSize>
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>UOW_WAREHOUSE_NAME_NNC</notNullConstraintName>
+<notNullConstraintName>PW_NAME_NNC</notNullConstraintName>
 </Column>
 <Column name="DESCRIPTION" id="294D4D04-9A4C-74E7-9D62-164CB82ED119">
 <createdBy>demasy</createdBy>
@@ -77,32 +112,202 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ENABLED_FLAG" id="F5D03157-AB5E-903A-5FDD-8F6139B26A11">
+<Column name="ADDRESS_LINE1" id="75B938AA-97D4-7BDC-5F04-0E67E695A766">
 <createdBy>demasy</createdBy>
-<createdTime>2019-10-05 21:02:13 UTC</createdTime>
+<createdTime>2025-08-12 13:30:35 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<ownDataTypeParameters>1000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PW_ADDRESS_LINE1_NNC</notNullConstraintName>
+</Column>
+<Column name="ADDRESS_LINE2" id="38758393-53E9-EA23-0A9A-E0B9E58ABDAC">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-12 13:30:49 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<ownDataTypeParameters>1000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PW_ADDRESS_LINE2_NNC</notNullConstraintName>
+</Column>
+<Column name="COUNTRY_CODE" id="4D6E35FD-105D-63FB-05DD-919A3C0D19FA">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-12 13:32:16 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PW_COUNTRY_CODE_NNC</notNullConstraintName>
+</Column>
+<Column name="CITY" id="2FFF6E50-EFC0-5C54-9005-A7C8F07E9A1D">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-12 13:31:03 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PW_CITY_NNC</notNullConstraintName>
+</Column>
+<Column name="STATE_PROVINCE" id="FD0F9DCB-91A0-7C2D-10C6-A3F534CDB53B">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-12 13:31:28 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PW_STATE_PROVINCE_NNC</notNullConstraintName>
+</Column>
+<Column name="POSTAL_CODE" id="BD00CFCE-FF37-7447-93CE-662765966B2B">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-12 13:32:16 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PW_POSTAL_CODE_NNC</notNullConstraintName>
+</Column>
+<Column name="PHONE_NUMBER" id="026D5B82-6EFF-8AEA-E13A-D9DBD32EA982">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-12 13:32:16 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PW_PHONE_NUMBER_NNC</notNullConstraintName>
+</Column>
+<Column name="EMAIL_ADDRESS" id="45237879-659D-C156-6D6D-DF9F3E99E6A0">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-12 13:32:16 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PW_EMAIL_ADDRESS_NNC</notNullConstraintName>
+</Column>
+<Column name="CAPACITY_SQFT" id="0F4F5192-ADD7-6BEC-9C8E-203D19F0EB83">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-12 13:34:45 UTC</createdTime>
+<comment><![CDATA[Warehouse floor area capacity in square feet]]></comment>
+<commentInRDBMS><![CDATA[Warehouse floor area capacity in square feet]]></commentInRDBMS>
+<notes><![CDATA[Warehouse floor area capacity in square feet]]></notes>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="START_DATE" id="0E52BAF5-4EB2-46F2-EB3E-BEC607979B77">
+<Column name="MAX_CAPACITY" id="09745BB7-24EC-F13E-3C6C-01A17E07D16E">
 <createdBy>demasy</createdBy>
-<createdTime>2019-10-05 21:02:13 UTC</createdTime>
+<createdTime>2025-08-12 13:36:15 UTC</createdTime>
+<comment><![CDATA[Maximum storage capacity (units/pallets/containers)]]></comment>
+<commentInRDBMS><![CDATA[Maximum storage capacity (units/pallets/containers)]]></commentInRDBMS>
+<notes><![CDATA[Maximum storage capacity (units/pallets/containers)]]></notes>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS_CODE" id="27ACB9A5-C2DE-40D4-EA74-73291D57ED4A">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-12 13:36:24 UTC</createdTime>
+<comment><![CDATA[Product operational status: A=Active, I=Inactive, D=Discontinued, P=Pending]]></comment>
+<commentInRDBMS><![CDATA[Product operational status: A=Active, I=Inactive, D=Discontinued, P=Pending]]></commentInRDBMS>
+<notes><![CDATA[Product operational status: A=Active, I=Inactive, D=Discontinued, P=Pending]]></notes>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<constraintName>PW_STATUS_CODE_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="A" description="Active"/>
+<valueDef value="D" description="Discontinued"/>
+<valueDef value="I" description="Inaction"/>
+<valueDef value="P" description="Pending"/>
+</listOfValues>
+<defaultValue>A</defaultValue>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PW_STATUS_CODE_NNC</notNullConstraintName>
+</Column>
+<Column name="ENABLED_FLAG" id="1B032588-F243-960C-3CFA-8A7797101C72">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-12 13:36:24 UTC</createdTime>
+<comment><![CDATA[Active status flag (Y/N)]]></comment>
+<commentInRDBMS><![CDATA[Active status flag (Y/N)]]></commentInRDBMS>
+<notes><![CDATA[Active status flag (Y/N)]]></notes>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<constraintName>PW_ENABLED_FLAG_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="N" description="No"/>
+<valueDef value="Y" description="Yes"/>
+</listOfValues>
+<defaultValue>Y</defaultValue>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PW_ENABLED_FLAG_NNC</notNullConstraintName>
+</Column>
+<Column name="START_DATE" id="65B341C6-74BE-F0EC-8B3A-40E5B54D35EC">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-12 13:36:24 UTC</createdTime>
+<comment><![CDATA[Effective start date]]></comment>
+<commentInRDBMS><![CDATA[Effective start date]]></commentInRDBMS>
+<notes><![CDATA[Effective start date]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>SYSDATE</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PW_START_DATE_NNC</notNullConstraintName>
 </Column>
-<Column name="END_DATE" id="359109B2-2A2E-B19E-FC8B-6CF471A9699B">
+<Column name="END_DATE" id="FCFE88C8-0DB3-3F79-3FD6-FD10F44CD41D">
 <createdBy>demasy</createdBy>
-<createdTime>2019-10-05 21:02:13 UTC</createdTime>
+<createdTime>2025-08-12 13:36:24 UTC</createdTime>
+<comment><![CDATA[Effective end date]]></comment>
+<commentInRDBMS><![CDATA[Effective end date]]></commentInRDBMS>
+<notes><![CDATA[Effective end date]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -111,56 +316,75 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CREATED_BY" id="57FE6CFC-782A-D9CD-8328-37E57F8EDF95">
+<Column name="CREATED_BY" id="F8666E62-A271-ADBD-ADE6-80C689DC0032">
 <createdBy>demasy</createdBy>
-<createdTime>2019-10-05 21:02:13 UTC</createdTime>
+<createdTime>2025-08-12 13:36:24 UTC</createdTime>
+<comment><![CDATA[User who created the record]]></comment>
+<commentInRDBMS><![CDATA[User who created the record]]></commentInRDBMS>
+<notes><![CDATA[User who created the record]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PW_CREATED_BY_NNC</notNullConstraintName>
 </Column>
-<Column name="CREATION_DATE" id="7B3B2F62-69E4-15F6-1960-261FBA529C95">
+<Column name="CREATION_DATE" id="E09B06B4-E85C-9440-7ACE-2438837D3ADF">
 <createdBy>demasy</createdBy>
-<createdTime>2019-10-05 21:02:13 UTC</createdTime>
+<createdTime>2025-08-12 13:36:24 UTC</createdTime>
+<comment><![CDATA[Record creation timestamp]]></comment>
+<commentInRDBMS><![CDATA[Record creation timestamp]]></commentInRDBMS>
+<notes><![CDATA[Record creation timestamp]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PW_CREATION_DATE_NNC</notNullConstraintName>
 </Column>
-<Column name="LAST_UPDATED_BY" id="85BEA642-434C-1321-6ED2-AF6BB61819BC">
+<Column name="LAST_UPDATED_BY" id="B48BFF47-027D-4D94-5A3E-474F4B3DF4D7">
 <createdBy>demasy</createdBy>
-<createdTime>2019-10-05 21:02:13 UTC</createdTime>
+<createdTime>2025-08-12 13:36:24 UTC</createdTime>
+<comment><![CDATA[User who last updated the record]]></comment>
+<commentInRDBMS><![CDATA[User who last updated the record]]></commentInRDBMS>
+<notes><![CDATA[User who last updated the record]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PW_LAST_UPDATED_BY_NNC</notNullConstraintName>
 </Column>
-<Column name="LAST_UPDATE_DATE" id="1B1CEE85-C900-C4F4-CE0D-82C28E3F143F">
+<Column name="LAST_UPDATE_DATE" id="ED92A5BC-9ED8-5E89-1F8A-EB6ABC94C666">
 <createdBy>demasy</createdBy>
-<createdTime>2019-10-05 21:02:13 UTC</createdTime>
+<createdTime>2025-08-12 13:36:24 UTC</createdTime>
+<comment><![CDATA[Last update timestamp]]></comment>
+<commentInRDBMS><![CDATA[Last update timestamp]]></commentInRDBMS>
+<notes><![CDATA[Last update timestamp]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PW_LAST_UPDATE_DATE_NNC</notNullConstraintName>
 </Column>
-<Column name="OBJECT_VERSION_ID" id="83D9ECC9-1F4C-6E06-EE92-8EEEBA418BA8">
+<Column name="OBJECT_VERSION_ID" id="4C3FA8C4-C56E-A96C-81BC-7C5A48D33EDE">
 <createdBy>demasy</createdBy>
-<createdTime>2019-10-05 21:02:13 UTC</createdTime>
+<createdTime>2025-08-12 13:36:24 UTC</createdTime>
+<comment><![CDATA[Optimistic locking version number]]></comment>
+<commentInRDBMS><![CDATA[Optimistic locking version number]]></commentInRDBMS>
+<notes><![CDATA[Optimistic locking version number]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>UPI_INVENTORY_ID_NNC</notNullConstraintName>
+<notNullConstraintName>PW_OBJECT_VERSION_ID_NNC</notNullConstraintName>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

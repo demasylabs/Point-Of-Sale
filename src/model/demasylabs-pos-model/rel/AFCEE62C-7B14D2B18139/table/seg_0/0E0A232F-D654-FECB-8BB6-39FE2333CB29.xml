@@ -2,6 +2,9 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0E0A232F-D654-FECB-8BB6-39FE2333CB29" schemaObject="D44398E1-223A-DCAA-3322-FBC3806BE4AA" name="POS_PRODUCTS">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 16:54:48 UTC</createdTime>
+<comment><![CDATA[Product master table containing comprehensive product information for the POS system. Stores all product details including pricing, dimensions, and categorization for retail operations and inventory management.]]></comment>
+<commentInRDBMS><![CDATA[Product master table containing comprehensive product information for the POS system. Stores all product details including pricing, dimensions, and categorization for retail operations and inventory management.]]></commentInRDBMS>
+<notes><![CDATA[Product master table containing comprehensive product information for the POS system. Stores all product details including pricing, dimensions, and categorization for retail operations and inventory management.]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <ordsAlias>table_11</ordsAlias>
 <abbreviation>PP</abbreviation>
@@ -12,6 +15,9 @@
 <Column name="PRODUCT_ID" id="C1B501DC-40D4-53DF-A424-7ADCB82DA621">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 17:00:24 UTC</createdTime>
+<comment><![CDATA[Primary identifier for products]]></comment>
+<commentInRDBMS><![CDATA[Primary identifier for products]]></commentInRDBMS>
+<notes><![CDATA[Primary identifier for products]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -23,6 +29,9 @@
 <Column name="SUB_CATEGORY_ID" id="509FDED5-19F5-1690-52E1-3D3AEF997DEC">
 <createdBy>demasy</createdBy>
 <createdTime>2019-10-05 00:59:53 UTC</createdTime>
+<comment><![CDATA[Foreign key reference to product sub-category for classification]]></comment>
+<commentInRDBMS><![CDATA[Foreign key reference to product sub-category for classification]]></commentInRDBMS>
+<notes><![CDATA[Foreign key reference to product sub-category for classification]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -38,6 +47,9 @@
 <Column name="PRODUCT_CODE" id="CF0D5C3B-BFE5-7E9B-A4E9-38E7D21EFDD9">
 <createdBy>demasy</createdBy>
 <createdTime>2019-10-05 02:04:43 UTC</createdTime>
+<comment><![CDATA[Unique business product code/SKU for inventory tracking]]></comment>
+<commentInRDBMS><![CDATA[Unique business product code/SKU for inventory tracking]]></commentInRDBMS>
+<notes><![CDATA[Unique business product code/SKU for inventory tracking]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -50,6 +62,9 @@
 <Column name="PRODUCT_NAME" id="684EAF80-86DA-FC1D-110C-7F586FD5F3CF">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 17:06:59 UTC</createdTime>
+<comment><![CDATA[Product name for customer displays and documentation]]></comment>
+<commentInRDBMS><![CDATA[Product name for customer displays and documentation]]></commentInRDBMS>
+<notes><![CDATA[Product name for customer displays and documentation]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -62,28 +77,39 @@
 <Column name="SHORT_DESCRIPTION" id="05F355E9-2BBF-B288-7C24-EC2990C3B2BE">
 <createdBy>demasy</createdBy>
 <createdTime>2019-10-05 21:04:10 UTC</createdTime>
+<comment><![CDATA[Brief product description for compact displays and reports]]></comment>
+<commentInRDBMS><![CDATA[Brief product description for compact displays and reports]]></commentInRDBMS>
+<notes><![CDATA[Brief product description for compact displays and reports]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="LONG_DESCRIPTION" id="60A2620D-79E8-CFC3-BC20-98C26285F0BF">
 <createdBy>demasy</createdBy>
 <createdTime>2019-10-05 21:04:10 UTC</createdTime>
+<comment><![CDATA[Detailed product description with specifications and features]]></comment>
+<commentInRDBMS><![CDATA[Detailed product description with specifications and features]]></commentInRDBMS>
+<notes><![CDATA[Detailed product description with specifications and features]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="MANUFACTURER" id="DD99A515-F606-C6DB-EAA5-1C74C837C8B0">
+<Column name="MANUFACTURER_CODE" id="DD99A515-F606-C6DB-EAA5-1C74C837C8B0">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-24 16:36:22 UTC</createdTime>
+<comment><![CDATA[Manufacturer code/identifier for supplier management]]></comment>
+<commentInRDBMS><![CDATA[Manufacturer code/identifier for supplier management]]></commentInRDBMS>
+<notes><![CDATA[Manufacturer code/identifier for supplier management]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -91,11 +117,14 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>PP_MANUFACTURER_NNC</notNullConstraintName>
+<notNullConstraintName>PP_MANUFACTURER_CODE_NNC</notNullConstraintName>
 </Column>
 <Column name="BAR_CODE" id="2A7D382B-7F9B-5246-A006-63D06854D162">
 <createdBy>demasy</createdBy>
 <createdTime>2019-10-05 22:02:31 UTC</createdTime>
+<comment><![CDATA[Product barcode (UPC/EAN) for point-of-sale scanning]]></comment>
+<commentInRDBMS><![CDATA[Product barcode (UPC/EAN) for point-of-sale scanning]]></commentInRDBMS>
+<notes><![CDATA[Product barcode (UPC/EAN) for point-of-sale scanning]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -105,9 +134,44 @@
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="BRAND_CODE" id="85EF846C-2EE6-2E28-698C-7BC4D3688D39">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-12 12:57:41 UTC</createdTime>
+<comment><![CDATA[Brand code for product brand classification and reporting]]></comment>
+<commentInRDBMS><![CDATA[Brand code for product brand classification and reporting]]></commentInRDBMS>
+<notes><![CDATA[Brand code for product brand classification and reporting]]></notes>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<constraintName>PP_BRAND_CODE_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PP_BRAND_CODE_NNC</notNullConstraintName>
+</Column>
+<Column name="MODEL_NUMBER" id="2BCD2EA8-01F7-D921-1AA4-964AE6734F95">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-12 12:58:07 UTC</createdTime>
+<comment><![CDATA[Manufacturer model number or product variant identifier]]></comment>
+<commentInRDBMS><![CDATA[Manufacturer model number or product variant identifier]]></commentInRDBMS>
+<notes><![CDATA[Manufacturer model number or product variant identifier]]></notes>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<constraintName>PP_MODEL_NUMBER_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PP_MODEL_NUMBER_NNC</notNullConstraintName>
+</Column>
 <Column name="REFERENCE_NUMBER" id="A6F0BE38-7951-AE35-E714-656FA5680361">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-24 16:38:34 UTC</createdTime>
+<comment><![CDATA[Manufacturer part number or reference code]]></comment>
+<commentInRDBMS><![CDATA[Manufacturer part number or reference code]]></commentInRDBMS>
+<notes><![CDATA[Manufacturer part number or reference code]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -120,6 +184,9 @@
 <Column name="PRICE" id="714FDCEE-5D3C-033A-A4FC-D7876A3B3C70">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-24 16:31:04 UTC</createdTime>
+<comment><![CDATA[Retail selling price for customer transactions]]></comment>
+<commentInRDBMS><![CDATA[Retail selling price for customer transactions]]></commentInRDBMS>
+<notes><![CDATA[Retail selling price for customer transactions]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -133,6 +200,9 @@
 <Column name="CURRENCY_CODE" id="BBBC62E7-0604-9189-62A2-925E254EA012">
 <createdBy>demasy</createdBy>
 <createdTime>2019-10-05 02:06:03 UTC</createdTime>
+<comment><![CDATA[ISO 3-letter currency code for price denomination]]></comment>
+<commentInRDBMS><![CDATA[ISO 3-letter currency code for price denomination]]></commentInRDBMS>
+<notes><![CDATA[ISO 3-letter currency code for price denomination]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -145,57 +215,65 @@
 <Column name="CAPACITY" id="116ADBEA-59DC-D41E-4014-244AB13613B9">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-24 16:40:37 UTC</createdTime>
+<comment><![CDATA[Product capacity (volume, memory, quantity, etc.)]]></comment>
+<commentInRDBMS><![CDATA[Product capacity (volume, memory, quantity, etc.)]]></commentInRDBMS>
+<notes><![CDATA[Product capacity (volume, memory, quantity, etc.)]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="LENGTH" id="CA29217E-9B0E-F0C1-BF32-4C238590A908">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-24 16:41:29 UTC</createdTime>
+<comment><![CDATA[Product length dimension for shipping and storage]]></comment>
+<commentInRDBMS><![CDATA[Product length dimension for shipping and storage]]></commentInRDBMS>
+<notes><![CDATA[Product length dimension for shipping and storage]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="HEIGHT" id="C22AAA6C-F3B8-A92D-0DC1-5A380835028A">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-24 16:41:29 UTC</createdTime>
+<comment><![CDATA[Product height dimension for shipping and storage]]></comment>
+<commentInRDBMS><![CDATA[Product height dimension for shipping and storage]]></commentInRDBMS>
+<notes><![CDATA[Product height dimension for shipping and storage]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="WIDTH" id="D30851E7-978B-F935-A312-E188ABB74AE7">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-24 16:41:29 UTC</createdTime>
+<comment><![CDATA[Product width dimension for shipping and storage]]></comment>
+<commentInRDBMS><![CDATA[Product width dimension for shipping and storage]]></commentInRDBMS>
+<notes><![CDATA[Product width dimension for shipping and storage]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="STATUS_CODE" id="FCE1130D-9A27-59DF-C536-3F6526CE6D06">
 <createdBy>demasy</createdBy>
 <createdTime>2025-08-12 10:01:49 UTC</createdTime>
-<comment><![CDATA[Store operational status: A=Active, I=Inactive]]></comment>
-<commentInRDBMS><![CDATA[Store operational status: A=Active, I=Inactive]]></commentInRDBMS>
-<notes><![CDATA[Store operational status: A=Active, I=Inactive]]></notes>
+<comment><![CDATA[Product operational status: A=Active, I=Inactive, D=Discontinued, P=Pending]]></comment>
+<commentInRDBMS><![CDATA[Product operational status: A=Active, I=Inactive, D=Discontinued, P=Pending]]></commentInRDBMS>
+<notes><![CDATA[Product operational status: A=Active, I=Inactive, D=Discontinued, P=Pending]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <constraintName>PP_STATUS_CODE_CK</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -204,7 +282,9 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <listOfValues>
 <valueDef value="A" description="Active"/>
+<valueDef value="D" description="Discontinued"/>
 <valueDef value="I" description="Inaction"/>
+<valueDef value="P" description="Pending"/>
 </listOfValues>
 <defaultValue>A</defaultValue>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
@@ -214,9 +294,9 @@
 <Column name="ENABLED_FLAG" id="294EA486-D6B3-F926-A67F-A68B85D3DD84">
 <createdBy>demasy</createdBy>
 <createdTime>2025-08-12 10:01:49 UTC</createdTime>
-<comment><![CDATA[Active status]]></comment>
-<commentInRDBMS><![CDATA[Active status]]></commentInRDBMS>
-<notes><![CDATA[Active status]]></notes>
+<comment><![CDATA[Active status flag (Y/N)]]></comment>
+<commentInRDBMS><![CDATA[Active status flag (Y/N)]]></commentInRDBMS>
+<notes><![CDATA[Active status flag (Y/N)]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <constraintName>PP_ENABLED_FLAG_CK</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
