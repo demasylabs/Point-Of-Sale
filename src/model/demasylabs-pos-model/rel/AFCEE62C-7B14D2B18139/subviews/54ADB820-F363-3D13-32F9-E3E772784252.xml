@@ -32,12 +32,12 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.TVNote" oid="1D1A9925-4817-8EFC-7E1A-6035FD019EDC" otype="Note" vid="FAFDF573-E693-1A5E-B0CC-B035A5989033">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="510" y="34" width="843" height="35"/>
+<bounds x="594" y="34" width="676" height="34"/>
 <useCustomFormat>true</useCustomFormat>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-4144960</backgroundColor>
 <foregroundColor>-16777216</foregroundColor>
-<comment>Demasy Labs| Oracle database sample schema created for training purpose by Demasy</comment>
+<comment>Demasy Labs | Oracle POS Database Schema - Sample for Training</comment>
 <fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
 <FontObject>
 <foType>Title</foType>
@@ -70,12 +70,12 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.TVNote" oid="7A751A6E-9FBA-9BA0-A634-13B9EBA2DFF5" otype="Note" vid="8AC6C4D4-4A2E-645A-8F73-814A0C98CD40">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="812" y="93" width="248" height="27"/>
+<bounds x="800" y="88" width="306" height="27"/>
 <useCustomFormat>true</useCustomFormat>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-4144960</backgroundColor>
 <foregroundColor>-16777216</foregroundColor>
-<comment>https://github.com/demasy</comment>
+<comment>         Built with ❤ by Demasy</comment>
 <fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
 <FontObject>
 <foType>Title</foType>
@@ -88,9 +88,22 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.TVNote" oid="89C2B2CB-12FA-3C34-E687-BF207097CC7E" otype="Note" vid="420A7E62-DA54-9A2C-B7D3-14A0C5304848">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="50" y="1467" width="269" height="154"/>
-<comment>Demasy Labs
-</comment>
+<bounds x="50" y="1463" width="277" height="169"/>
+<comment>Demasylabs | POS Oracle Database Schema V2.0.0
+
+Ahmed El-Demasy
+founder@demasy.io
+
+linkedIn: www.linkedin.com/in/demasy
+Github: www.github.com/demasy
+
+Copyright Information: Point Of Sale (POS) is a copyrighted product owned by Demasy Labs.
+
+Built with ❤ by Demasy</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVImage" oid="8B8DBF15-949A-D90D-A4B3-1BD7D74E3BAC" otype="Image" imageFileName="39886429.png" vid="3D0BDC17-0452-4E2C-A41A-89A8603032DE">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1387" y="1301" width="274" height="274"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="933E503F-4F86-78B7-D5DE-0EDD4CC3F435" otype="Table" vid="D2B7312A-DFDC-E3BE-B265-C2DE90909E15">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -123,6 +136,12 @@
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="E7CC4712-C360-5606-D6C9-171B8B7C10B6" otype="Table" vid="70517D00-D5F6-2EC2-BD2B-15842457260C">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="1042" y="1249" width="285" height="379"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="FC1F52AE-3B98-16D9-BC68-C31C46EA0BAD" otype="Note" vid="D101B133-792E-27F5-85B7-34FF0B60469D">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1458" y="1557" width="155" height="43"/>
+<comment>    Ahmed El-Demasy
+     founder@demasy.io</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="FCB66261-296F-745C-C932-215B1E030B4C" otype="Table" vid="19020A8F-67FB-33CB-E5CA-1DCC10A3C15B">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -248,9 +267,9 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1327" y="1400"/>
-<point x="1399" y="1400"/>
-<point x="1399" y="1230"/>
+<point x="1327" y="1290"/>
+<point x="1400" y="1290"/>
+<point x="1400" y="1230"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="BE5D8AC8-F36D-2139-F33E-4C53C0F4FE64" otype="FKIndexAssociation" vid_source="1ECABF5F-9189-771D-7E35-1ED554829C1C" vid_target="0B37E71B-736C-CAAA-DFB1-26B9B24DBEBB">
