@@ -9,7 +9,7 @@
 <showLabels>false</showLabels>
 <showRelAttributes>false</showRelAttributes>
 <gridEnabled>false</gridEnabled>
-<showGrid>true</showGrid>
+<showGrid>false</showGrid>
 <diagramColor>-1</diagramColor>
 <display>false</display>
 <notation>1</notation>
@@ -32,12 +32,12 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.TVNote" oid="1D1A9925-4817-8EFC-7E1A-6035FD019EDC" otype="Note" vid="FAFDF573-E693-1A5E-B0CC-B035A5989033">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="594" y="34" width="676" height="34"/>
+<bounds x="594" y="34" width="848" height="34"/>
 <useCustomFormat>true</useCustomFormat>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-4144960</backgroundColor>
 <foregroundColor>-16777216</foregroundColor>
-<comment>Demasy Labs | Oracle POS Database Schema - Sample for Training</comment>
+<comment>Demasy Labs | Point of Sale (POS) Sample Schema for Oracle Database - Training Sample</comment>
 <fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
 <FontObject>
 <foType>Title</foType>
@@ -70,7 +70,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.TVNote" oid="7A751A6E-9FBA-9BA0-A634-13B9EBA2DFF5" otype="Note" vid="8AC6C4D4-4A2E-645A-8F73-814A0C98CD40">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="800" y="88" width="306" height="27"/>
+<bounds x="856" y="88" width="306" height="27"/>
 <useCustomFormat>true</useCustomFormat>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-4144960</backgroundColor>
