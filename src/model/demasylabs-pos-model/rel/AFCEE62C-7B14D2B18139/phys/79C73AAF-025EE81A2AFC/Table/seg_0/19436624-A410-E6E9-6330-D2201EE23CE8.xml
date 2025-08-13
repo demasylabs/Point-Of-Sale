@@ -10,19 +10,14 @@
 <accessDriverType>oracle_loader</accessDriverType>
 <rejectLimit></rejectLimit>
 <columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
-<ColumnProxy name="LAST_UPDATED_BY" id="0E0779FD-D736-6AA4-A659-271A3BCA3FA4">
+<ColumnProxy name="CREATED_BY" id="059B2DC8-85EB-2921-54C5-9AECEF3F3AFA">
 <createdBy>demasy</createdBy>
-<createdTime>2019-10-06 09:32:15 UTC</createdTime>
+<createdTime>2025-08-13 07:04:15 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="CASHIER_ID" id="0F16CCCE-DB8B-4370-4DA2-1856456BD659">
 <createdBy>demasy</createdBy>
 <createdTime>2019-10-05 01:06:58 UTC</createdTime>
-<ownerDesignName>demasylabs-pos-model</ownerDesignName>
-</ColumnProxy>
-<ColumnProxy name="CREATION_DATE" id="10259455-C91D-18E4-9F60-3411F7CC900B">
-<createdBy>demasy</createdBy>
-<createdTime>2019-10-06 09:32:15 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="ORDER_ID" id="19FA46B4-DE80-BA3A-1391-E11CAD22931F">
@@ -34,6 +29,7 @@
 <createdBy>demasy</createdBy>
 <createdTime>2019-10-03 13:07:40 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<defaultValue>N</defaultValue>
 </ColumnProxy>
 <ColumnProxy name="DESCRIPTION" id="1ED11F9F-2C59-B1E1-7880-0BE9A433D9FA">
 <createdBy>demasy</createdBy>
@@ -45,14 +41,29 @@
 <createdTime>2019-10-03 13:07:40 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="END_DATE" id="23E433BB-A28A-CDF2-CFF6-12F2815B2787">
+<ColumnProxy name="DISCOUNT_AMOUNT" id="2604AB1B-7800-4491-36E5-6792290D2181">
 <createdBy>demasy</createdBy>
-<createdTime>2019-10-06 09:32:15 UTC</createdTime>
+<createdTime>2025-08-13 07:06:12 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="OBJECT_VERSION_ID" id="3817D2E2-5BDA-B267-C8E1-6C4BFACFAE68">
+<ColumnProxy name="DELIVERY_ADDRESS" id="2804721F-0BF6-FB2D-E1D3-53613B6846DC">
 <createdBy>demasy</createdBy>
-<createdTime>2019-10-06 09:32:15 UTC</createdTime>
+<createdTime>2025-08-13 07:08:58 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TOTAL_AMOUNT" id="28B15344-C2ED-5667-0DB0-F86F27E604B8">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-13 07:06:27 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_UPDATE_DATE" id="2C1E9255-F391-2BA4-7996-DBFCC1E1E302">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-13 07:04:15 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUB_TOTAL" id="2FCCD5FA-534A-0E30-CEA2-AADD22503FE1">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-13 07:05:43 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="ORDER_TYPE" id="41CBFB87-CC96-1D52-A726-1D95EBF1E42E">
@@ -60,29 +71,82 @@
 <createdTime>2019-10-03 13:07:40 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 </ColumnProxy>
+<ColumnProxy name="STATUS_CODE" id="47E56FE4-6359-0BB2-BF8A-64043BCD41DB">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-13 07:04:15 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<defaultValue>A</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="PAYMENT_METHOD" id="549F1BD1-6460-49FF-4E20-48A559238B9D">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-13 07:07:17 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</ColumnProxy>
 <ColumnProxy name="GIFTWRAP_FLAG" id="6406DE52-96FF-C333-F75F-0BD5BE72E900">
 <createdBy>demasy</createdBy>
 <createdTime>2019-10-03 13:07:40 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="ENABLED_FLAG" id="665A597A-8DC3-346C-EA06-1B399DE17189">
+<ColumnProxy name="LAST_UPDATED_BY" id="6F924E0C-72F2-A2A9-9BB1-B4DE7112B96A">
 <createdBy>demasy</createdBy>
-<createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<createdTime>2025-08-13 07:04:15 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="START_DATE" id="8E120072-CC4B-1B3F-07F2-67F606168EED">
+<ColumnProxy name="START_DATE" id="786F7C22-0C80-529A-7BE2-53FA3A6B590A">
 <createdBy>demasy</createdBy>
-<createdTime>2019-10-06 09:32:15 UTC</createdTime>
+<createdTime>2025-08-13 07:04:15 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<defaultValue>SYSDATE</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="DELIVERY_NOTES" id="7B3B48F7-6B35-6B07-6513-4B256AD25F5C">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-13 07:08:58 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="LAST_UPDATE_DATE" id="AA2BE392-B8A2-AB48-9489-01D3C4827AB6">
+<ColumnProxy name="ENABLED_FLAG" id="7C3BCF9E-7FF7-B59C-EE56-AC052F4AA1C7">
 <createdBy>demasy</createdBy>
-<createdTime>2019-10-06 09:32:15 UTC</createdTime>
+<createdTime>2025-08-13 07:04:15 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<defaultValue>Y</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="DELIVERY_DATE" id="9509CD0F-ADD6-5939-2597-BE1131FBFDC6">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-13 07:08:36 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CURRENCY_CODE" id="A7FEED60-3D79-DB95-BD63-3E2C11D83638">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-13 07:07:01 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PAYMENT_STATUS" id="A9C80BD8-5758-6346-8365-79CE793BF00F">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-13 07:07:01 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="END_DATE" id="AD24CE81-305B-4971-9A0F-48618C0AA404">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-13 07:04:15 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="STATUS" id="B73901D5-855A-00E1-E28F-0239D41232A5">
 <createdBy>demasy</createdBy>
 <createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REFERENCE_NUMBER" id="D7A26905-E166-0D6A-A168-EACA94D0AD86">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-13 07:07:25 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TAX_AMOUNT" id="D856D8EC-ADC0-913C-06ED-EF82E076E87F">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-13 07:06:05 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OBJECT_VERSION_ID" id="D9C0A268-AE81-5523-50E6-7B4D5F34657E">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-13 07:04:15 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="CUSTOMER_ID" id="DD485C6F-16C8-DE80-04FA-CE1B3F6760A4">
@@ -95,19 +159,24 @@
 <createdTime>2019-10-03 13:07:40 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="CREATED_BY" id="E06D07E8-F764-2DB3-134B-3C2BEA9C90D6">
-<createdBy>demasy</createdBy>
-<createdTime>2019-10-06 09:32:15 UTC</createdTime>
-<ownerDesignName>demasylabs-pos-model</ownerDesignName>
-</ColumnProxy>
 <ColumnProxy name="ORDER_DATE" id="E5447272-1AB2-2874-EC7E-F0B2E11BF8DB">
 <createdBy>demasy</createdBy>
 <createdTime>2019-10-03 13:07:40 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 </ColumnProxy>
+<ColumnProxy name="CREATION_DATE" id="E73F5D51-A028-A6AA-3FCF-856837FBD2BC">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-13 07:04:15 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</ColumnProxy>
 <ColumnProxy name="BRANCH_ID" id="F28E856D-B209-77D4-8835-7EFD46BD15CD">
 <createdBy>demasy</createdBy>
 <createdTime>2019-10-03 13:07:40 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SHIPPING_COST" id="FB368435-BF97-76B1-2113-3C9F0A3DC110">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-13 07:06:20 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
@@ -137,7 +206,7 @@
 </PrimaryKey>
 </primaryKeys>
 <uniqueKeys>
-<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="PO_NUMBER_UN" id="6C0ABAF5-43E2-C1B2-F262-1BB47332523C">
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="PO_ORDER_NUMBER_UN" id="6C0ABAF5-43E2-C1B2-F262-1BB47332523C">
 <createdBy>demasy</createdBy>
 <createdTime>2019-10-06 09:31:06 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
