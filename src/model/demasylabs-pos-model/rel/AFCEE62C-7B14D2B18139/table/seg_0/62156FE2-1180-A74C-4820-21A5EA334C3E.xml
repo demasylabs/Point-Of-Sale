@@ -23,7 +23,10 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>POS_INVOICE_ID_SEQ</autoIncrementSequenceName>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
 <notNullConstraintName>PI_INVOICE_ID_NNC</notNullConstraintName>
 </Column>
 <Column name="ORDER_ID" id="5293E471-3489-1C65-0411-50BEA70F4E6C">

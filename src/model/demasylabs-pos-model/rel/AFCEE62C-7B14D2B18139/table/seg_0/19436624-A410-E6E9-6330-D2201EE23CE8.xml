@@ -23,7 +23,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>POS_ORDER_ID_SEQ</autoIncrementSequenceName>
 <notNullConstraintName>PO_ORDER_ID_NNC</notNullConstraintName>
 </Column>
 <Column name="BRANCH_ID" id="F28E856D-B209-77D4-8835-7EFD46BD15CD">

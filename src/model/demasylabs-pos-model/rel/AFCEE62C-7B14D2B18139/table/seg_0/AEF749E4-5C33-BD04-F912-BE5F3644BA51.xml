@@ -43,7 +43,10 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>POS_CUSTOMER_ID_SEQ</autoIncrementSequenceName>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
 <notNullConstraintName>PC_CUSTOMER_ID_NNC</notNullConstraintName>
 </Column>
 <Column name="PARTY_ID" id="45944DE9-B777-2828-CF08-9F2FC75F8E71">
@@ -365,7 +368,7 @@
 <ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="LAST_PASSWORD_CHANGE" id="76CD45D4-3DF1-390B-D742-39EEC78B180D">
+<Column name="LAST_PASS_CHANGE" id="76CD45D4-3DF1-390B-D742-39EEC78B180D">
 <createdBy>demasy</createdBy>
 <createdTime>2025-08-11 19:29:16 UTC</createdTime>
 <comment><![CDATA[Timestamp of last password change for security policy enforcement]]></comment>

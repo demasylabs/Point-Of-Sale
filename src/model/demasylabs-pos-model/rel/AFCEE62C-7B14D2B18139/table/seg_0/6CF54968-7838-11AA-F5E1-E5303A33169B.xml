@@ -23,7 +23,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>POS_WAREHOUSE_ID_SEQ</autoIncrementSequenceName>
 <notNullConstraintName>PW_WAREHOUSE_ID_NNC</notNullConstraintName>
 </Column>
 <Column name="BRANCH_ID" id="87D88619-006D-AB30-9A4D-B12EAD79C02A">

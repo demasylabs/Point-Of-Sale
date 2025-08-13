@@ -42,7 +42,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>POS_PARTY_ID_SEQ</autoIncrementSequenceName>
 <notNullConstraintName>PP_PARTY_ID_NNC</notNullConstraintName>
 </Column>
 <Column name="PARTY_TYPE" id="BDA027CC-95AF-475E-414B-028EB73F4B16">

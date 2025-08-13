@@ -23,7 +23,10 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>POS_TRANSACTION_ID_SEQ</autoIncrementSequenceName>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
 <notNullConstraintName>PPT_TRANSACTION_ID_NNC</notNullConstraintName>
 </Column>
 <Column name="WAREHOUSE_ID" id="2F337E9D-3461-4177-4856-EC5454837B16">

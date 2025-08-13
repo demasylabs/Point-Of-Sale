@@ -23,7 +23,11 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>POS_SUB_CATEGORY_ID_SEQ</autoIncrementSequenceName>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
 <notNullConstraintName>PPSC_SUB_CATEGORY_ID_NNC</notNullConstraintName>
 </Column>
 <Column name="CATEGORY_ID" id="4E9F99ED-4313-3544-D56C-7AE4B7D63136">

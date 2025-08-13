@@ -23,7 +23,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>POS_PRODUCT_ID_SEQ</autoIncrementSequenceName>
 <notNullConstraintName>PP_PRODUCT_ID_NNC</notNullConstraintName>
 </Column>
 <Column name="SUB_CATEGORY_ID" id="509FDED5-19F5-1690-52E1-3D3AEF997DEC">

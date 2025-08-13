@@ -23,7 +23,10 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>POS_PROMO_DETAIL_ID_SEQ</autoIncrementSequenceName>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
 <notNullConstraintName>PPPD_PROMO_DETAIL_ID_NNC</notNullConstraintName>
 </Column>
 <Column name="PRODUCT_ID" id="1D7E21D1-6C9B-CC90-5347-F0F9B44A34FB">

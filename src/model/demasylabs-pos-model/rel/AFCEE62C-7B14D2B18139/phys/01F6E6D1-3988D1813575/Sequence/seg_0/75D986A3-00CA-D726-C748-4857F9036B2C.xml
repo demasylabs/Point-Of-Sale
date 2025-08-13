@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<SequenceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SequenceOraclev10g" name="POS_CUSTOMER_ID_SEQ" directorySegmentName="seg_0" id="75D986A3-00CA-D726-C748-4857F9036B2C">
+<SequenceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SequenceOraclev10g" name="POS_SUB_CATEGORY_ID_SEQ" directorySegmentName="seg_0" id="75D986A3-00CA-D726-C748-4857F9036B2C">
 <createdBy>demasy</createdBy>
 <createdTime>2025-08-11 18:41:44 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>

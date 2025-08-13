@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<SequenceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SequenceOraclev10g" name="POS_PROMO_DETAIL_ID_SEQ" directorySegmentName="seg_0" id="FB4E65BA-D606-4330-76C5-81BF3E79F01D">
+<SequenceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SequenceOraclev10g" name="POS_CASHIER_ID_SEQ" directorySegmentName="seg_0" id="F191132D-39CE-A1CE-112D-B723E3FF6C4F">
 <createdBy>demasy</createdBy>
-<createdTime>2025-08-11 16:38:57 UTC</createdTime>
+<createdTime>2025-08-13 12:27:51 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <incrementBy>1</incrementBy>
 <startWith>1</startWith>

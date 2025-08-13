@@ -24,7 +24,9 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>POS_BRANCH_ID_SEQ</autoIncrementSequenceName>
 <notNullConstraintName>PSB_BRANCH_ID_NNC</notNullConstraintName>
 </Column>
 <Column name="STORE_ID" id="E12558A2-CD17-0F7F-B5E1-2049E813CAD9">

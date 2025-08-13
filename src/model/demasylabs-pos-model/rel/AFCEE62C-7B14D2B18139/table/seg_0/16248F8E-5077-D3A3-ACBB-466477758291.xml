@@ -44,7 +44,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>POS_CASHIER_ID_SEQ</autoIncrementSequenceName>
 <notNullConstraintName>PCA_CASHIER_ID_NNC</notNullConstraintName>
 </Column>
 <Column name="PARTY_ID" id="5C8ADAEB-E516-8607-32F7-40517FB450EB">

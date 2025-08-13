@@ -25,7 +25,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<autoIncrementSequenceName>DL_POS_PAYMENT_ID_SEQ</autoIncrementSequenceName>
+<autoIncrementSequenceName>POS_PAYMENT_ID_SEQ</autoIncrementSequenceName>
 <autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
 <notNullConstraintName>PP_PAYMENT_ID_NNC</notNullConstraintName>
 </Column>

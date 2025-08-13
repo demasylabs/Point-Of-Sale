@@ -23,7 +23,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>POS_ORDER_LINE_ID_SEQ</autoIncrementSequenceName>
 <notNullConstraintName>POL_ORDER_LINE_ID_NNC</notNullConstraintName>
 </Column>
 <Column name="ORDER_ID" id="22609D36-6CDF-1027-2E76-B4786ABEC802">
