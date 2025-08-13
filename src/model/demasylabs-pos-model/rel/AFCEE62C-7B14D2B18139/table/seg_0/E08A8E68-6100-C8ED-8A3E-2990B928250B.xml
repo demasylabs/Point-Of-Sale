@@ -2,6 +2,9 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E08A8E68-6100-C8ED-8A3E-2990B928250B" schemaObject="D44398E1-223A-DCAA-3322-FBC3806BE4AA" name="POS_PAYMENTS">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 17:41:21 UTC</createdTime>
+<comment><![CDATA[Payment transactions for point-of-sale orders. Records actual payment processing with method tracking and financial reconciliation support.]]></comment>
+<commentInRDBMS><![CDATA[Payment transactions for point-of-sale orders. Records actual payment processing with method tracking and financial reconciliation support.]]></commentInRDBMS>
+<notes><![CDATA[Payment transactions for point-of-sale orders. Records actual payment processing with method tracking and financial reconciliation support.]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <ordsAlias>table_9</ordsAlias>
 <abbreviation>PP</abbreviation>
@@ -12,6 +15,9 @@
 <Column name="PAYMENT_ID" id="42BD9DCD-EF70-A1A4-2899-86D35030D740">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 17:43:00 UTC</createdTime>
+<comment><![CDATA[Unique payment transaction identifier (Primary Key)]]></comment>
+<commentInRDBMS><![CDATA[Unique payment transaction identifier (Primary Key)]]></commentInRDBMS>
+<notes><![CDATA[Unique payment transaction identifier (Primary Key)]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,18 +25,23 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<autoIncrementSequenceName>DL_POS_PAYMENT_ID_S</autoIncrementSequenceName>
+<autoIncrementSequenceName>DL_POS_PAYMENT_ID_SEQ</autoIncrementSequenceName>
 <autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
+<notNullConstraintName>PP_PAYMENT_ID_NNC</notNullConstraintName>
 </Column>
-<Column name="PAY_METHOD_ID" id="004FE58D-377F-533A-02C5-A7D3E8BEE1D8">
+<Column name="METHOD_ID" id="004FE58D-377F-533A-02C5-A7D3E8BEE1D8">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 17:41:21 UTC</createdTime>
+<comment><![CDATA[Payment method used (Foreign Key to pos_payment_methods)]]></comment>
+<commentInRDBMS><![CDATA[Payment method used (Foreign Key to pos_payment_methods)]]></commentInRDBMS>
+<notes><![CDATA[Payment method used (Foreign Key to pos_payment_methods)]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PP_METHOD_ID_NNC</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="85D51AB8-C17A-39A4-7E28-7048BDDBDF60" referredColumn="575985CB-4E4E-DEBF-53A4-9B97806BAE13"/>
 </associations>
@@ -38,13 +49,16 @@
 <Column name="INVOICE_ID" id="E1612B3B-2D84-54AF-27E7-F8460F5454E0">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 17:43:49 UTC</createdTime>
+<comment><![CDATA[Associated invoice identifier (Foreign Key to pos_invoices)]]></comment>
+<commentInRDBMS><![CDATA[Associated invoice identifier (Foreign Key to pos_invoices)]]></commentInRDBMS>
+<notes><![CDATA[Associated invoice identifier (Foreign Key to pos_invoices)]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>DPI_INVOICE_ID_NNC</notNullConstraintName>
+<notNullConstraintName>PP_INVOICE_ID_NNC</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="F48A944F-8CFA-BBFF-C7E9-1797CDDDA14D" referredColumn="04FC9A49-E439-57AF-CD95-7F4AE7FD0DF4"/>
 </associations>
@@ -52,18 +66,32 @@
 <Column name="PAYMENT_TYPE" id="ED57B525-93A9-D59D-98AE-CFF441CA74CA">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 20:11:29 UTC</createdTime>
+<comment><![CDATA[Payment type: P=Payment, R=Refund, A=Adjustment, C=Credit]]></comment>
+<commentInRDBMS><![CDATA[Payment type: P=Payment, R=Refund, A=Adjustment, C=Credit]]></commentInRDBMS>
+<notes><![CDATA[Payment type: P=Payment, R=Refund, A=Adjustment, C=Credit]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<constraintName>PP_PAYMENT_TYPE_CK</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>1 CHAR</dataTypeSize>
-<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="A" description="Adjustment"/>
+<valueDef value="C" description="Credit"/>
+<valueDef value="P" description="Payment"/>
+<valueDef value="R" description="Refund"/>
+</listOfValues>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <defaultLabel>Payment Type</defaultLabel>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PP_PAYMENT_TYPE_NNC</notNullConstraintName>
 </Column>
 <Column name="PAYMENT_NUMBER" id="CEE3AB3E-8BF8-EFD1-1CFE-2B5B23829965">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 17:47:31 UTC</createdTime>
+<comment><![CDATA[Unique payment reference number for tracking]]></comment>
+<commentInRDBMS><![CDATA[Unique payment reference number for tracking]]></commentInRDBMS>
+<notes><![CDATA[Unique payment reference number for tracking]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -71,87 +99,145 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PP_PAYMENT_NUMBER_NNC</notNullConstraintName>
 </Column>
 <Column name="DESCRIPTION" id="BBFB4595-7E8B-8801-2F80-FBEE867D98F9">
 <createdBy>demasy</createdBy>
 <createdTime>2019-10-07 06:39:45 UTC</createdTime>
+<comment><![CDATA[Payment transaction description and notes]]></comment>
+<commentInRDBMS><![CDATA[Payment transaction description and notes]]></commentInRDBMS>
+<notes><![CDATA[Payment transaction description and notes]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="PAYMENT_DATE" id="27D9954A-6C95-281C-2727-9327EBD16790">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 19:51:07 UTC</createdTime>
+<comment><![CDATA[Date and time when payment was processed]]></comment>
+<commentInRDBMS><![CDATA[Date and time when payment was processed]]></commentInRDBMS>
+<notes><![CDATA[Date and time when payment was processed]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PP_PAYMENT_DATE_NNC</notNullConstraintName>
 </Column>
-<Column name="PAYMENT_CURRANCY" id="F2D05BF4-ACEE-3631-1E37-AD3DD11B4F3B">
+<Column name="PAYMENT_CURRENCY" id="F2D05BF4-ACEE-3631-1E37-AD3DD11B4F3B">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 20:01:39 UTC</createdTime>
+<comment><![CDATA[Payment currency code (ISO 4217 standard)]]></comment>
+<commentInRDBMS><![CDATA[Payment currency code (ISO 4217 standard)]]></commentInRDBMS>
+<notes><![CDATA[Payment currency code (ISO 4217 standard)]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<constraintName>PP_PAYMENT_CURRENCY_CK</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>3 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="AUD" description="Australian Dollar"/>
+<valueDef value="CAD" description="Canadian Dollar"/>
+<valueDef value="EGP" description="Egyptian Pound"/>
+<valueDef value="EUR" description="Euro"/>
+<valueDef value="GBP" description="British Pound"/>
+<valueDef value="JPY" description="Japanese Yen"/>
+<valueDef value="SAR" description="Saudi Riyal"/>
+<valueDef value="USD" description="US Dollar"/>
+</listOfValues>
 <ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PP_PAYMENT_CURRENCY_NNC</notNullConstraintName>
 </Column>
 <Column name="AMOUNT" id="1DC0DCB3-3C5C-E7E8-B748-EAF014AF75E5">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-24 19:52:59 UTC</createdTime>
+<comment><![CDATA[Payment amount in specified currency]]></comment>
+<commentInRDBMS><![CDATA[Payment amount in specified currency]]></commentInRDBMS>
+<notes><![CDATA[Payment amount in specified currency]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>7</dataTypePrecision>
-<dataTypeScale>3</dataTypeScale>
-<ownDataTypeParameters>,7,3</ownDataTypeParameters>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
 <defaultLabel>Amount</defaultLabel>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>DPI_INVOICE_ID_NNC</notNullConstraintName>
+<notNullConstraintName>PP_AMOUNT_NNC</notNullConstraintName>
 </Column>
-<Column name="STATUS" id="8F1E210F-38C5-D1F8-1E86-90032F0C38DD">
+<Column name="STATUS_CODE" id="AC115F37-9407-EF00-BDAB-52AEB24B5704">
 <createdBy>demasy</createdBy>
-<createdTime>2019-08-23 19:57:05 UTC</createdTime>
+<createdTime>2025-08-13 09:00:24 UTC</createdTime>
+<comment><![CDATA[Product operational status: A=Active, I=Inactive, D=Discontinued, P=Pending]]></comment>
+<commentInRDBMS><![CDATA[Product operational status: A=Active, I=Inactive, D=Discontinued, P=Pending]]></commentInRDBMS>
+<notes><![CDATA[Product operational status: A=Active, I=Inactive, D=Discontinued, P=Pending]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<constraintName>PP_STATUS_CODE_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="A" description="Active"/>
+<valueDef value="D" description="Discontinued"/>
+<valueDef value="I" description="Inaction"/>
+<valueDef value="P" description="Pending"/>
+</listOfValues>
+<defaultValue>A</defaultValue>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PP_STATUS_CODE_NNC</notNullConstraintName>
+</Column>
+<Column name="ENABLED_FLAG" id="E959C460-BEE4-DE1A-6551-F68B3A5449E9">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-13 09:00:24 UTC</createdTime>
+<comment><![CDATA[Active status flag (Y/N)]]></comment>
+<commentInRDBMS><![CDATA[Active status flag (Y/N)]]></commentInRDBMS>
+<notes><![CDATA[Active status flag (Y/N)]]></notes>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<constraintName>PP_ENABLED_FLAG_CK</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>1 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="N" description="No"/>
+<valueDef value="Y" description="Yes"/>
+</listOfValues>
+<defaultValue>Y</defaultValue>
 <ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PP_ENABLED_FLAG_NNC</notNullConstraintName>
 </Column>
-<Column name="ENABLED_FLAG" id="06469002-8001-57B0-F1D5-BFDDB8A9F802">
+<Column name="START_DATE" id="A099D1B4-FA6B-2529-486C-1879A07B8090">
 <createdBy>demasy</createdBy>
-<createdTime>2019-10-07 06:39:45 UTC</createdTime>
-<ownerDesignName>demasylabs-pos-model</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="START_DATE" id="5259D8DE-3FE2-D1F4-59BE-534A0EE5CEEA">
-<createdBy>demasy</createdBy>
-<createdTime>2019-10-07 06:39:45 UTC</createdTime>
+<createdTime>2025-08-13 09:00:24 UTC</createdTime>
+<comment><![CDATA[Effective start date]]></comment>
+<commentInRDBMS><![CDATA[Effective start date]]></commentInRDBMS>
+<notes><![CDATA[Effective start date]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>SYSDATE</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PP_START_DATE_NNC</notNullConstraintName>
 </Column>
-<Column name="END_DATE" id="D7A235BF-1F61-DEC9-A766-3453C61FDF32">
+<Column name="END_DATE" id="D885307B-378F-B4B9-1D40-864F2EECD1FB">
 <createdBy>demasy</createdBy>
-<createdTime>2019-10-07 06:39:45 UTC</createdTime>
+<createdTime>2025-08-13 09:00:24 UTC</createdTime>
+<comment><![CDATA[Effective end date]]></comment>
+<commentInRDBMS><![CDATA[Effective end date]]></commentInRDBMS>
+<notes><![CDATA[Effective end date]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -160,62 +246,79 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CREATED_BY" id="3A875925-A453-FF0E-5D1A-EA686A5D10A9">
+<Column name="CREATED_BY" id="ABC5BF5C-1E63-D71F-A55F-991C19EAFF70">
 <createdBy>demasy</createdBy>
-<createdTime>2019-08-23 18:11:39 UTC</createdTime>
-<ownerDesignName>demasylabs-pos-model</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>60 CHAR</dataTypeSize>
-<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="CREATION_DATE" id="80DCA685-0404-F89E-701E-53DC4D28E108">
-<createdBy>demasy</createdBy>
-<createdTime>2019-08-23 18:11:39 UTC</createdTime>
-<ownerDesignName>demasylabs-pos-model</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="LAST_UPDATED_BY" id="FB1C2031-F4E1-1D54-F2AB-40B74253A0C3">
-<createdBy>demasy</createdBy>
-<createdTime>2019-08-23 18:11:39 UTC</createdTime>
-<ownerDesignName>demasylabs-pos-model</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>60 CHAR</dataTypeSize>
-<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="LAST_UPDATE_DATE" id="81D0C0A9-5DA2-AE62-0A85-87C3C8A28F24">
-<createdBy>demasy</createdBy>
-<createdTime>2019-08-23 18:11:39 UTC</createdTime>
-<ownerDesignName>demasylabs-pos-model</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="OBJECT_VERSION_ID" id="2C329F7E-C361-710D-4E8C-A2DB6F5CF096">
-<createdBy>demasy</createdBy>
-<createdTime>2019-08-23 18:11:39 UTC</createdTime>
+<createdTime>2025-08-13 09:00:24 UTC</createdTime>
+<comment><![CDATA[User who created the record]]></comment>
+<commentInRDBMS><![CDATA[User who created the record]]></commentInRDBMS>
+<notes><![CDATA[User who created the record]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>UPI_INVENTORY_ID_NNC</notNullConstraintName>
+<notNullConstraintName>PP_CREATED_BY_NNC</notNullConstraintName>
+</Column>
+<Column name="CREATION_DATE" id="CAF66E63-B72C-FD7B-FD80-C06BCA235A48">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-13 09:00:24 UTC</createdTime>
+<comment><![CDATA[Record creation timestamp]]></comment>
+<commentInRDBMS><![CDATA[Record creation timestamp]]></commentInRDBMS>
+<notes><![CDATA[Record creation timestamp]]></notes>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PP_CREATION_DATE_NNC</notNullConstraintName>
+</Column>
+<Column name="LAST_UPDATED_BY" id="270B34ED-C12A-5B6D-BAE9-16403A774E27">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-13 09:00:24 UTC</createdTime>
+<comment><![CDATA[User who last updated the record]]></comment>
+<commentInRDBMS><![CDATA[User who last updated the record]]></commentInRDBMS>
+<notes><![CDATA[User who last updated the record]]></notes>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PP_LAST_UPDATED_BY_NNC</notNullConstraintName>
+</Column>
+<Column name="LAST_UPDATE_DATE" id="02F0F099-F011-73A9-4B01-EE5E5FC6E784">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-13 09:00:24 UTC</createdTime>
+<comment><![CDATA[Last update timestamp]]></comment>
+<commentInRDBMS><![CDATA[Last update timestamp]]></commentInRDBMS>
+<notes><![CDATA[Last update timestamp]]></notes>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PP_LAST_UPDATE_DATE_NNC</notNullConstraintName>
+</Column>
+<Column name="OBJECT_VERSION_ID" id="3B7F3D9B-C9CB-11DE-56BB-51211D3E0A8E">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-13 09:00:24 UTC</createdTime>
+<comment><![CDATA[Optimistic locking version number]]></comment>
+<commentInRDBMS><![CDATA[Optimistic locking version number]]></commentInRDBMS>
+<notes><![CDATA[Optimistic locking version number]]></notes>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PP_OBJECT_VERSION_ID_NNC</notNullConstraintName>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="30895A66-FBC9-3A1A-145A-CBF53D79EF03" name="DPP_PAYMENT_ID_PK">
+<ind_PK_UK id="30895A66-FBC9-3A1A-145A-CBF53D79EF03" name="PP_PAYMENT_ID_PK">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 17:41:21 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
@@ -226,7 +329,7 @@
 <colUsage columnID="42BD9DCD-EF70-A1A4-2899-86D35030D740"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="381BF641-BF33-4446-3BB2-50A9EB8ACEA6" name="DPP_PAY_METHOD_ID_FK">
+<ind_PK_UK id="381BF641-BF33-4446-3BB2-50A9EB8ACEA6" name="PP_METHOD_ID_FK">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 17:43:59 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
@@ -236,7 +339,7 @@
 <colUsage columnID="004FE58D-377F-533A-02C5-A7D3E8BEE1D8"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E98E895B-8828-FE1B-5E16-596724A42C5A" name="DPP_INVOICE_ID_FK">
+<ind_PK_UK id="E98E895B-8828-FE1B-5E16-596724A42C5A" name="PP_INVOICE_ID_FK">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 17:44:11 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
