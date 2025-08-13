@@ -1,5 +1,10 @@
 # Demasy Labs | Point Of Sale (POS) Sample Schema
 
+## Overview
+The **Demasy Labs** Point of Sale (POS) Sample Schema is a comprehensive educational database designed specifically for Oracle Database training and learning purposes. This sophisticated training environment provides students, developers, and database professionals with a realistic, enterprise-style retail database system to practice and master Oracle database concepts.
+
+</br>
+
 #### Figure 1 Point Of Sale (POS) Sample illustrates Schema 
 ![Alt text](https://github.com/demasylabs/Point-Of-Sale/blob/master/src/resources/images/demasylabs-erd-latest.jpg)
 
@@ -15,6 +20,11 @@
  |04   | dl_idx.sql         | Creates indexes on the DL tables | 
  |05   | dl_popul.sql       | Populates the objects (Data) | 
 
+</br>
+
+
+## Getting Started
+> Stay Tuned
 </br>
 
 ## Glossary
