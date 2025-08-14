@@ -7,7 +7,7 @@
 <logging>YES</logging>
 <partitionedRowMovement>DISABLE</partitionedRowMovement>
 <temporaryChanged>false</temporaryChanged>
-<user>484BF50E-3023-3D99-061C-AA3E92C2369F</user>
+<user>74F39FF5-DD7D-A60A-B89A-5FEC76EA7AA1</user>
 <accessDriverType>oracle_loader</accessDriverType>
 <rejectLimit></rejectLimit>
 <storeAs>CLOB</storeAs>

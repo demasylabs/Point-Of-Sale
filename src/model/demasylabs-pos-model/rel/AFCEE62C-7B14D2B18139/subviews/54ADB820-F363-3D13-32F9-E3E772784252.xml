@@ -75,7 +75,7 @@
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-4144960</backgroundColor>
 <foregroundColor>-16777216</foregroundColor>
-<comment>         Built with ❤ by Demasy</comment>
+<comment>          Built with ❤ by Demasy</comment>
 <fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
 <FontObject>
 <foType>Title</foType>
@@ -91,8 +91,8 @@
 <bounds x="50" y="1463" width="277" height="169"/>
 <comment>Demasylabs | POS Oracle Database Schema V2.0.0
 
-Ahmed El-Demasy
-founder@demasy.io
+Designed and maintained:
+Ahmed El-Demasy &lt;founder@demasy.io&gt;
 
 linkedIn: www.linkedin.com/in/demasy
 Github: www.github.com/demasy

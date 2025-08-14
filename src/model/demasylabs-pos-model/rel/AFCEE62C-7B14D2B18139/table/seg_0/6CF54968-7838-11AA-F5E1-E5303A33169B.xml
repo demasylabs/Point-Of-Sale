@@ -26,6 +26,7 @@
 <autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <autoIncrementSequenceName>POS_WAREHOUSE_ID_SEQ</autoIncrementSequenceName>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
 <notNullConstraintName>PW_WAREHOUSE_ID_NNC</notNullConstraintName>
 </Column>
 <Column name="BRANCH_ID" id="87D88619-006D-AB30-9A4D-B12EAD79C02A">

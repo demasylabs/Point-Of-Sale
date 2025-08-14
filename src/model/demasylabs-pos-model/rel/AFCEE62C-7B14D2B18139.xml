@@ -6,8 +6,8 @@
 <shouldBeOpen>true</shouldBeOpen>
 <selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
 <redirectConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
-<connName>ORCLVM-DL@ORCL</connName>
-<connUser>DL</connUser>
+<connName>demasylabs@docker_db23c</connName>
+<connUser>DEMASYLABS</connUser>
 <connType>1</connType>
 <syncSelected>-1</syncSelected>
 </redirectConnectionStamp>

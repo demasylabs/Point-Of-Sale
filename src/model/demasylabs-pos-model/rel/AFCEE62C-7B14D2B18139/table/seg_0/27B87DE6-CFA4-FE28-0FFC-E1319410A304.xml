@@ -26,6 +26,7 @@
 <autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <autoIncrementSequenceName>POS_ORDER_LINE_ID_SEQ</autoIncrementSequenceName>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
 <notNullConstraintName>POL_ORDER_LINE_ID_NNC</notNullConstraintName>
 </Column>
 <Column name="ORDER_ID" id="22609D36-6CDF-1027-2E76-B4786ABEC802">

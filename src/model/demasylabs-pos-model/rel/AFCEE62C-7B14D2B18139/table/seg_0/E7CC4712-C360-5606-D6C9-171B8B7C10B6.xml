@@ -6,7 +6,7 @@
 <commentInRDBMS><![CDATA[Master party table implementing the Party Pattern design. Stores unified data for all entities (persons, organizations) including customers, vendors, employees, and suppliers. Serves as the foundation for relationship management across the POS system.]]></commentInRDBMS>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <ordsAlias>table_17</ordsAlias>
-<abbreviation>PP</abbreviation>
+<abbreviation>PPS</abbreviation>
 <afterCreate><![CDATA[------------------ end creation script ------------------ ]]></afterCreate>
 <beforeCreate><![CDATA[/*
      Product: Demasy Labs - Point Of Sale (POS)
@@ -45,7 +45,8 @@
 <autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <autoIncrementSequenceName>POS_PARTY_ID_SEQ</autoIncrementSequenceName>
-<notNullConstraintName>PP_PARTY_ID_NNC</notNullConstraintName>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
+<notNullConstraintName>PPS_PARTY_ID_NNC</notNullConstraintName>
 </Column>
 <Column name="PARTY_TYPE" id="BDA027CC-95AF-475E-414B-028EB73F4B16">
 <createdBy>demasy</createdBy>
@@ -54,7 +55,7 @@
 <commentInRDBMS><![CDATA[Party type: P=Person, O=Organization, E=Employee, G=Group]]></commentInRDBMS>
 <notes><![CDATA[Party type: P=Person, O=Organization, E=Employee, G=Group]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
-<constraintName>PP_PARTY_TYPE_CK</constraintName>
+<constraintName>PPS_PARTY_TYPE_CK</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -67,7 +68,7 @@
 </listOfValues>
 <ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>PP_PARTY_TYPE_NNC</notNullConstraintName>
+<notNullConstraintName>PPS_PARTY_TYPE_NNC</notNullConstraintName>
 </Column>
 <Column name="PARTY_NUMBER" id="7E019724-F29E-F1AA-48C5-D69C47FDEC8B">
 <createdBy>demasy</createdBy>
@@ -82,7 +83,7 @@
 <dataTypeSize>30 BYTE</dataTypeSize>
 <ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>PP_PARTY_NUMBER_NNC</notNullConstraintName>
+<notNullConstraintName>PPS_PARTY_NUMBER_NNC</notNullConstraintName>
 </Column>
 <Column name="PARTY_NAME" id="91F7BFBE-4317-1A50-8067-4DEDA883B375">
 <createdBy>demasy</createdBy>
@@ -97,7 +98,7 @@
 <dataTypeSize>360 CHAR</dataTypeSize>
 <ownDataTypeParameters>360 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>PP_PARTY_NAME_NNC</notNullConstraintName>
+<notNullConstraintName>PPS_PARTY_NAME_NNC</notNullConstraintName>
 </Column>
 <Column name="DESCRIPTION" id="24D94752-A9EE-37C0-35BF-B24F9A407B24">
 <createdBy>demasy</createdBy>
@@ -197,7 +198,7 @@
 <commentInRDBMS><![CDATA[Gender: M=Male, F=Female, O=Other, N=Not specified]]></commentInRDBMS>
 <notes><![CDATA[Gender: M=Male, F=Female, O=Other, N=Not specified]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
-<constraintName>PP_GENDER_CODE_CK</constraintName>
+<constraintName>PPS_GENDER_CODE_CK</constraintName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -217,7 +218,7 @@
 <createdTime>2019-08-23 19:30:16 UTC</createdTime>
 <commentInRDBMS><![CDATA[Marital status (S/M/D/W for Single/Married/Divorced/Widowed)]]></commentInRDBMS>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
-<constraintName>PP_MARITAL_STATUS_CODE_CK</constraintName>
+<constraintName>PPS_MARITAL_STATUS_CODE_CK</constraintName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -253,7 +254,7 @@
 <commentInRDBMS><![CDATA[Temporary hold status (Y/N)]]></commentInRDBMS>
 <notes><![CDATA[Temporary hold status (Y/N)]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
-<constraintName>PP_HOLD_FLAG_CK</constraintName>
+<constraintName>PPS_HOLD_FLAG_CK</constraintName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -274,7 +275,7 @@
 <commentInRDBMS><![CDATA[Status: A=Active, B=Blocked, I=Inactive, P=Pending, S=Suspended]]></commentInRDBMS>
 <notes><![CDATA[Status: A=Active, B=Blocked, I=Inactive, P=Pending, S=Suspended]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
-<constraintName>PP_STATUS_CODE_CK</constraintName>
+<constraintName>PPS_STATUS_CODE_CK</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -289,7 +290,7 @@
 <defaultValue>A</defaultValue>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>PP_STATUS_CODE_NNC</notNullConstraintName>
+<notNullConstraintName>PPS_STATUS_CODE_NNC</notNullConstraintName>
 </Column>
 <Column name="ENABLED_FLAG" id="B381223F-672F-A3F6-D93F-48975AC2C36A">
 <createdBy>demasy</createdBy>
@@ -298,7 +299,7 @@
 <commentInRDBMS><![CDATA[Active status (Y/N)]]></commentInRDBMS>
 <notes><![CDATA[Active status (Y/N)]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
-<constraintName>PP_ENABLED_FLAG_CK</constraintName>
+<constraintName>PPS_ENABLED_FLAG_CK</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -310,7 +311,7 @@
 <defaultValue>Y</defaultValue>
 <ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>PP_ENABLED_FLAG_NNC</notNullConstraintName>
+<notNullConstraintName>PPS_ENABLED_FLAG_NNC</notNullConstraintName>
 </Column>
 <Column name="START_DATE" id="8F535B84-9DE2-6DC3-F2FB-D7E7FE3CC2AC">
 <createdBy>demasy</createdBy>
@@ -325,7 +326,7 @@
 <defaultValue>SYSDATE</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>PP_START_DATE_NNC</notNullConstraintName>
+<notNullConstraintName>PPS_START_DATE_NNC</notNullConstraintName>
 </Column>
 <Column name="END_DATE" id="9727C8A7-1C1C-C971-AE56-BD3CAB7F47F6">
 <createdBy>demasy</createdBy>
@@ -353,7 +354,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>PP_CREATED_BY_NNC</notNullConstraintName>
+<notNullConstraintName>PPS_CREATED_BY_NNC</notNullConstraintName>
 </Column>
 <Column name="CREATION_DATE" id="42D8412C-6E19-08A2-9E83-B20177C0BAB5">
 <createdBy>demasy</createdBy>
@@ -367,7 +368,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>PP_CREATION_DATE_NNC</notNullConstraintName>
+<notNullConstraintName>PPS_CREATION_DATE_NNC</notNullConstraintName>
 </Column>
 <Column name="LAST_UPDATED_BY" id="214773B5-454A-6C99-57E9-D48351513204">
 <createdBy>demasy</createdBy>
@@ -381,7 +382,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>PP_LAST_UPDATED_BY_NNC</notNullConstraintName>
+<notNullConstraintName>PPS_LAST_UPDATED_BY_NNC</notNullConstraintName>
 </Column>
 <Column name="LAST_UPDATE_DATE" id="1FC120A2-50AE-B1CB-AD2B-A91FAA77A2F6">
 <createdBy>demasy</createdBy>
@@ -395,7 +396,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>PP_LAST_UPDATE_DATE_NNC</notNullConstraintName>
+<notNullConstraintName>PPS_LAST_UPDATE_DATE_NNC</notNullConstraintName>
 </Column>
 <Column name="OBJECT_VERSION_ID" id="5B399B0B-2E9A-219E-0ABD-1F62CE137A50">
 <createdBy>demasy</createdBy>
@@ -409,11 +410,11 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>PP_OBJECT_VERSION_ID_NNC</notNullConstraintName>
+<notNullConstraintName>PPS_OBJECT_VERSION_ID_NNC</notNullConstraintName>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="3C2F546C-A337-BD2F-08F3-48B4BE9C156C" name="PP_PARTY_ID_PK">
+<ind_PK_UK id="3C2F546C-A337-BD2F-08F3-48B4BE9C156C" name="PPS_PARTY_ID_PK">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 19:28:48 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
@@ -424,7 +425,7 @@
 <colUsage columnID="E0035C15-8A10-5423-F6C8-2CEDF4D86585"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="87D7088C-8439-8EEE-173B-D9508FC8A0B8" name="PP_PARTY_NUMBER_UN">
+<ind_PK_UK id="87D7088C-8439-8EEE-173B-D9508FC8A0B8" name="PPS_PARTY_NUMBER_UN">
 <createdBy>demasy</createdBy>
 <createdTime>2025-08-11 15:14:39 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
@@ -434,7 +435,7 @@
 <colUsage columnID="7E019724-F29E-F1AA-48C5-D69C47FDEC8B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0B6E78B9-183C-D73D-DC9C-E2F97DB66B46" name="PP_PARTY_NAME_IDX">
+<ind_PK_UK id="0B6E78B9-183C-D73D-DC9C-E2F97DB66B46" name="PPS_PARTY_NAME_IDX">
 <createdBy>demasy</createdBy>
 <createdTime>2025-08-12 08:42:16 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>

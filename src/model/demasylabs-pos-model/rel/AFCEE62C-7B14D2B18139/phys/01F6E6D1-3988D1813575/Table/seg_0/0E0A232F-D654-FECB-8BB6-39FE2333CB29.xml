@@ -7,7 +7,7 @@
 <logging>YES</logging>
 <partitionedRowMovement>DISABLE</partitionedRowMovement>
 <temporaryChanged>false</temporaryChanged>
-<user>484BF50E-3023-3D99-061C-AA3E92C2369F</user>
+<user>74F39FF5-DD7D-A60A-B89A-5FEC76EA7AA1</user>
 <accessDriverType>oracle_loader</accessDriverType>
 <rejectLimit></rejectLimit>
 <storeAs>CLOB</storeAs>
@@ -43,6 +43,11 @@
 <createdTime>2025-08-11 13:45:07 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 </ColumnProxy>
+<ColumnProxy name="MODEL_NUMBER" id="2BCD2EA8-01F7-D921-1AA4-964AE6734F95">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-12 12:58:07 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</ColumnProxy>
 <ColumnProxy name="SUB_CATEGORY_ID" id="509FDED5-19F5-1690-52E1-3D3AEF997DEC">
 <createdBy>demasy</createdBy>
 <createdTime>2025-08-11 13:45:07 UTC</createdTime>
@@ -66,6 +71,11 @@
 <ColumnProxy name="CREATED_BY" id="8298CDD1-4561-E79C-A928-E47458A03DE2">
 <createdBy>demasy</createdBy>
 <createdTime>2025-08-12 10:01:49 UTC</createdTime>
+<ownerDesignName>demasylabs-pos-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BRAND_CODE" id="85EF846C-2EE6-2E28-698C-7BC4D3688D39">
+<createdBy>demasy</createdBy>
+<createdTime>2025-08-12 12:57:41 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="END_DATE" id="86DDB4C2-5F83-117B-55B5-7A3A84D6AADB">
@@ -118,7 +128,7 @@
 <createdTime>2025-08-11 13:45:07 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="MANUFACTURER" id="DD99A515-F606-C6DB-EAA5-1C74C837C8B0">
+<ColumnProxy name="MANUFACTURER_CODE" id="DD99A515-F606-C6DB-EAA5-1C74C837C8B0">
 <createdBy>demasy</createdBy>
 <createdTime>2025-08-11 13:45:07 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>

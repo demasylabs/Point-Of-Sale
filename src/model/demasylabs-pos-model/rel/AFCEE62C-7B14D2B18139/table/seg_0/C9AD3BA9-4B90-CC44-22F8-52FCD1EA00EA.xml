@@ -25,6 +25,7 @@
 <autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <autoIncrementSequenceName>POS_PROMO_ID_SEQ</autoIncrementSequenceName>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
 <notNullConstraintName>PPP_PROMOTION_ID_NNC</notNullConstraintName>
 </Column>
 <Column name="PROMO_CODE" id="81293ED7-FB3B-A545-55A2-DE653ECFE34E">
