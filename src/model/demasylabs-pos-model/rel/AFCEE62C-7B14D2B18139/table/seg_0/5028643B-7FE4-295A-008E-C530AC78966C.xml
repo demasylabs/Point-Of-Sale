@@ -40,7 +40,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>1 CHAR</dataTypeSize>
+<dataTypeSize>30 CHAR</dataTypeSize>
 <listOfValues>
 <valueDef value="BT" description="Bank Transfer"/>
 <valueDef value="C" description="Cash"/>
@@ -52,7 +52,7 @@
 <valueDef value="O" description="Other"/>
 <valueDef value="SC" description="Store Credit"/>
 </listOfValues>
-<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>PPMS_METHOD_TYPE_NNC</notNullConstraintName>
 </Column>
