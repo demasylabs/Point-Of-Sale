@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="550DFF61-0531-4FC8-3162-F3D9F6A2D373" schemaObject="D44398E1-223A-DCAA-3322-FBC3806BE4AA" name="POS_PRODUCT_TRANSACTIONS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="550DFF61-0531-4FC8-3162-F3D9F6A2D373" schemaObject="D44398E1-223A-DCAA-3322-FBC3806BE4AA" name="POS_WAREHOUSE_TRANSACTIONS">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 21:28:10 UTC</createdTime>
 <comment><![CDATA[Product inventory transactions tracking all stock movements including receipts, issues, transfers, adjustments, sales, and returns. Supports complete audit trail and cancellation workflow.]]></comment>
@@ -7,8 +7,8 @@
 <notes><![CDATA[Product inventory transactions tracking all stock movements including receipts, issues, transfers, adjustments, sales, and returns. Supports complete audit trail and cancellation workflow.]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <ordsAlias>table_21</ordsAlias>
-<abbreviation>PPT</abbreviation>
-<allowColumnReorder>false</allowColumnReorder>
+<abbreviation>PWT</abbreviation>
+<isEngineerToRelation>true</isEngineerToRelation>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
@@ -27,7 +27,7 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <autoIncrementSequenceName>POS_TRANSACTION_ID_SEQ</autoIncrementSequenceName>
 <autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
-<notNullConstraintName>PPT_TRANSACTION_ID_NNC</notNullConstraintName>
+<notNullConstraintName>PWT_TRANSACTION_ID_NNC</notNullConstraintName>
 </Column>
 <Column name="WAREHOUSE_ID" id="2F337E9D-3461-4177-4856-EC5454837B16">
 <createdBy>demasy</createdBy>
@@ -41,7 +41,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>PPT_WAREHOUSE_ID_NNC</notNullConstraintName>
+<notNullConstraintName>PWT_WAREHOUSE_ID_NNC</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="96B62808-B0E9-8CAF-B94C-CAED2B8CFF36" referredColumn="060830BD-55A0-9DB5-CFE0-B4849C830AF3"/>
 </associations>
@@ -59,7 +59,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>PPT_PRODUCT_ID_NNC</notNullConstraintName>
+<notNullConstraintName>PWT_PRODUCT_ID_NNC</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="6BC8E69F-B4B3-9819-96DA-B530AA2B9239" referredColumn="C1B501DC-40D4-53DF-A424-7ADCB82DA621"/>
 </associations>
@@ -71,7 +71,7 @@
 <commentInRDBMS><![CDATA[Transaction type: RECEIPT, ISSUE, TRANSFER_IN, TRANSFER_OUT, ADJUSTMENT_IN, ADJUSTMENT_OUT, RETURN, DAMAGE, CYCLE_COUNT, PHYSICAL_COUNT, SALE, REFUND]]></commentInRDBMS>
 <notes><![CDATA[Transaction type: RECEIPT, ISSUE, TRANSFER_IN, TRANSFER_OUT, ADJUSTMENT_IN, ADJUSTMENT_OUT, RETURN, DAMAGE, CYCLE_COUNT, PHYSICAL_COUNT, SALE, REFUND]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
-<constraintName>PPT_TRX_TYPE_CK</constraintName>
+<constraintName>PWT_TRX_TYPE_CK</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -92,7 +92,7 @@
 </listOfValues>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>PPT_TRX_TYPE_NNC</notNullConstraintName>
+<notNullConstraintName>PWT_TRX_TYPE_NNC</notNullConstraintName>
 </Column>
 <Column name="TRX_NUMBER" id="F4F76C2A-8B0B-3F37-A596-36DE402EDAED">
 <createdBy>demasy</createdBy>
@@ -107,7 +107,7 @@
 <dataTypeSize>100 CHAR</dataTypeSize>
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>PPT_TRX_NUMBER_NNC</notNullConstraintName>
+<notNullConstraintName>PWT_TRX_NUMBER_NNC</notNullConstraintName>
 </Column>
 <Column name="DESCRIPTION" id="56CF5590-7D74-1FA4-CB23-123550F5E73F">
 <createdBy>demasy</createdBy>
@@ -165,7 +165,7 @@
 <commentInRDBMS><![CDATA[Processing completion flag (Y/N)]]></commentInRDBMS>
 <notes><![CDATA[Processing completion flag (Y/N)]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
-<constraintName>PPT_PROCESSED_FLAG_CK</constraintName>
+<constraintName>PWT_PROCESSED_FLAG_CK</constraintName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -185,7 +185,7 @@
 <commentInRDBMS><![CDATA[Transaction cancellation flag (Y/N)]]></commentInRDBMS>
 <notes><![CDATA[Transaction cancellation flag (Y/N)]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
-<constraintName>PPT_CANCEL_FLAG_CK</constraintName>
+<constraintName>PWT_CANCEL_FLAG_CK</constraintName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -234,7 +234,7 @@
 <commentInRDBMS><![CDATA[Product operational status: A=Active, I=Inactive, D=Discontinued, P=Pending]]></commentInRDBMS>
 <notes><![CDATA[Product operational status: A=Active, I=Inactive, D=Discontinued, P=Pending]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
-<constraintName>PPT_STATUS_CODE_CK</constraintName>
+<constraintName>PWT_STATUS_CODE_CK</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -248,7 +248,7 @@
 <defaultValue>A</defaultValue>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>PPT_STATUS_CODE_NNC</notNullConstraintName>
+<notNullConstraintName>PWT_STATUS_CODE_NNC</notNullConstraintName>
 </Column>
 <Column name="ENABLED_FLAG" id="CE06CFFA-E136-A266-4959-EF6257E65513">
 <createdBy>demasy</createdBy>
@@ -257,7 +257,7 @@
 <commentInRDBMS><![CDATA[Active status flag (Y/N)]]></commentInRDBMS>
 <notes><![CDATA[Active status flag (Y/N)]]></notes>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
-<constraintName>PPT_ENABLED_FLAG_CK</constraintName>
+<constraintName>PWT_ENABLED_FLAG_CK</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -269,7 +269,7 @@
 <defaultValue>Y</defaultValue>
 <ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>PPT_ENABLED_FLAG_NNC</notNullConstraintName>
+<notNullConstraintName>PWT_ENABLED_FLAG_NNC</notNullConstraintName>
 </Column>
 <Column name="START_DATE" id="6BA57E2A-4E50-F855-CC67-FF27D17BD194">
 <createdBy>demasy</createdBy>
@@ -284,7 +284,7 @@
 <defaultValue>SYSDATE</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>PPT_START_DATE_NNC</notNullConstraintName>
+<notNullConstraintName>PWT_START_DATE_NNC</notNullConstraintName>
 </Column>
 <Column name="END_DATE" id="AA14C87B-BBAC-14C8-47A1-14C2233031A6">
 <createdBy>demasy</createdBy>
@@ -312,7 +312,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>PPT_CREATED_BY_NNC</notNullConstraintName>
+<notNullConstraintName>PWT_CREATED_BY_NNC</notNullConstraintName>
 </Column>
 <Column name="CREATION_DATE" id="4A8ACCCA-6A33-775C-187E-F607129D4FED">
 <createdBy>demasy</createdBy>
@@ -326,7 +326,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>PPT_CREATION_DATE_NNC</notNullConstraintName>
+<notNullConstraintName>PWT_CREATION_DATE_NNC</notNullConstraintName>
 </Column>
 <Column name="LAST_UPDATED_BY" id="ED439495-8670-0F22-CEFD-34FEDBA4EE87">
 <createdBy>demasy</createdBy>
@@ -340,7 +340,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>PPT_LAST_UPDATED_BY_NNC</notNullConstraintName>
+<notNullConstraintName>PWT_LAST_UPDATED_BY_NNC</notNullConstraintName>
 </Column>
 <Column name="LAST_UPDATE_DATE" id="B340FEF9-DD6F-BDEF-83A6-63BC1D17C389">
 <createdBy>demasy</createdBy>
@@ -354,7 +354,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>PPT_LAST_UPDATE_DATE_NNC</notNullConstraintName>
+<notNullConstraintName>PWT_LAST_UPDATE_DATE_NNC</notNullConstraintName>
 </Column>
 <Column name="OBJECT_VERSION_ID" id="AE9418B8-76FC-B988-E33C-FEF1E0C60CE2">
 <createdBy>demasy</createdBy>
@@ -368,11 +368,11 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>PPT_OBJECT_VERSION_ID_NNC</notNullConstraintName>
+<notNullConstraintName>PWT_OBJECT_VERSION_ID_NNC</notNullConstraintName>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="FE8591E1-14E5-CC9A-0AEB-D83FE4301DEC" name="PPT_TRANSACTION_ID_PK">
+<ind_PK_UK id="FE8591E1-14E5-CC9A-0AEB-D83FE4301DEC" name="PWT_TRANSACTION_ID_PK">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 21:29:30 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
@@ -383,7 +383,7 @@
 <colUsage columnID="8D52DD7D-769A-3102-E25E-EC7152729D2B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="F848B588-F8B7-6F3D-5662-8A518B6DB776" name="PPT_TRX_NUMBER_UN">
+<ind_PK_UK id="F848B588-F8B7-6F3D-5662-8A518B6DB776" name="PWT_TRX_NUMBER_UN">
 <createdBy>demasy</createdBy>
 <createdTime>2019-10-06 08:04:15 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
@@ -393,7 +393,7 @@
 <colUsage columnID="F4F76C2A-8B0B-3F37-A596-36DE402EDAED"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FD5B66ED-613A-184D-5F15-E7119834DD9B" name="PPT_WAREHOUSE_ID_FK">
+<ind_PK_UK id="FD5B66ED-613A-184D-5F15-E7119834DD9B" name="PWT_WAREHOUSE_ID_FK">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 21:30:28 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
@@ -403,7 +403,7 @@
 <colUsage columnID="2F337E9D-3461-4177-4856-EC5454837B16"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="47852F52-9832-2E8C-803A-7B0F343C7E5A" name="PPT_PRODUCT_ID_FK">
+<ind_PK_UK id="47852F52-9832-2E8C-803A-7B0F343C7E5A" name="PWT_PRODUCT_ID_FK">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 21:32:39 UTC</createdTime>
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
