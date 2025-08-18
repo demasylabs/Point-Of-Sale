@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FCB66261-296F-745C-C932-215B1E030B4C" schemaObject="D44398E1-223A-DCAA-3322-FBC3806BE4AA" name="POS_STORES">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FCB66261-296F-745C-C932-215B1E030B4C" name="POS_STORES">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 16:44:28 UTC</createdTime>
 <comment><![CDATA[Master store table for managing retail locations. Stores represent top-level business units that can contain multiple branches for operational hierarchy and reporting.]]></comment>

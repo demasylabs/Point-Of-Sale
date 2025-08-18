@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7CC4712-C360-5606-D6C9-171B8B7C10B6" schemaObject="D44398E1-223A-DCAA-3322-FBC3806BE4AA" name="POS_PARTIES">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7CC4712-C360-5606-D6C9-171B8B7C10B6" name="POS_PARTIES">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 19:28:08 UTC</createdTime>
 <comment><![CDATA[Master party table implementing the Party Pattern design. Stores unified data for all entities (persons, organizations) including customers, vendors, employees, and suppliers. Serves as the foundation for relationship management across the POS system.]]></comment>
@@ -27,7 +27,7 @@
 <beforeDrop><![CDATA[------------------ drop/rename script ------------------]]></beforeDrop>
 <endOfScript><![CDATA[------------------  end Script ------------------ ]]></endOfScript>
 <shouldGeneratescript>true</shouldGeneratescript>
-<allowColumnReorder>false</allowColumnReorder>
+<isEngineerToRelation>true</isEngineerToRelation>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">

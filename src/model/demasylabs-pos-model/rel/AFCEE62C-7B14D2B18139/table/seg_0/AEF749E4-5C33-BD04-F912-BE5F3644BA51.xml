@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AEF749E4-5C33-BD04-F912-BE5F3644BA51" schemaObject="D44398E1-223A-DCAA-3322-FBC3806BE4AA" name="POS_CUSTOMERS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AEF749E4-5C33-BD04-F912-BE5F3644BA51" name="POS_CUSTOMERS">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 15:22:26 UTC</createdTime>
 <comment><![CDATA[Customer master table storing comprehensive customer information, preferences, financial data, and relationship management for Point-of-Sale system operations.]]></comment>

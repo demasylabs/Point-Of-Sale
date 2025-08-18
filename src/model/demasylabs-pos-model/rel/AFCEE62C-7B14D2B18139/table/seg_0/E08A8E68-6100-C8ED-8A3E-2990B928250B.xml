@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E08A8E68-6100-C8ED-8A3E-2990B928250B" schemaObject="D44398E1-223A-DCAA-3322-FBC3806BE4AA" name="POS_PAYMENTS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E08A8E68-6100-C8ED-8A3E-2990B928250B" name="POS_PAYMENTS">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 17:41:21 UTC</createdTime>
 <comment><![CDATA[Payment transactions for point-of-sale orders. Records actual payment processing with method tracking and financial reconciliation support.]]></comment>

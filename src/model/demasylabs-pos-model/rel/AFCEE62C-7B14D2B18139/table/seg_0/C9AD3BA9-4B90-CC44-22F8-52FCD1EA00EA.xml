@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C9AD3BA9-4B90-CC44-22F8-52FCD1EA00EA" schemaObject="D44398E1-223A-DCAA-3322-FBC3806BE4AA" name="POS_PRODUCTS_PROMOTIONS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C9AD3BA9-4B90-CC44-22F8-52FCD1EA00EA" name="POS_PRODUCTS_PROMOTIONS">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 16:56:44 UTC</createdTime>
 <comment><![CDATA[Product promotions and discount campaigns for point-of-sale system. Manages promotional offers, discount codes, and marketing campaigns with usage tracking and validation rules.]]></comment>

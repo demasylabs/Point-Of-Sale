@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D8C64C03-BB47-BB95-2E6C-E6ED2A0D3D25" schemaObject="D44398E1-223A-DCAA-3322-FBC3806BE4AA" name="POS_PRODUCTS_PROMO_DETAILS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D8C64C03-BB47-BB95-2E6C-E6ED2A0D3D25" name="POS_PRODUCTS_PROMO_DETAILS">
 <createdBy>demasy</createdBy>
 <createdTime>2019-08-23 16:58:07 UTC</createdTime>
 <comment><![CDATA[Product-promotion relationship details. Junction table linking specific products to promotional campaigns, enabling targeted discounts and marketing offers on individual products.]]></comment>
@@ -8,7 +8,7 @@
 <ownerDesignName>demasylabs-pos-model</ownerDesignName>
 <ordsAlias>table_11</ordsAlias>
 <abbreviation>PPPD</abbreviation>
-<allowColumnReorder>false</allowColumnReorder>
+<isEngineerToRelation>true</isEngineerToRelation>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
